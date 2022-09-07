@@ -14,45 +14,32 @@ body {
     color: #777;
 }
 
-/* Headings and Logo */
+/* Headings */
 
 h1, h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
 }
 
-#logo {
-    float: left;
-    margin-left: 30px;
-    margin-top: 3px;
-}
-
 /* Navigation Bar */
 
-#nav-bar {
-    font-size: 105%;
-    letter-spacing: 1px;
+.nav-bar {
+    display: flex;
+    list-style: none;
 }
 
-#nav-bar ul {
-    float: right;
+.nav-bar > li {
+    align-self: center;
+    padding: 10px 15px;
 }
 
-#nav-bar li {
-    float: left;
-    list-style-type: none;
-    margin-right: 30px;
-    line-height: 75px;
-}
-
-#nav-bar a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#nav-bar a:hover,
-#nav-bar a.active {
+.nav-bar a:hover,
+.nav-bar a.active {
     color: #000;
+}
+
+.push {
+    margin-left: auto;
 }
 
 /* Hero Image */
