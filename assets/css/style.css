@@ -24,10 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     margin-left: 30px;
-}
-
-#logo, img {
-    vertical-align: middle;
+    margin-top: 3px;
 }
 
 /* Navigation Bar */
@@ -35,10 +32,6 @@ h1, h2 {
 #nav-bar {
     font-size: 105%;
     letter-spacing: 1px;
-}
-
-#nav-bar, #logo {
-    line-height: 60px;
 }
 
 #nav-bar ul {
@@ -49,6 +42,7 @@ h1, h2 {
     float: left;
     list-style-type: none;
     margin-right: 30px;
+    line-height: 75px;
 }
 
 #nav-bar a {
