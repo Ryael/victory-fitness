@@ -56,13 +56,13 @@ h1, h2 {
 /* Hero Image */
 
 #hero-outer {
-    height: 600px;
+    height: 899px;
     width: 100%;
     overflow: hidden;
 }
 
 #hero-image {
-    height: 600px;
+    height: 899px;
     width: 100%;
     background: url('../images/hero-image.png') no-repeat center center;
 }
