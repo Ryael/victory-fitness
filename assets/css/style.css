@@ -21,21 +21,32 @@ h1, h2 {
     text-transform: uppercase;
 }
 
-/* Navigation Bar */
+/* Navigation Bar and Logo */
 
-.nav-bar {
+#nav-bar {
     display: flex;
     list-style: none;
 }
 
-.nav-bar > li {
+#nav-bar > li {
     align-self: center;
     padding: 10px 15px;
+    margin-right: 30px;
 }
 
-.nav-bar a:hover,
-.nav-bar a.active {
+#nav-links {
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 1px;
+}
+
+#nav-bar a:hover,
+#nav-bar a.active {
     color: #000;
+}
+
+#logo {
+    margin-left: 30px;
 }
 
 .push {
