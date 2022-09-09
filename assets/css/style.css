@@ -27,6 +27,7 @@ h2 {
 #nav-bar {
     display: flex;
     list-style: none;
+    background-color: transparent;
 }
 
 #nav-bar>li {
