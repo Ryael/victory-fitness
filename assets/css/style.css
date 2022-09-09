@@ -27,6 +27,9 @@ h2 {
 #nav-bar {
     display: flex;
     list-style: none;
+}
+
+nav ul {
     background-color: transparent;
 }
 
@@ -57,17 +60,15 @@ h2 {
 
 /* Hero Section */
 
-#hero-image {
-    height: 899px;
+#bg-image {
+    height: 940px;
     width: 100%;
-    position: relative;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
         url('../images/hero-image.png') no-repeat fixed center center;
     background-size: cover;
 }
 
 #hero-logo {
-    position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
