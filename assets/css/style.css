@@ -67,7 +67,7 @@ nav ul {
     height: 940px;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
-        url('../images/hero-image.png') no-repeat fixed center center;
+        url('../images/hero-image.png') no-repeat center center;
     background-size: cover;
 }
 
