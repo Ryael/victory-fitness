@@ -16,7 +16,8 @@ body {
 
 /* Headings */
 
-h1, h2 {
+h1,
+h2 {
     font-family: Raleway, sans-serif;
     text-transform: uppercase;
 }
@@ -28,7 +29,7 @@ h1, h2 {
     list-style: none;
 }
 
-#nav-bar > li {
+#nav-bar>li {
     align-self: center;
     padding: 10px 15px;
     margin-right: 30px;
@@ -53,16 +54,25 @@ h1, h2 {
     margin-left: auto;
 }
 
-/* Hero Image */
-
-#hero-outer {
-    height: 899px;
-    width: 100%;
-    overflow: hidden;
-}
+/* Hero Section */
 
 #hero-image {
     height: 899px;
     width: 100%;
-    background: url('../images/hero-image.png') no-repeat center center;
+    position: relative;
+    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+        url('../images/hero-image.png') no-repeat fixed center center;
+    background-size: cover;
+}
+
+#hero-logo {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
