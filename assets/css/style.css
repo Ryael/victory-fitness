@@ -102,7 +102,7 @@ nav ul {
 /* Gym Ethos */
 
 #gym-ethos {
-    height: 600px;
+    height: 300px;
     padding: 100px 350px 100px 350px;
     margin: auto 0;
     text-align: center;
@@ -128,6 +128,27 @@ nav ul {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
+}
+
+/* Why Choose Us? */
+
+#why-choose-us {
+    height: 300px;
+    padding: 100px 350px 100px 350px;
+    margin: auto 0;
+    text-align: center;
+}
+
+#why-choose-us>h2 {
+    margin-bottom: 50px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 #column-left {
@@ -166,6 +187,7 @@ nav ul {
 #column-center>p,
 #column-right>p {
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.6;
     font-weight: 400;
+    text-align: left;
 }
