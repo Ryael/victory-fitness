@@ -66,7 +66,7 @@ nav ul {
 /* Hero Section */
 
 #hero-image {
-    height: 940px;
+    height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
         url('../images/hero-image.png') no-repeat center center;
