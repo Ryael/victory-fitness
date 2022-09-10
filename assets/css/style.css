@@ -63,9 +63,9 @@ nav ul {
     margin-left: auto;
 }
 
-/* Header */
+/* Hero Section */
 
-#bg-image {
+#hero-image {
     height: 940px;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
@@ -74,8 +74,9 @@ nav ul {
     z-index: 0;
 }
 
-#header-logo {
+#hero-logo {
     position: absolute;
+    margin-top: 75px;
     height: 100%;
     width: 100%;
     top: 0;
@@ -87,7 +88,7 @@ nav ul {
     z-index: 1;
 }
 
-#header-logo > h1 {
+#hero-logo > h1 {
     margin-top: 5px;
     color: #DCDCDC;
     font-size: 95%;
