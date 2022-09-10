@@ -132,7 +132,39 @@ nav ul {
 
 /* Coaching */
 
+#coaching {
+    height: 300px;
+    padding: 100px 350px 100px 350px;
+    margin: auto 0;
+    text-align: center;
+    background-color: #111;
+    background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
+        url('../images/coaching-3.png') no-repeat center center;
+    background-size: cover;
+}
 
+#coaching>h2 {
+    margin-bottom: 50px;
+    color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#coaching>p {
+    margin-bottom: 50px;
+    color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
 
 /* Why Choose Us? */
 
@@ -195,4 +227,28 @@ nav ul {
     line-height: 1.6;
     font-weight: 400;
     text-align: left;
+}
+
+/* Buttons */
+
+.button,
+.button>a {
+    color: #DCDCDC;
+    background: transparent;
+    height: auto;
+    padding: 13px 44px;
+    border: 2px solid #DCDCDC;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+.button:hover,
+.button:focus {
+    color: #111;
+    background: #fff;
 }
