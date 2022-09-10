@@ -130,6 +130,10 @@ nav ul {
     font-weight: 400;
 }
 
+/* Coaching */
+
+
+
 /* Why Choose Us? */
 
 #why-choose-us {
@@ -137,6 +141,7 @@ nav ul {
     padding: 100px 350px 100px 350px;
     margin: auto 0;
     text-align: center;
+    box-sizing: border-box;
 }
 
 #why-choose-us>h2 {
