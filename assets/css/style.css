@@ -19,7 +19,7 @@ body {
 .section {
     width: 100%;
     margin: 0 auto;
-    display: block;    
+    display: block;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ body {
 .small-section {
     width: 100%;
     margin: 0 auto;
-    display: block;    
+    display: block;
     position: relative;
     overflow: hidden;
     background-attachment: fixed;
@@ -44,7 +44,6 @@ body {
 .container {
     width: 70%;
     margin: auto;
-    height: 100%;
 }
 
 /* Headings */
@@ -190,7 +189,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#coaching>.container>p {    
+#coaching>.container>p {
     margin-bottom: 50px;
     color: #DCDCDC;
     display: flex;
@@ -378,17 +377,19 @@ nav ul {
 /* Media Queries */
 
 @media (min-width: 768px) {
-    .container{
-    	width: 750px;
+    .container {
+        width: 750px;
     }
 }
-@media (min-width: 992px){ 
-    .container{
+
+@media (min-width: 992px) {
+    .container {
         width: 970px;
     }
 }
-@media (min-width: 1200px){ 
-    .container{
+
+@media (min-width: 1200px) {
+    .container {
         width: 1170px;
     }
 }
