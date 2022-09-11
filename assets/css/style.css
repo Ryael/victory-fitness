@@ -169,7 +169,7 @@ nav ul {
 /* Why Choose Us? */
 
 #why-choose-us {
-    height: 300px;
+    height: 450px;
     padding: 100px 350px 100px 350px;
     margin: auto 0;
     text-align: center;
@@ -251,4 +251,40 @@ nav ul {
 .button:focus {
     color: #111;
     background: #fff;
+}
+
+/* Contact Us Section */
+
+#contact-us {
+    height: 300px;
+    padding: 100px 350px 100px 350px;
+    margin: auto 0;
+    text-align: center;
+    background-color: #111;
+    background: linear-gradient(rgba(34, 34, 34, .7), rgba(34, 34, 34, .5)),
+        url('../images/contact-us.png') no-repeat center center;
+    background-size: cover;
+}
+
+#contact-us>h2 {
+    margin-bottom: 50px;
+    color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#contact-us>p {
+    margin-bottom: 50px;
+    color: #DCDCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
 }
