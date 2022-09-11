@@ -288,3 +288,51 @@ nav ul {
     line-height: 1.4;
     font-weight: 400;
 }
+
+/* Footer */
+
+#footer {
+    height: 250px;
+    padding: 25px 350px 25px 350px;
+    margin: auto 0;
+    background: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#footer p {
+    color: #999;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#social-links ul {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#social-links li {
+    display: inline;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#social-links i {
+    color: #111;
+}
+
+#social-links i:hover {
+    color: #777;
+}
+
