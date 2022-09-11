@@ -42,8 +42,9 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 70%;
     margin: auto;
+    height: 100%;
 }
 
 /* Headings */
@@ -107,6 +108,15 @@ nav ul {
     z-index: 0;
 }
 
+#hero-image-small {
+    height: 350px;
+    width: 100%;
+    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+        url('../images/hero-image-small.png') no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+}
+
 #hero-logo {
     position: absolute;
     margin-top: 75px;
@@ -132,7 +142,6 @@ nav ul {
 /* Gym Ethos */
 
 #gym-ethos {
-    height: 300px;
     text-align: center;
 }
 
@@ -161,7 +170,6 @@ nav ul {
 /* Coaching */
 
 #coaching {
-    height: 300px;
     padding: 100px 0;
     text-align: center;
     background-color: #111;
@@ -196,7 +204,6 @@ nav ul {
 /* Why Choose Us? */
 
 #why-choose-us {
-    height: 300px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -281,7 +288,6 @@ nav ul {
 /* Contact Us Section */
 
 #contact-us {
-    height: 300px;
     padding: 100px 0;
     text-align: center;
     background-color: #111;
