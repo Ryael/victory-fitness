@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap');
 
-/* General */
+/* Common */
 
 * {
     margin: 0;
@@ -14,6 +14,36 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #777;
+}
+
+.section {
+    width: 100%;
+    margin: 0 auto;
+    display: block;    
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    padding: 100px 0px;
+}
+
+.small-section {
+    width: 100%;
+    margin: 0 auto;
+    display: block;    
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
 }
 
 /* Headings */
@@ -103,12 +133,10 @@ nav ul {
 
 #gym-ethos {
     height: 300px;
-    padding: 100px 350px 100px 350px;
-    margin: auto 0;
     text-align: center;
 }
 
-#gym-ethos>h2 {
+#gym-ethos>.container>h2 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -120,7 +148,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#gym-ethos>p {
+#gym-ethos>.container>p {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
@@ -134,8 +162,7 @@ nav ul {
 
 #coaching {
     height: 300px;
-    padding: 100px 350px 100px 350px;
-    margin: auto 0;
+    padding: 100px 0;
     text-align: center;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
@@ -143,7 +170,7 @@ nav ul {
     background-size: cover;
 }
 
-#coaching>h2 {
+#coaching>.container>h2 {
     margin-bottom: 50px;
     color: #DCDCDC;
     display: flex;
@@ -155,7 +182,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#coaching>p {
+#coaching>.container>p {    
     margin-bottom: 50px;
     color: #DCDCDC;
     display: flex;
@@ -169,14 +196,12 @@ nav ul {
 /* Why Choose Us? */
 
 #why-choose-us {
-    height: 450px;
-    padding: 100px 350px 100px 350px;
-    margin: auto 0;
+    height: 300px;
     text-align: center;
     box-sizing: border-box;
 }
 
-#why-choose-us>h2 {
+#why-choose-us>.container>h2 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -257,8 +282,7 @@ nav ul {
 
 #contact-us {
     height: 300px;
-    padding: 100px 350px 100px 350px;
-    margin: auto 0;
+    padding: 100px 0;
     text-align: center;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, .7), rgba(34, 34, 34, .5)),
@@ -266,7 +290,7 @@ nav ul {
     background-size: cover;
 }
 
-#contact-us>h2 {
+#contact-us>.container>h2 {
     margin-bottom: 50px;
     color: #DCDCDC;
     display: flex;
@@ -278,7 +302,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#contact-us>p {
+#contact-us>.container>p {
     margin-bottom: 50px;
     color: #DCDCDC;
     display: flex;
@@ -292,8 +316,8 @@ nav ul {
 /* Footer */
 
 #footer {
-    height: 250px;
-    padding: 25px 350px 25px 350px;
+    height: 275px;
+    padding: 0px 350px 0px 350px;
     margin: auto 0;
     background: #f9f9f9;
     display: flex;
@@ -308,11 +332,11 @@ nav ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 1.6;
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 #social-links ul {
@@ -336,3 +360,20 @@ nav ul {
     color: #777;
 }
 
+/* Media Queries */
+
+@media (min-width: 768px) {
+    .container{
+    	width: 750px;
+    }
+}
+@media (min-width: 992px){ 
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width: 1200px){ 
+    .container{
+        width: 1170px;
+    }
+}
