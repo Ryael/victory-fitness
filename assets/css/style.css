@@ -108,7 +108,7 @@ nav ul {
 }
 
 #hero-image-small {
-    height: 350px;
+    height: 40vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
         url('../images/hero-image-small.png') no-repeat center center;
@@ -136,6 +136,26 @@ nav ul {
     font-size: 95%;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+#location {
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+#location>h1 {
+    color: #DCDCDC;
+    font-size: 300%;
+    letter-spacing: 30px;
+    font-weight: 400;
 }
 
 /* Gym Ethos */
