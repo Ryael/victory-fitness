@@ -110,7 +110,7 @@ nav ul {
 #hero-image-small {
     height: 40vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+    background: linear-gradient(rgba(34, 34, 34, .4), rgba(34, 34, 34, .4)),
         url('../images/hero-image-small.png') no-repeat center center;
     background-size: cover;
     z-index: 0;
