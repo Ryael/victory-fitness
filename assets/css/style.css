@@ -401,6 +401,16 @@ nav ul {
     letter-spacing: 5px;
 }
 
+#about-us>.column>p#end-page {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
 #about-us>.column>p {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -422,16 +432,6 @@ nav ul {
     line-height: 1.2;
     font-weight: 400;
     gap: 25px;
-}
-
-#about-us .column p #end-page {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    display: flex;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
 }
 
 /* Coaching Services */
@@ -484,6 +484,16 @@ nav ul {
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 5px;
+}
+
+#coaching-services>.column>p#end-page {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
 }
 
 #coaching-services>.column>p {
