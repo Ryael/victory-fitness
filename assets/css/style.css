@@ -358,11 +358,15 @@ nav ul {
 #about-us>.column>#text-title {
     margin-top: 0px;
     margin-bottom: 50px;
+    color: #777;
     display: flex;
     text-align: center;
+    text-transform: none;
+    font-family: Lato, sans-serif;
     font-size: 22px;
     line-height: 1.4;
     font-weight: 300;
+    letter-spacing: 0;
 }
 
 #about-us>.column>img {
