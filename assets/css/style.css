@@ -46,6 +46,15 @@ body {
     margin: auto;
 }
 
+.column {
+    width: 70%;
+    margin: auto;
+}
+
+.strong {
+    font-weight: 700 !important;
+}
+
 /* Headings */
 
 h1,
@@ -344,15 +353,25 @@ nav ul {
     text-align: center;
 }
 
-#about-us>img {
+#about-us>.container>.column>#text-title {
+    margin-top: 0px;
+    margin-bottom: 50px;
+    display: flex;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+#about-us>.container>.column>img {
     max-width: 100%;
     height: auto;
     margin: auto;
     box-sizing: border-box;
 }
 
-#about-us>.container>h2 {
-    margin-top: 50px;
+#about-us>.container>.column>h2 {
+    margin-top: 25px;
     margin-bottom: 25px;
     color: #111;
     display: flex;
@@ -364,8 +383,8 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#about-us>.container>h3 {
-    margin-bottom: 25px;
+#about-us>.container>.column>h3 {
+    margin-bottom: 50px;
     color: #111;
     display: flex;
     align-items: center;
@@ -376,30 +395,28 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#about-us>.container>p {
-    margin-bottom: 25px;
+#about-us>.container>.column>p {
+    margin-top: 50px;
+    margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: left;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
 }
 
-#about-us>.container>ul {
-    margin-bottom: 25px;
-    display: block;
-    align-items: center;
+#about-us>.container>.column>ul {
+    margin-bottom: 50px;
+    list-style-position: inside;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
     justify-content: left;
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
+    gap: 25px;
 }
-
-#about-us>.container>li {
-    margin-bottom: 25px;
-}
-
 
 /* Footer */
 
@@ -474,5 +491,19 @@ nav ul {
 @media (min-width: 1200px) {
     .container {
         width: 1170px;
+    }
+}
+
+@media (min-width: 992px) {
+    .column {
+        flex: 0 0 auto;
+        width: 83.34%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .column {
+        flex: 0 0 auto;
+        width: 66.67%;
     }
 }
