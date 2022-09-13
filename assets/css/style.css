@@ -203,7 +203,7 @@ nav ul {
     text-align: center;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
-        url('../images/coaching-3.png') no-repeat center center;
+        url('../images/about-2.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -424,6 +424,16 @@ nav ul {
     gap: 25px;
 }
 
+#about-us .column p #end-page {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
 /* Coaching Services */
 
 #coaching-services {
@@ -511,6 +521,9 @@ nav ul {
     font-weight: 400;
     gap: 25px;
 }
+
+/* Gallery */
+
 
 /* Footer */
 
