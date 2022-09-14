@@ -49,7 +49,7 @@ body {
 
 .gallery-container {
     height: auto;
-    width: 70%;
+    width: 50%;
     margin: auto;
 }
 
@@ -540,6 +540,32 @@ nav ul {
 
 /* Gallery */
 
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#gallery::after {
+    content: "";
+    flex-grow: 999;
+}
+
+#gallery>li {
+    flex: 1 1 auto;
+    height: 300px;
+    cursor: pointer;
+    position: relative;
+    list-style: none;
+}
+
+#gallery>li>img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 5px;
+}
 
 /* Footer */
 
