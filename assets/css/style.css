@@ -192,6 +192,16 @@ nav ul {
     letter-spacing: 5px;
 }
 
+#gym-ethos>.container>#end-page {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
 #gym-ethos>.container>p {
     margin-bottom: 50px;
     display: flex;
@@ -492,7 +502,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#coaching-services>.column>p#end-page {
+#coaching-services>.column>#end-page {
     margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
@@ -540,7 +550,30 @@ nav ul {
 
 /* Gallery */
 
+#gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+#gallery>.gallery-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image>img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+    #gallery {
+        flex-direction: row;
+    }
+}
 
 /* Footer */
 
@@ -629,3 +662,16 @@ nav ul {
         width: 50%;
     }
 }
+
+@media (max-width: 768px) {
+    .gallery-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gallery-container {
+        width: 90%;
+    }
+}
+
