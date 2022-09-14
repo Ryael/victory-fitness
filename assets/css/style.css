@@ -575,6 +575,13 @@ nav ul {
     }
 }
 
+/* Contact */
+
+#form {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
 /* Footer */
 
 #footer {
