@@ -689,6 +689,18 @@ nav ul {
     outline: 0;
 }
 
+@media (max-width: 768px) {
+    .form-shape {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .form-shape {
+        width: 80%;
+    }
+}
+
 /* Footer */
 
 #footer {
