@@ -270,7 +270,6 @@ nav ul {
     width: 33.33%;
     padding: 0 12px 0 12px;
     box-sizing: border-box;
-
 }
 
 #column-right {
@@ -329,6 +328,29 @@ nav ul {
 .button:focus {
     color: #111;
     background: #fff;
+}
+
+.button-dark,
+.button-dark>a {
+    display: inline-block;
+    color: #fff;
+    background: #424242;
+    height: auto;
+    padding: 13px 44px;
+    border: 2px solid transparent;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0px;
+    box-sizing: border-box;
+}
+
+.button-dark:hover,
+.button-dark:focus {
+    color: #fff;
+    background: #848484;
 }
 
 /* Contact Us Section */
@@ -603,6 +625,16 @@ nav ul {
     font-weight: 400;
 }
 
+#contact>.container>.required {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+#contact i {
+    margin-right: 5px;
+  }
+
 #contact>.container>p {
     margin-bottom: 50px;
     display: flex;
@@ -655,7 +687,6 @@ nav ul {
     border-color: #848484;
     box-shadow: 0 0 3px #848484;
     outline: 0;
-
 }
 
 /* Footer */
