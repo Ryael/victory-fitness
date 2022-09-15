@@ -615,7 +615,7 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#contact>.container>#end-page {
+#contact>.container>form>#end-page {
     margin-bottom: 0;
     display: flex;
     align-items: center;
@@ -625,7 +625,7 @@ nav ul {
     font-weight: 400;
 }
 
-#contact>.container>.required {
+#contact>.container>form>.required {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 12px;
@@ -697,7 +697,7 @@ nav ul {
 
 @media (max-width: 992px) {
     .form-shape {
-        width: 80%;
+        width: 70%;
     }
 }
 

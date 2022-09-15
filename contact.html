@@ -70,17 +70,19 @@
                     no stress and we can call it quits there. However, if this is something you find yourself enjoying, then we'd
                     be delighted to welcome you to our little victorious family!
                 </p>
-                <div id="form">
-                    <input type="text" name="name" class="form-shape text-form" placeholder="Name" required aria-required="true">
-                </div>
-                <div id="form">
-                    <input type="email" name="email" class="form-shape email-form" placeholder="Email" required aria-required="true">
-                </div>
-                <div class="end-form">
-                    <textarea id="message" name="message" class="form-shape message-form" placeholder="Message" required aria-required="true"></textarea>
-                </div>
-                <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
-                <button id="submit" class="button-dark" aria-controls="result">Submit Message</button>
+                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                    <div id="form">
+                        <input type="text" name="name" class="form-shape text-form" placeholder="Name" required aria-required="true">
+                    </div>
+                    <div id="form">
+                        <input type="email" name="email" class="form-shape email-form" placeholder="Email" required aria-required="true">
+                    </div>
+                    <div class="end-form">
+                        <textarea id="message" name="message" class="form-shape message-form" placeholder="Message" required aria-required="true"></textarea>
+                    </div>
+                    <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
+                    <button type="submit" class="button-dark" value="Let's gym!">Submit Message</button>
+                </form>
             </div>
         </div>
     </section>
