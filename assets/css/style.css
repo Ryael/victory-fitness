@@ -701,6 +701,16 @@ nav ul {
     }
 }
 
+/* Google Maps */
+
+#google-map>iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+}
+
 /* Footer */
 
 #footer {
