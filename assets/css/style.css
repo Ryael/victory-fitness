@@ -577,9 +577,85 @@ nav ul {
 
 /* Contact */
 
+#contact {
+    text-align: center;
+}
+
+#contact>.container>h2 {
+    margin-bottom: 50px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+#contact>.container>#end-page {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+#contact>.container>p {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
 #form {
+    margin-bottom: 15px;
+}
+
+.end-form {
+    margin-bottom: 0px;
+}
+
+.form-shape {
+    width: 35%;
     height: 40px;
-    margin-bottom: 10px;
+    padding: 0 15px 0 15px;
+    font-size: 11px;
+}
+
+.text-form,
+.email-form,
+.message-form {
+    display: inline-block;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #111;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+
+#message {
+    height: 80px;
+    padding: 15px 15px;
+    font-size: 12px;
+    resize: vertical;
+}
+
+.text-form:focus,
+.email-form:focus,
+.message-form:focus {
+    color: #111;
+    border-color: #848484;
+    box-shadow: 0 0 3px #848484;
+    outline: 0;
+
 }
 
 /* Footer */
