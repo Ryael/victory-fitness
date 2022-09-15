@@ -600,10 +600,10 @@ nav ul {
 /* Contact */
 
 #contact {
-    text-align: center;
+    text-align: left;
 }
 
-#contact>.container>h2 {
+#contact>.column>h2 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -615,31 +615,35 @@ nav ul {
     letter-spacing: 5px;
 }
 
-#contact>.container>form>#end-page {
+#form-contact {
+    text-align: center;
+}
+
+#form-contact>.column>form>#end-page {
     margin-bottom: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
 }
 
-#contact>.container>form>.required {
+#form-contact>.column>form>.required {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 12px;
 }
 
-#contact i {
+#form-contact i {
     margin-right: 5px;
   }
 
-#contact>.container>p {
+#contact>.column>p {
     margin-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
@@ -697,9 +701,22 @@ nav ul {
 
 @media (max-width: 992px) {
     .form-shape {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-shape {
         width: 70%;
     }
 }
+
+@media (min-width: 1450px) {
+    .form-shape {
+        width: 50%;
+    }
+}
+
 
 /* Google Maps */
 
