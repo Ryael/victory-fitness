@@ -980,10 +980,10 @@ h3 {
 
 @media (max-width: 768px) {
     #menu>li {
-        background: rgba(34, 34, 34, .9);
+        background: rgba(34, 34, 34, 1);
     }
     #nav-bar {
-        background: rgba(34, 34, 34, .9);
+        background: rgba(34, 34, 34, 1);
     }
     
 }
