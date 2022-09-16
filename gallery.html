@@ -18,30 +18,32 @@
         <div id="hero-image-small">
 
             <!-- Navigation Bar -->
-            <nav>
-                <ul id="nav-bar">
+            <nav id="nav-bar">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white" height="50"
+                            width="auto">
+                    </a>
+                </div>
+                <input id="menu-toggle" type="checkbox">
+                <label id="menu-button-container" for="menu-toggle">
+                    <div id="menu-button"></div>
+                </label>
+                <ul id="menu">
                     <li>
-                        <div id="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white"
-                                    height="50px" width="auto">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="push">
-                        <a href="index.html" id="nav-links">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html" id="nav-links">About</a>
-                    </li>
-                    <li>
-                        <a href="coaching.html" id="nav-links">Coaching</a>
+                        <a href="index.html" class="nav-links">Home</a>
                     </li>
                     <li>
-                        <a href="gallery.html" class="active" id="nav-links">Gallery</a>
+                        <a href="about.html" class="nav-links">About</a>
                     </li>
                     <li>
-                        <a href="contact.html" id="nav-links">Contact</a>
+                        <a href="coaching.html" class="nav-links">Coaching</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="active nav-links">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-links">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -50,17 +52,10 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section>
-        <div id="location">
-            <h1>Gallery</h1>
-        </div>
-    </section>
-    <!-- End Hero Section -->
-
     <!-- Gallery -->
     <section class="section">
         <div class="gallery-container">
+            <h1>Gallery</h1>
             <div id="gallery">
                 <div class="gallery-column">
                     <div class="image">
@@ -85,7 +80,7 @@
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
     <!-- End Gallery -->
 

@@ -495,7 +495,7 @@ h3 {
 
 #about-us>.column>h1 {
     color: #777;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 280%;
     letter-spacing: 10px;
     font-weight: 400;
@@ -588,7 +588,7 @@ h3 {
 
 #coaching-services>.column>h1 {
     color: #777;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     font-size: 280%;
     letter-spacing: 10px;
     font-weight: 400;
@@ -692,6 +692,15 @@ h3 {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+.gallery-container>h1 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 100px;
+    font-size: 280%;
+    letter-spacing: 10px;
+    font-weight: 400;
 }
 
 #gallery>.gallery-column {
