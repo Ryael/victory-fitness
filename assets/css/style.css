@@ -903,7 +903,8 @@ h3 {
 @media (min-width: 992px) {
 
     .container,
-    .column-container {
+    .column-container,
+    .form-container {
         width: 970px;
     }
 }
@@ -911,7 +912,8 @@ h3 {
 @media (min-width: 1200px) {
 
     .container,
-    .column-container {
+    .column-container,
+    .form-container {
         width: 1170px;
     }
 }
@@ -939,6 +941,10 @@ h3 {
     .gallery-container {
         width: 90%;
     }
+    
+    .form-shape {
+        width: 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -948,6 +954,24 @@ h3 {
 
     #hero-logo>h1 {
         font-size: 75%;
+    }
+
+    .form-shape {
+        width: 70%;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    #column-left,
+    #column-center,
+    #column-right {
+        width: 100%;
+    }
+
+    .form-shape {
+        width: 70%;
     }
 }
 
@@ -960,30 +984,21 @@ h3 {
     #coaching-services>.column>h1 {
         font-size: 200%;
     }
-}
 
-@media (max-width: 992px) {
-
-    #column-left,
-    #column-center,
-    #column-right {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-
+    .container,
+    .column-container,
+    .column,
     .form-shape {
-        width: 70%;
+        width: 90%;
     }
 }
 
 @media (max-width: 768px) {
     #menu>li {
-        background: rgba(34, 34, 34, 1);
+        background: #111;
     }
+
     #nav-bar {
-        background: rgba(34, 34, 34, 1);
+        background: #111;
     }
-    
 }
