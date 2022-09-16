@@ -90,6 +90,7 @@ h3 {
     background: transparent;
     height: 50px;
     padding: 16px;
+    position: relative;
     z-index: 2;
 }
 
@@ -511,6 +512,7 @@ h3 {
     font-size: 280%;
     letter-spacing: 10px;
     font-weight: 400;
+    z-index: 0;
 }
 
 #about-us>.column>#text-title {
