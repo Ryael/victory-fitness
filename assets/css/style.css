@@ -275,6 +275,19 @@ h3 {
     font-weight: 700;
 }
 
+#location {
+    position: absolute;
+    height: 40vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 0;
+}
+
 /* Gym Ethos */
 
 #gym-ethos {
@@ -493,9 +506,8 @@ h3 {
     text-align: center;
 }
 
-#about-us>.column>h1 {
-    color: #777;
-    margin-bottom: 100px;
+#location>h1 {
+    color: #dcdcdc;
     font-size: 280%;
     letter-spacing: 10px;
     font-weight: 400;
@@ -941,7 +953,7 @@ h3 {
     .gallery-container {
         width: 90%;
     }
-    
+
     .form-shape {
         width: 50%;
     }
