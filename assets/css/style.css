@@ -161,7 +161,7 @@ h3 {
 @media (max-width: 768px) {
     #menu-button-container {
         display: flex;
-        margin-right: 30px;
+        margin-right: 15px;
         z-index: 5;
     }
 
@@ -1000,5 +1000,10 @@ h3 {
 
     #nav-bar {
         background: #111;
+    }
+
+    #logo {
+        margin-left: 0px;
+        z-index: 5;
     }
 }
