@@ -18,30 +18,32 @@
         <div id="hero-image-small">
 
             <!-- Navigation Bar -->
-            <nav>
-                <ul id="nav-bar">
+            <nav id="nav-bar">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white" height="50"
+                            width="auto">
+                    </a>
+                </div>
+                <input id="menu-toggle" type="checkbox">
+                <label id="menu-button-container" for="menu-toggle">
+                    <div id="menu-button"></div>
+                </label>
+                <ul id="menu">
                     <li>
-                        <div id="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white"
-                                    height="50px" width="auto">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="push">
-                        <a href="index.html" id="nav-links">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html" id="nav-links">About</a>
-                    </li>
-                    <li>
-                        <a href="coaching.html" class="active" id="nav-links">Coaching</a>
+                        <a href="index.html" class="active nav-links">Home</a>
                     </li>
                     <li>
-                        <a href="gallery.html" id="nav-links">Gallery</a>
+                        <a href="about.html" class="nav-links">About</a>
                     </li>
                     <li>
-                        <a href="contact.html" id="nav-links">Contact</a>
+                        <a href="coaching.html" class="nav-links">Coaching</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="nav-links">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="nav-links">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -50,23 +52,14 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section>
-        <div id="location">
-            <h1>Coaching</h1>
-        </div>
-    </section>
-    <!-- End Hero Section -->
-
     <!-- Coaching Services -->
     <section class="section">
         <div id="coaching-services">
 
             <!-- Premium Coaching -->
             <div class="column">
-                <h2>
-                    Premium Coaching
-                </h2>
+                <h1>Coaching</h1>
+                <h2>Premium Coaching</h2>
                 <img src="assets/images/premium-coaching.png" alt="Ronan working directly with a client">
                 <p id="text-title">
                     Premium Coaching is a private personal training experience that gives you 100% dedicated time with
@@ -90,8 +83,8 @@
                     nowhere then a structured coaching plan is recommended for you.
                 </p>
                 <p>
-                    You will come be in the studio privately and with your coach go through strategic 
-                    planning, creating a roadmap, addressing issues and overcoming any battles you may 
+                    You will come be in the studio privately and with your coach go through strategic
+                    planning, creating a roadmap, addressing issues and overcoming any battles you may
                     come up against during your fitness journey.
                 </p>
                 <p>

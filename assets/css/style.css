@@ -188,7 +188,7 @@ h3 {
         height: 40px;
         padding: 8px;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-        
+
     }
 
     #menu>li {
@@ -271,25 +271,6 @@ h3 {
     font-size: 95%;
     letter-spacing: 1px;
     font-weight: 700;
-}
-
-#location {
-    height: 40vh;
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    z-index: 0;
-}
-
-#location>h1 {
-    color: #DCDCDC;
-    font-size: 300%;
-    letter-spacing: 30px;
-    font-weight: 400;
 }
 
 /* Gym Ethos */
@@ -515,8 +496,8 @@ h3 {
 #about-us>.column>h1 {
     color: #777;
     margin-bottom: 50px;
-    font-size: 300%;
-    letter-spacing: 30px;
+    font-size: 280%;
+    letter-spacing: 10px;
     font-weight: 400;
 }
 
@@ -603,6 +584,14 @@ h3 {
 
 #coaching-services {
     text-align: center;
+}
+
+#coaching-services>.column>h1 {
+    color: #777;
+    margin-bottom: 50px;
+    font-size: 280%;
+    letter-spacing: 10px;
+    font-weight: 400;
 }
 
 #coaching-services>.column>#text-title {
@@ -918,6 +907,7 @@ h3 {
 /* Media Queries */
 
 @media (min-width: 768px) {
+
     .container,
     .column-container {
         width: 750px;
@@ -925,6 +915,7 @@ h3 {
 }
 
 @media (min-width: 992px) {
+
     .container,
     .column-container {
         width: 970px;
@@ -932,6 +923,7 @@ h3 {
 }
 
 @media (min-width: 1200px) {
+
     .container,
     .column-container {
         width: 1170px;
@@ -948,6 +940,7 @@ h3 {
     .column {
         width: 50%;
     }
+    
 }
 
 @media (max-width: 768px) {
