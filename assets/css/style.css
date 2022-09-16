@@ -53,6 +53,12 @@ body {
     margin: auto;
 }
 
+.form-container {
+    height: auto;
+    margin: auto;
+    width: 100%;
+}
+
 .column-container {
     height: auto;
     width: 70%;
@@ -753,7 +759,7 @@ h3 {
     text-align: center;
 }
 
-#form-contact>.column>form>#end-page {
+#form-contact>.form-container>form>#end-page {
     margin-bottom: 0;
     display: flex;
     align-items: left;
@@ -763,7 +769,7 @@ h3 {
     font-weight: 400;
 }
 
-#form-contact>.column>form>.required {
+#form-contact>.form-container>form>.required {
     margin-top: 15px;
     margin-bottom: 15px;
     font-size: 12px;
@@ -825,36 +831,6 @@ h3 {
     border-color: #848484;
     box-shadow: 0 0 3px #848484;
     outline: 0;
-}
-
-@media (max-width: 768px) {
-    .form-shape {
-        width: 100%;
-    }
-}
-
-@media (max-width: 992px) {
-    .form-shape {
-        width: 100%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .form-shape {
-        width: 70%;
-    }
-}
-
-@media (min-width: 1450px) {
-    .form-shape {
-        width: 50%;
-    }
-}
-
-@media (max-width: 992px) {
-    .form-shape {
-        width: 50%;
-    }
 }
 
 /* Google Maps */
@@ -977,10 +953,6 @@ h3 {
     #hero-logo>img {
         max-width: 85%;
     }
-
-    #hero-logo>h1 {
-        font-size: 70%;
-    }
 }
 
 @media (max-width: 992px) {
@@ -989,5 +961,12 @@ h3 {
     #column-center,
     #column-right {
         width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .form-shape {
+        width: 70%;
     }
 }
