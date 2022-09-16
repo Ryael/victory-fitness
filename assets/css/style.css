@@ -964,6 +964,9 @@ h3 {
         width: 65%;
         text-align: center;
     }
+    #coaching-services>.column>h1 {
+        font-size: 200%;
+    }
 }
 
 
