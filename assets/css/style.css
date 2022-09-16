@@ -75,22 +75,129 @@ h3 {
 
 #nav-bar {
     display: flex;
-    list-style: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    height: 50px;
+    padding: 16px;
     z-index: 2;
 }
 
-nav ul {
-    background-color: transparent;
+#menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-#nav-bar>li {
-    align-self: center;
+#menu>li {
+    overflow: hidden;
     padding: 10px 15px;
     margin-right: 30px;
     z-index: inherit;
 }
 
-#nav-links {
+#menu-button-container {
+    display: none;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+#menu-button,
+#menu-button::before,
+#menu-button::after {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    height: 4px;
+    width: 30px;
+    transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    border-radius: 2px;
+}
+
+#menu-button::before {
+    content: "";
+    margin-top: -8px;
+}
+
+#menu-button::after {
+    content: "";
+    margin-top: 8px;
+}
+
+#menu-toggle:checked + #menu-button-container #menu-button::before {
+    margin-top: 0px;
+    transform: rotate(405deg);
+}
+
+#menu-toggle:checked + #menu-button-container #menu-button {
+    background: rgba(255, 255, 255, 0)
+}
+
+#menu-toggle:checked + #menu-button-container #menu-button::after {
+    margin-top: 0px;
+    transform: rotate(-405deg);
+}
+
+@media (max-width: 700px) {
+    #menu-button-container {
+        display: flex;
+        margin-right: 30px;
+    }
+
+    #menu {
+        position: absolute;
+        top: 0;
+        margin-top: 25px;
+        left: 25%;
+        right: 0;
+        flex-direction: column;
+        width: 50%;
+        align-items: center;
+    }
+
+    #menu-toggle ~ #menu li {
+        height: 0;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+
+    #menu-toggle:checked ~ #menu li {
+        border: 0;
+        height: 40px;
+        padding: 8px;
+        transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    
+    #menu>li {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 8px 0;
+        width: 100%;
+        color: #111;
+        background-color: transparent;
+        z-index: 5;
+    }
+    
+    #menu>li:not(:last-child) {
+        border-bottom: 0;
+    }
+}
+
+.nav-links {
     text-decoration: none;
     color: #DCDCDC;
     font-size: 80%;
