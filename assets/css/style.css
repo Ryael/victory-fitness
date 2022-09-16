@@ -728,6 +728,15 @@ h3 {
     text-align: left;
 }
 
+#contact>.column>h1 {
+    text-align: center;
+    color: #777;
+    margin-bottom: 100px;
+    font-size: 280%;
+    letter-spacing: 10px;
+    font-weight: 400;
+}
+
 #contact>.column>h2 {
     margin-bottom: 50px;
     color: #111;

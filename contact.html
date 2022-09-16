@@ -18,30 +18,32 @@
         <div id="hero-image-small">
 
             <!-- Navigation Bar -->
-            <nav>
-                <ul id="nav-bar">
+            <nav id="nav-bar">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white" height="50"
+                            width="auto">
+                    </a>
+                </div>
+                <input id="menu-toggle" type="checkbox">
+                <label id="menu-button-container" for="menu-toggle">
+                    <div id="menu-button"></div>
+                </label>
+                <ul id="menu">
                     <li>
-                        <div id="logo">
-                            <a href="index.html">
-                                <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white"
-                                    height="50px" width="auto">
-                            </a>
-                        </div>
-                    </li>
-                    <li class="push">
-                        <a href="index.html" id="nav-links">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html" id="nav-links">About</a>
-                    </li>
-                    <li>
-                        <a href="coaching.html" id="nav-links">Coaching</a>
+                        <a href="index.html" class="nav-links">Home</a>
                     </li>
                     <li>
-                        <a href="gallery.html" id="nav-links">Gallery</a>
+                        <a href="about.html" class="nav-links">About</a>
                     </li>
                     <li>
-                        <a href="contact.html" class="active" id="nav-links">Contact</a>
+                        <a href="coaching.html" class="nav-links">Coaching</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" class="nav-links">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="active nav-links">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -50,52 +52,54 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section>
-        <div id="location">
-            <h1>Contact</h1>
-        </div>
-    </section>
-    <!-- End Hero Section -->
-
     <!-- Contact -->
     <section class="section">
         <div id="contact">
             <div class="column">
+                <h1>Contact</h1>
                 <h2>Claim your 7 Day Free Trial Now!</h2>
                 <p>
-                    Looking to try but afraid to commit? That's okay, we've all been there before. We're currently offering 
-                    a 7 day trial to all new clients, with absolutely no strings attached! Come try our brand new gym, experience
-                    coaching first-hand, and just see if this is something that's for you or not. If it isn't, that's fine! There's
-                    no stress and we can call it quits there. However, if this is something you find yourself enjoying, then we'd
+                    Looking to try but afraid to commit? That's okay, we've all been there before. We're currently
+                    offering
+                    a 7 day trial to all new clients, with absolutely no strings attached! Come try our brand new gym,
+                    experience
+                    coaching first-hand, and just see if this is something that's for you or not. If it isn't, that's
+                    fine! There's
+                    no stress and we can call it quits there. However, if this is something you find yourself enjoying,
+                    then we'd
                     be delighted to welcome you to our little victorious family!
                 </p>
-        </div>
-        <div id="form-contact">
-            <div class="column">
-                <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
-                    <div id="form">
-                        <input type="text" name="name" class="form-shape text-form" placeholder="Name" required aria-required="true">
-                    </div>
-                    <div id="form">
-                        <input type="email" name="email" class="form-shape email-form" placeholder="Email" required aria-required="true">
-                    </div>
-                    <div class="end-form">
-                        <textarea id="message" name="message" class="form-shape message-form" placeholder="Message" required aria-required="true"></textarea>
-                    </div>
-                    <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
-                    <button type="submit" class="button-dark" value="Let's gym!">Submit Message</button>
-                </form>
             </div>
-        </div>
+            <div id="form-contact">
+                <div class="column">
+                    <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+                        <div id="form">
+                            <input type="text" name="name" class="form-shape text-form" placeholder="Name" required
+                                aria-required="true">
+                        </div>
+                        <div id="form">
+                            <input type="email" name="email" class="form-shape email-form" placeholder="Email" required
+                                aria-required="true">
+                        </div>
+                        <div class="end-form">
+                            <textarea id="message" name="message" class="form-shape message-form" placeholder="Message"
+                                required aria-required="true"></textarea>
+                        </div>
+                        <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
+                        <button type="submit" class="button-dark" value="Let's gym!">Submit Message</button>
+                    </form>
+                </div>
+            </div>
     </section>
     <!-- End Contact -->
 
     <!-- Google Maps -->
-        <div id="google-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.8542321060786!2d-9.706537899999999!3d52.282348299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453568c1d535e3%3A0x794333952b4f983e!2sVictory%20Fitness!5e0!3m2!1sen!2sie!4v1663206048066!5m2!1sen!2sie" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+    <div id="google-map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.8542321060786!2d-9.706537899999999!3d52.282348299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453568c1d535e3%3A0x794333952b4f983e!2sVictory%20Fitness!5e0!3m2!1sen!2sie!4v1663206048066!5m2!1sen!2sie"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <!-- End Google Maps -->
 
     <!-- Footer -->
