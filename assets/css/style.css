@@ -42,25 +42,21 @@ body {
 }
 
 .container {
-    height: auto;
     width: 70%;
     margin: auto;
 }
 
 .gallery-container {
-    height: auto;
     width: 50%;
     margin: auto;
 }
 
 .form-container {
-    height: auto;
     margin: auto;
     width: 100%;
 }
 
 .column-container {
-    height: auto;
     width: 70%;
     margin: auto;
     overflow: auto;
@@ -418,7 +414,6 @@ h3 {
     display: inline-block;
     color: #DCDCDC;
     background: transparent;
-    height: auto;
     padding: 13px 44px;
     border: 2px solid #DCDCDC;
     font-size: 13px;
@@ -441,7 +436,6 @@ h3 {
     display: inline-block;
     color: #fff;
     background: #424242;
-    height: auto;
     padding: 13px 44px;
     border: 2px solid transparent;
     font-size: 13px;
@@ -523,7 +517,6 @@ h3 {
 
 #about-us>.column>img {
     max-width: 100%;
-    height: auto;
     margin: auto;
     box-sizing: border-box;
 }
@@ -616,7 +609,6 @@ h3 {
 
 #coaching-services>.column>img {
     max-width: 100%;
-    height: auto;
     margin: auto;
     box-sizing: border-box;
 }
