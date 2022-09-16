@@ -824,6 +824,20 @@ h3 {
     }
 }
 
+@media (max-width: 768px) {
+    #hero-logo>img {
+        max-width: 85%;
+    }
+    #hero-logo>h1 {
+        font-size: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    .form-shape {
+        width: 50%;
+    }
+}
 
 /* Google Maps */
 
