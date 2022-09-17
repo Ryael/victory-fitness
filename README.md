@@ -13,10 +13,6 @@ After much contemplation, I decided to focus on Victory Fitness because of my ow
 
 There was and will be no exchange of funds, as this was agreed to be solely for the sake of the this project. However, I treated Ronan Kiely as my client and discussed many aspects of the website to see what he would prefer and wouldn't prefer to be included. I worked closely with him so as to make sure this website portrays the correct represenative of Victory Fitness, its brand, and its ethos.
 
-The aim of this project is two-fold:
-- To demonstrate my knowledge HTML and CSS languages, documenting my experiences, difficulities, and solutions. No other languages or frameworks were used in the development of this project.
-- To adhere to the vision of Victory Fitness from a UI/UX perspective, creating a website that aptly represents this enterprise throughout all of the content and formatting.
-
 The website is fully responsive at all screen sizes, adapting well to smaller resolutions for tablets, phones, and even landscape view on the aforementioned. It also works as intended on all popular web browsers.
 
 This website is a multi-page website that has a consistent design throughout all its pages, and is both simple and pleasing to navigate. All of the content present adheres to Victory Fitness's vision, only contains what is necessary, such as the different coaching services available, an about section detailing the history, a contact-form and details, links to the social media, a google-map showing the location, and a gallery showcasing the inside of the gym itself.
@@ -53,3 +49,29 @@ This website is a multi-page website that has a consistent design throughout all
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
+## Project Goals
+
+The aim of this project is two-fold:
+- To demonstrate my knowledge HTML and CSS languages, documenting my experiences, difficulities, and solutions. No other languages or frameworks were used in the development of this project.
+- To adhere to the vision of Victory Fitness from a UI/UX perspective, creating a website that aptly represents this enterprise throughout all of the content and formatting.
+
+The latter of which will allow Ronan Kiely to further extend his reach online in promoting Victory Fitness to potential clientele.
+
+### User Goals
+- Find a personal trainer and/or gym located in County Kerry.
+- Find a personal trainer and/or gym where you can consistently and reliabely exercise.
+- Find a personal trainer and/or gym where there's a clear sense of motivation and camaraderie.
+- Find a personal trainer and/or gym that will help you achieve your fitness goals.
+- Find the personal trainer location and contact details.
+- Contact the personal trainer via the online form on the contact page.
+- Read about the history of the personal trainer and/or gym.
+- Check the coaching services provided.
+
+### Site Owner Goals
+- Promote their coaching services and gym online.
+- Provide their contact details for the users of the website.
+- Provide the online form of contact with a 7-day free trial.
+- Show the available coaching services for existing and potential new customers.
+- Provide links to the gym's social media.
+- Make the website responsive for mobile devices, as [over 50% of traffic comes from mobile users](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/).
+- Increase profits by gaining more clientele, allowing for enhancement of the gym.
