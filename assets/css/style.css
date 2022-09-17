@@ -861,6 +861,60 @@ h3 {
     z-index: 1;
 }
 
+/* Error 404 */
+
+#image-404 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
+        url('../images/hero-image.png') no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+}
+
+#error-404 {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#error-404 h1 {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 110px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+#error-404 h2 {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, .80);
+}
+
+#error-404 h3 {
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, .80);
+}
+
 /* Footer */
 
 #footer {
