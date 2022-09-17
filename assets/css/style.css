@@ -866,7 +866,7 @@ h3 {
 #image-404 {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
+    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
         url('../images/hero-image.png') no-repeat center center;
     background-size: cover;
     z-index: 0;
@@ -888,6 +888,7 @@ h3 {
 #error-404 h1 {
     margin-bottom: 10px;
     position: relative;
+    text-align: center;
     font-size: 110px;
     font-weight: 400;
     text-transform: uppercase;
@@ -896,23 +897,25 @@ h3 {
 }
 
 #error-404 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     position: relative;
+    text-align: center;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgba(255, 255, 255, .80);
+    color: rgba(255, 255, 255, .9);
 }
 
 #error-404 h3 {
     margin-bottom: 20px;
     position: relative;
+    text-align: center;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: rgba(255, 255, 255, .80);
+    color: rgba(255, 255, 255, .9);
 }
 
 /* Footer */
