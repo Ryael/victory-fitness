@@ -866,7 +866,7 @@ h3 {
 #image-404 {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+    background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
         url('../images/hero-image.png') no-repeat center center;
     background-size: cover;
     z-index: 0;
@@ -918,12 +918,12 @@ h3 {
     color: rgba(255, 255, 255, .9);
 }
 
-/* Error 404 */
+/* Thank You */
 
-#image-404 {
+#thank-you-image {
     height: 100vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+    background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
         url('../images/hero-image.png') no-repeat center center;
     background-size: cover;
     z-index: 0;
