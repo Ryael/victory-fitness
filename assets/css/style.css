@@ -918,6 +918,52 @@ h3 {
     color: rgba(255, 255, 255, .9);
 }
 
+/* Error 404 */
+
+#image-404 {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
+        url('../images/hero-image.png') no-repeat center center;
+    background-size: cover;
+    z-index: 0;
+}
+
+#thank-you {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 0;
+}
+
+#thank-you h1 {
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+#thank-you h2 {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, .9);
+}
+
 /* Footer */
 
 #footer {
