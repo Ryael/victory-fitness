@@ -24,9 +24,8 @@ This website is a multi-page website that has a consistent design throughout all
     - [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     - [Target Audience](#target-audience)
-    - [User Requirements and Expectations](#user-requirements-and-expectations)
     - [User Stories](#user-stories)
-3. [Design](#design)
+3. [User Interface](#user-interface)
     - [Design Choices](#design-choices)
     - [Fonts](#fonts)
     - [Structure](#structure)
@@ -36,15 +35,15 @@ This website is a multi-page website that has a consistent design throughout all
     - [Frameworks & Tools](#frameworks-&-tools)
 5. [Features](#features)
 6. [Validation](#validation)
-    - [HTML Validation](#HTML-validation)
-    - [CSS Validation](#CSS-validation)
+    - [HTML Validation](#html-validation)
+    - [CSS Validation](#css-validation)
 7. [Testing](#testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Device Testing](#performing-tests-on-various-devices)
     - [Browser Compatibility](#browser-compatability)
     - [Testing User Stories](#testing-user-stories)
-8. [Bugs](#Bugs)
+8. [Bugs](#bugs)
 9. [Deployment](#deployment)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
@@ -75,3 +74,46 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 - Provide links to the gym's social media.
 - Make the website responsive for mobile devices, as [over 50% of traffic comes from mobile users](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/).
 - Increase profits by gaining more clientele, allowing for enhancement of the gym.
+
+[Back to Top &uarr;](#victory-fitness)
+<hr>
+
+## User Experience (UX)
+
+### Target Audience
+- People who are looking to be the best version of themselves.
+- People who lead busy lives but are looking to find a compromise between that lifestyle and exercise.
+- People who are looking for a high quality personal trainer, gym, and bespoke plan.
+- People who want to exercise in a quiet and clean gym environment.
+- People who are looking for an extra bit of a motivational push to help them achieve their fitness goals.
+
+### User Stories
+
+#### First Time Visitors
+1. As a first time visitor, I want to easily understand the main purpose and ethos of the gym.
+2. As a first time visitor, I want to easily navigate the page to find all the revent information.
+3. As a first time visitor, I want to learn about the gym and its history.
+4. As a first time visitor, I want to learn where the gym is located.
+5. As a first time visitor, I want to know when I can book my session.
+6. As a first time visitor, I want to know how to best contact the gym.
+
+#### Returning Visitors
+1. As a returning visitor, I want to quickly check the coaching services offered and the differences between them.
+2. As a returning visitor, I want to quickly access all of the social media to find any changes in opening times.
+3. As a returning visitor, I want to check if the 7-day free trial offer is still available.
+4. As a returning visitor, I want to see if there are any new promotions available.
+5. As a returning visitor, I want to quickly find the phone number and email address.
+6. As a returning visitor, I want to easily find the location of the gym via the google map section.
+7. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
+
+#### Site Owner
+1. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
+2. As the site owner, I want users to navigate the website smoothly and easily.
+3. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
+4. As the site owner, I want to provide contact details for users.
+5. As the site owner, I want to provide links to the gym's social media accounts.
+6. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
+
+[Back to Top &uarr;](#victory-fitness)
+<hr>
+
