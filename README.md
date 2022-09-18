@@ -309,8 +309,11 @@ As with all websites, this one also has a favicon that is display beside the tit
     <img src="docs/validation/404-validation.png" alt="Validation of 404 page">
 </details>
 
-
-
 ### CSS Validation
 
-CSS fully validated.
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to validate CSS code. No errors were found. 
+
+<details>
+    <summary>Style Page</summary>
+    <img src="docs/validation/css-validation.png" alt="Validation of the CSS Style page">
+</details>
