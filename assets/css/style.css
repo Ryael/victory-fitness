@@ -769,16 +769,6 @@ h3 {
     text-align: center;
 }
 
-#form-contact>.form-container>form>#end-page {
-    margin-bottom: 0;
-    display: flex;
-    align-items: left;
-    justify-content: left;
-    font-size: 16px;
-    line-height: 1.4;
-    font-weight: 400;
-}
-
 #form-contact>.form-container>form>.required {
     margin-top: 15px;
     margin-bottom: 15px;
@@ -792,7 +782,6 @@ h3 {
 #contact>.column>p {
     margin-bottom: 50px;
     display: flex;
-    align-items: left;
     justify-content: left;
     font-size: 16px;
     line-height: 1.4;
