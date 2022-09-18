@@ -278,4 +278,18 @@ As with all websites, this one also has a favicon that is display beside the tit
 
 ### HTML Validation
 
+[W3C Markup Validation Service](https://validator.w3.org/nu/) was used to validate HTML code, with no errors being found. Please see the summaries below for the results.
+
+<details>
+    <summary>Home</summary>
+    <img src="docs/validation/validation-home.png" alt="Validation of Home-Page">
+</details>
+
+<details>
+    <summary>Home</summary>
+    <img src="docs/validation/validation-home.png" alt="Validation of Home-Page">
+</details>
+
 ### CSS Validation
+
+CSS fully validated.
