@@ -1,4 +1,5 @@
 # Victory Fitness
+
 ### A website for a personal trainer, gym, and coaching center located in Tralee, Ireland.
 
 [Victory Fitness - Live Website](https://ryael.github.io/victory-fitness/)
@@ -22,11 +23,11 @@ This website is a multi-page website that has a consistent design throughout all
 1. [Project Goals](#project-goals)
     - [User Goals](#user-goals)
     - [Site Owner Goals](#site-owner-goals)
-2. [User Experience](#user-experience)
+2. [User Experience (UX)](#user-experience)
     - [Target Audience](#target-audience)
     - [User Stories](#user-stories)
-3. [User Interface](#user-interface)
-    - [Design Choices](#design-choices)
+3. [User Interface (UI)](#user-interface)
+    - [Design Philosophy](#design-philosophy)
     - [Fonts](#fonts)
     - [Structure](#structure)
     - [Wireframes](#wireframes)
@@ -57,6 +58,7 @@ The aim of this project is two-fold:
 The latter of which will allow Ronan Kiely to further extend his reach online in promoting Victory Fitness to potential clientele.
 
 ### User Goals
+
 - Find a personal trainer and/or gym located in County Kerry.
 - Find a personal trainer and/or gym where you can consistently and reliabely exercise.
 - Find a personal trainer and/or gym where there's a clear sense of motivation and camaraderie.
@@ -67,6 +69,7 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 - Check the coaching services provided.
 
 ### Site Owner Goals
+
 - Promote their coaching services and gym online.
 - Provide their contact details for the users of the website.
 - Provide the online form of contact with a 7-day free trial.
@@ -81,6 +84,7 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 ## User Experience (UX)
 
 ### Target Audience
+
 - People who are looking to be the best version of themselves.
 - People who lead busy lives but are looking to find a compromise between that lifestyle and exercise.
 - People who are looking for a high quality personal trainer, gym, and bespoke plan.
@@ -90,6 +94,7 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 ### User Stories
 
 #### First Time Visitors
+
 1. As a first time visitor, I want to easily understand the main purpose and ethos of the gym.
 2. As a first time visitor, I want to easily navigate the page to find all the revent information.
 3. As a first time visitor, I want to learn about the gym and its history.
@@ -98,22 +103,108 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 6. As a first time visitor, I want to know how to best contact the gym.
 
 #### Returning Visitors
-1. As a returning visitor, I want to quickly check the coaching services offered and the differences between them.
-2. As a returning visitor, I want to quickly access all of the social media to find any changes in opening times.
-3. As a returning visitor, I want to check if the 7-day free trial offer is still available.
-4. As a returning visitor, I want to see if there are any new promotions available.
-5. As a returning visitor, I want to quickly find the phone number and email address.
-6. As a returning visitor, I want to easily find the location of the gym via the google map section.
-7. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
+
+7. As a returning visitor, I want to quickly check the coaching services offered and the differences between them.
+8. As a returning visitor, I want to quickly access all of the social media to find any changes in opening times.
+9. As a returning visitor, I want to check if the 7-day free trial offer is still available.
+10. As a returning visitor, I want to see if there are any new promotions available.
+11. As a returning visitor, I want to quickly find the phone number and email address.
+12. As a returning visitor, I want to easily find the location of the gym via the google map section.
+13. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
 
 #### Site Owner
-1. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
-2. As the site owner, I want users to navigate the website smoothly and easily.
-3. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
-4. As the site owner, I want to provide contact details for users.
-5. As the site owner, I want to provide links to the gym's social media accounts.
-6. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
+
+14. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
+15. As the site owner, I want users to navigate the website smoothly and easily.
+16. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
+17. As the site owner, I want to provide contact details for users.
+18. As the site owner, I want to provide links to the gym's social media accounts.
+19. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
 
 [Back to Top &uarr;](#victory-fitness)
 <hr>
 
+## User Interface (UI)
+
+### Design Philosophy
+
+The design of this website began with this [one image](assets/images/hero-image.png). As soon as I saw it, the design of the website began to take form in my mind's eye. My vision was to use this photograph as the centerpiece for the website. As such, it was fashioned into a fullscreen hero image. It's cropped such that the V part of the logo at the top of the photograph redirect the user's attention to the text logo in the center, with the coaches either side of it. It establishes the brand image quickly, simply, and cleanly. I darkened the hero-image via the use of a dark linear-gradient at 30% opacity to help enhance the contrast between the image and all text, including the navgation links as well as the text logo and address.
+
+The home page takes the approach where all of the content in the body occupies approxtimately 70% of the width available on the page. The about, coaching, gallery, and contact pages meanwhile take a different albeit consistent approach with a much [shorter hero image](assets/images/hero-image-small.png). This is to establish a sense of flow familarity with the design of the website for new users. This is then further accompanied by a transparent navigation bar on wider resolutions, a black-background hamburger menu for smaller resolutions, and a light grey footer. The footer is the same throughout all of the website at all viewpots. The about, coaching, gallery, and contact pages take a very similar approach to the home page in the design of their bodies, using approximately 70% of the available width on larger resolutions. However, where they differ is in how images are displayed: background images always occupy 100% of the available width, whereas inline images only occupy the same amount of width as the body. This is a conscious design decision to allow for the body text to sleekly wrap under any images present, allowing for a neat and tidy viewing experience.
+
+On smaller viewports, the content expands to 80-100% of the width to reduce the necessity to keep scrolling and to allow for easier viewing. 
+
+The 404 and Thank You pages employ a similar design philsophy to that of the home page in using a fullscreen hero image, but where they differ is in that the opacity of the layer of the dark gradient is increased from 30% to 50% to draw less focus to the images themselves and more to the message being delivered as well as a button in how to return to the general browsing of the website.
+
+You can find the images used for all pages below:
+
+<details>
+    <summary>Home</summary>
+    <img src="assets/images/hero-image.png" alt="Hero image used for the Home Page">
+</details>
+
+<details>
+    <summary>About, Coaching, Gallery, and Contact</summary>
+    <img src="assets/images/hero-image-small.png" alt="Hero image used for the About, Coaching, Gallery, and Contact pages">
+</details>
+
+<details>
+    <summary>404</summary>
+    <img src="assets/images/image-404.png" alt="Hero image used for the Error 404 page">
+</details>
+
+<details>
+    <summary>Thank You</summary>
+    <img src="assets/images/thank-you-image.png" alt="Hero image used for the Thank You page">
+</details>
+
+### Colours 
+
+No pre-set colour palettes were used in the designing of this website, as my goal was to create a monochromatic look, focusing mostly using blacks, whites, and grays. My vision was to have it be simple, clean, and elegant. [Color-Name](https://www.color-name.com/) was used to find slightly lighter and darker shade variations of the colours used for this project. The body content is primarly grey text on a white background with black titles, sometimes being inverted to white for sections that rely on background images. 
+
+### Fonts
+
+The fonts I chosen for this were Lato and Railway. Lato is the font for the general content, whereas Railway is used for title content. They complement each other well and they were chosen because they were recommened by [this website](https://www.coralnodes.com/best-google-font-combinations/). A close second was the combination of Montserrat and Source Sans Pro, which evoke a similar sense of simplicity and elegance. However, I ultimately chose to go with Lato and Railway due to how well Railway works with letter-spacing. It's a modern and clean approach, which I believe works for just about any website.
+
+Font-weights of 300, 400, and 700 were chosen for both fonts. 300 was used as the default for both, with 400 being used for a bit more weight and clarity, and with 700 being used in rare cases where a bold or strong element was required for the text.
+
+Normally, one would associate big and powerful fonts and font-weights with gyms and working-out, however, I wanted to adhere to my initial vision in designing a clean and elegant website. This represents my core values better as well as reinforcing the idea that the gym is clean and well-maintained, and the coaches are both elegant and well-spoken.
+
+### Wireframes
+
+The conceptualisation of the layout used in this project began with simple pen and paper sketches, which were then transformed into wireframes via Balsamiq. Everything shown here is a rough beta of the layout, some of which has changed during development.
+
+### Wireframes
+This is the prototype of the project that may change during its development.
+
+<details>
+    <summary>Home</summary>
+    <img src="assets/images/wireframe/home.png" alt="Wireframe of the Home page">
+</details>
+<details>
+    <summary>About</summary>
+    <img src="assets/images/wireframe/about.png" alt="Wireframe of the About page">
+</details>
+<details>
+    <summary>Coaching</summary>
+    <img src="assets/images/wireframe/coaching.png" alt="Wireframe of the Coaching page">
+</details>
+<details>
+    <summary>Gallery</summary>
+    <img src="assets/images/wireframe/gallery.png" alt="Wireframe of the Gallery page">
+</details>
+<details>
+    <summary>Contact</summary>
+    <img src="assets/images/wireframe/contact.png" alt="Wireframe of the Contact page">
+</details>
+<details>
+    <summary>Thank You</summary>
+    <img src="assets/images/wireframe/thank-you.png" alt="Wireframe of the Thank You page">
+</details>
+<details>
+    <summary>404</summary>
+    <img src="assets/images/wireframe/404.png" alt="Wireframe of the 404 page">
+</details>
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
