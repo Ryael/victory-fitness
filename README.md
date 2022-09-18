@@ -6,7 +6,7 @@
 
 A healthy body is a healthy mind, and it is through exercise that we achieve both. However, even if the benefits of exercise are endless, it's something many struggle with due to hectic lifestyles nowadays. Between work, family, friends, and rest, it can be so difficult to find time to consistently exercise. This is where Victory Fitness comes in. Many people have this misconception that when you exercise, you need to allocate a significant amount of time to it, but the reality is that all you really need is 30-60 minutes 3 or 4 times a week. Victory Fitness puts you first and helps you find a work-out and time that suits you, no matter how busy your day to day life is. With sessions starting as early 6AM and ending as late as 9PM, there's a time that'll suit everyone. The coaches will help you stay motivated and on-track to your goals, helping you commit to a plan long enough such that you see real results.
 
-![AmIResponsive Mock-up Image](responsive.png)
+![AmIResponsive Mock-up Image](docs/screenshots/responsive.png)
 
 This is my first milestone project as part of Code Institute's Diploma in <strong>Software Development (E-commerce Applications)</strong>.
 
@@ -179,31 +179,31 @@ This is the prototype of the project that may change during its development.
 
 <details>
     <summary>Home</summary>
-    <img src="assets/images/wireframe/home.png" alt="Wireframe of the Home page">
+    <img src="docs/wireframes/home.png" alt="Wireframe of the Home page">
 </details>
 <details>
     <summary>About</summary>
-    <img src="assets/images/wireframe/about.png" alt="Wireframe of the About page">
+    <img src="docs/wireframes/about.png" alt="Wireframe of the About page">
 </details>
 <details>
     <summary>Coaching</summary>
-    <img src="assets/images/wireframe/coaching.png" alt="Wireframe of the Coaching page">
+    <img src="docs/wireframes/coaching.png" alt="Wireframe of the Coaching page">
 </details>
 <details>
     <summary>Gallery</summary>
-    <img src="assets/images/wireframe/gallery.png" alt="Wireframe of the Gallery page">
+    <img src="docs/wireframes/gallery.png" alt="Wireframe of the Gallery page">
 </details>
 <details>
     <summary>Contact</summary>
-    <img src="assets/images/wireframe/contact.png" alt="Wireframe of the Contact page">
+    <img src="docs/wireframes/contact.png" alt="Wireframe of the Contact page">
 </details>
 <details>
     <summary>Thank You</summary>
-    <img src="assets/images/wireframe/thank-you.png" alt="Wireframe of the Thank You page">
+    <img src="docs/wireframes/thank-you.png" alt="Wireframe of the Thank You page">
 </details>
 <details>
     <summary>404</summary>
-    <img src="assets/images/wireframe/404.png" alt="Wireframe of the 404 page">
+    <img src="docs/wireframes/404.png" alt="Wireframe of the 404 page">
 </details>
 
 [Back to top &uarr;](#victory-fitness)
