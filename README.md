@@ -278,17 +278,38 @@ As with all websites, this one also has a favicon that is display beside the tit
 
 ### HTML Validation
 
-[W3C Markup Validation Service](https://validator.w3.org/nu/) was used to validate HTML code, with no errors being found. Please see the summaries below for the results.
+[W3C Markup Validation Service](https://validator.w3.org/nu/) was used to validate HTML code. No errors were found. Please see the summaries below for the results.
 
 <details>
     <summary>Home</summary>
-    <img src="docs/validation/validation-home.png" alt="Validation of Home-Page">
+    <img src="docs/validation/home-validation.png" alt="Validation of Home page">
+</details>
+<details>
+    <summary>About</summary>
+    <img src="docs/validation/about-validation.png" alt="Validation of About page">
+</details>
+<details>
+    <summary>Coaching</summary>
+    <img src="docs/validation/coaching-validation.png" alt="Validation of Coaching page">
+</details>
+<details>
+    <summary>Gallery</summary>
+    <img src="docs/validation/gallery-validation.png" alt="Validation of Gallery page">
+</details>
+<details>
+    <summary>Contact</summary>
+    <img src="docs/validation/contact-validation.png" alt="Validation of Contact page">
+</details>
+<details>
+    <summary>Thank You</summary>
+    <img src="docs/validation/thank-you-validation.png" alt="Validation of Thank You page">
+</details>
+<details>
+    <summary>404</summary>
+    <img src="docs/validation/404-validation.png" alt="Validation of 404 page">
 </details>
 
-<details>
-    <summary>Home</summary>
-    <img src="docs/validation/validation-home.png" alt="Validation of Home-Page">
-</details>
+
 
 ### CSS Validation
 
