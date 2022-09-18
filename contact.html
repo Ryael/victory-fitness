@@ -21,13 +21,12 @@
             <nav id="nav-bar">
                 <div id="logo">
                     <a href="index.html">
-                        <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white" height="50"
-                            width="auto">
+                        <img src="assets/images/logo-white.png" alt="Victory Fitness logo in white" height="50">
                     </a>
                 </div>
                 <input id="menu-toggle" type="checkbox">
                 <label id="menu-button-container" for="menu-toggle">
-                    <div id="menu-button"></div>
+                    <span id="menu-button"></span>
                 </label>
                 <ul id="menu">
                     <li>
@@ -80,19 +79,19 @@
             <div id="form-contact">
                 <div class="form-container">
                     <form class="signup-form" action="thank-you.html">
-                        <div id="form">
+                        <div class="start-form">
                             <label for="name" class="block">Name</label>
-                            <input type="text" name="name" class="form-shape text-form" placeholder="Name" required
+                            <input type="text" id="name" class="form-shape text-form" placeholder="Name" required
                                 aria-required="true">
                         </div>
-                        <div id="form">
+                        <div class="start-form">
                             <label for="name" class="block">Email</label>
-                            <input type="email" name="email" class="form-shape email-form" placeholder="abc@gmail.com"
+                            <input type="email" id="email" class="form-shape email-form" placeholder="abc@gmail.com"
                                 required aria-required="true">
                         </div>
                         <div class="end-form">
                             <label for="message" class="block">Message</label>
-                            <textarea id="message" name="message" class="form-shape message-form"
+                            <textarea id="message" class="form-shape message-form"
                                 placeholder="Type your message here..." required aria-required="true"></textarea>
                         </div>
                         <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
@@ -100,6 +99,7 @@
                     </form>
                 </div>
             </div>
+        </div>
     </section>
     <!-- End Contact -->
 
