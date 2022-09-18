@@ -243,7 +243,7 @@ h3 {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .3), rgba(34, 34, 34, .3)),
-        url('../images/hero-image.png') no-repeat center center;
+        url('../images/hero-images/hero-image.webp') no-repeat center center;
     background-size: cover;
     z-index: 0;
 }
@@ -252,7 +252,7 @@ h3 {
     height: 40vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .4), rgba(34, 34, 34, .4)),
-        url('../images/hero-image-small.png') no-repeat center center;
+        url('../images/hero-images/hero-image-small.webp') no-repeat center center;
     background-size: cover;
     z-index: 0;
 }
