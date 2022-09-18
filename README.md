@@ -273,3 +273,9 @@ As with all websites, this one also has a favicon that is display beside the tit
 
 [Back to top &uarr;](#victory-fitness)
 <hr>
+
+## Validation
+
+### HTML Validation
+
+### CSS Validation
