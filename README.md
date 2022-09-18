@@ -209,3 +209,59 @@ This is the prototype of the project that may change during its development.
 <hr>
 
 ## Features
+
+### Navigation Bar
+
+![Navigation Bar](assets/images/features/navigation_bar.png)
+
+Every single page on the website has this navigation bar at the very top. Due to the darker hero-images behind it, it's easy to see even if it itself is fully transparent. It's very simple and iniquitive, focusing primarily on the function of allowing users to effectively navigate the website. The current page is highlighted in a brighter white than the rest of the links, which are displayed in a more gray colour. The Victory Fitness logo is a link that re-directs the user to the home page. For smaller viewports, a hamburger menu appears with a black background, to make the links easier to see and interact with. This makes it fully responsive across all viewports.
+
+![Hero Image - Home](assets/images/features/hero-image-home.png)
+
+This hero image is the foundation on which the entire website was built on. It perfectly encapsulates the brand and vision of Victory Fitness and aptly summarises into a singular image. It is the very first thing new users see and it's ultimately the deciding factor whether or not those new users will continue to interact and explore the website or go somewhere else entirely. First impressions hold a lot of power and that's why a good first impression is incredibly important. This is a crop of a full image that puts focus on the white letter "V" with the red logo V itself, which draws the user's attention towards the middle of the screen. This is further enhanced by the two coaches standing side by side, making sure the user's eyes do not escape from where they are being drawn to. That brings the user to the Victory Fitness text logo, and subsequently, the address of the gym. With just one look, in the matter of seconds, the brand and reputation of the gym is established, from which the user is able to form an impression, as well as the knowledge of where the gym is located.
+
+![Home Page - First Half](assets/images/features/home-first-half.png)
+
+The first half of the home page is a relatively simple section as it offers the user a bit more information about the gym, its ethos, and the services being offered. The full-width image is used to great effect in creating contrast between the white sections above and below, as well as breaking up the text-only content. A button is also present, which inverts its colour schemes upon interaction, giving the user a direct means of accessing the coaching page.
+
+![Home Page - Second Half](assets/images/features/home-second-half.png)
+
+The second half of the home page keeps to the brief introductory sessions that the first half does, providing reasons as to why this gym is worth choosing. This was a direct request from Ronan Kiely, who believes in selling what makes your gym and services special. He dislikes transformation pictures as they tend to create an environment that the only thing that matter is the end, the results. However, there's so much more to it than that. The journey, the starting point, and the struggles, to name some. For this reason, there's no section showing transformations or successes. They may bring great business, but this brand prefers to focus on other aspects of their client's fitness journies.
+
+Below that, there's another section with a full-width background image that helps to break up the text while simultaneously showing the gym off. This section informs the user of a 7-day no commitment free trial, with a call to action button below that brings them to the contact page where they can learn more.
+
+![Footer](assets/images/features/footer.png)
+
+Simiarly to the navigation bar, the footer is also present across all pages. It is also fully responsive across all viewports and houses three icons that provide links to Victory Fitness's social media accounts and email. These buttons change colour upon interaction, and thelinks all open in a new page such that the user isn't made leave the website and can continue exploring. Below these icons, there's a line of text that describes Victory Fitness as the copyright holder for this website.
+
+![Hero Image - Other](assets/images/features/hero-image-other.png)
+
+As mentioned earlier, the About, Coaching, Gallery, and Contact pages utilise a much shorter hero image. This is to bring the user to the content of these pages much quicker and to make navigate a lot more fluid as having to navigate a full-height viewport image upon loading every page can be quite cumbersome. This section also serves as a darker backdrop for the transparent navigation bar and houses location title text within, informing the user of what section they just navigated to.
+
+![About](assets/images/features/about.png)
+
+The About page provides the user with a detailed history of Victory Fitness, a more in-depth dive into their ethos as a gym and coaching service, which is supported by a photograph of the two coaches in the gym. The text content here uses the same amount of width as the image, allowing for a very fluidic experience in reading the content.
+
+![Coaching](assets/images/features/coaching.png)
+
+The Coaching page delves into greater depth regarding the coaching services offered. It's broken up into three sections: 1) Premium Coaching, 2) Semi-private Coaching, and 3) Online Coaching. Each of these sections has a photograph accompanying them. This helps to break up the text from overwhelming the user with information overload. Exactly like the About page, the width of the text content never exceeds the width used by the images.
+
+![Gallery](assets/images/features/gallery.png)
+
+The Gallery page is dedicated to showcasing the gym and all of the available equipment and facitilities, allowing the users to see the gym for themselves aside from the professional photographs. The images are displayed in two columns and are fully responsive across all viewports, shrinking down to one column as the viewport grows narrower. 
+
+![Contact - Form](assets/images/features/contact-form.png)
+
+The Contact page allows users to get in touch with Victory Fitness directly via filling out of the online form. Users are also told more about the free trial and can avail of it by filling out the aforementioned form. The form has both labels and placeholder text in place, ensuring both accessibility and clarity. A line of text below the form-fields informs the user that all fields are required to be filled out in order for the form to be successfully submitted. The details submitted aren't stored as the user is simply redirected to the Thank You page.
+
+![Contact - Map](assets/images/features/contact-map.png)
+
+The Google Maps section of the Contact page informs users of where the gym is located, should they want to take a trip to it to see it first-hand. Photographs are great, but seeing it in person is even better. A face to face conversation with one of the coaches is also a possibility, which tend to be a bit more personal, warmer, and more comfortable than online correspondance. The embed for this maps section is provided by Google itself.
+
+![Thank You](assets/images/features/thank-you.png)
+
+After successful completion of the form on the Contact page, the user is redirected to this page. It's just a simple thank you message that lets them know their message was recieved successfully and someone will be in touch with them shortly. Any details submitted aren't stored. This page employs the same sort of approach as both the Home page, using a fullscreen hero image with text overlayed on top of it. The only difference here is that the opacity is increased to 50% to bring the viewer's attention to the message being brought in front of them.
+
+![Error 404](assets/images/features/404.png)
+
+Should the user navigate to a page that doesn't exist, a HTTP 404 error will occur. Upon doing so, the 404 Page will be loaded, informing the user that this page does not exist. All the usual means of navigation are present in the navigation bar and the footer, but with the addition of a button to take them home. This is located under the error text. This page employs the same sort of approach as both the Home and Thank You pages, using a fullscreen hero image with text overlayed on top of it.
