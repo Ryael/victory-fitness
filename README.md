@@ -317,3 +317,12 @@ As with all websites, this one also has a favicon that is display beside the tit
     <summary>Style Page</summary>
     <img src="docs/validation/css-validation.png" alt="Validation of the CSS Style page">
 </details>
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
+
+## Testing
+
+### Accessibility
+
+WEBAIM used to test, results in summaries below

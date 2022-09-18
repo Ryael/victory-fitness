@@ -68,7 +68,11 @@ body {
 }
 
 .strong {
-    font-weight: 700 !important;
+    font-weight: 700;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Headings */
