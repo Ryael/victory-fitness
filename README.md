@@ -41,12 +41,13 @@ This website is a multi-page website that has a consistent design throughout all
     - [Browser Compatibility](#browser-compatability)
     - [Testing User Stories](#testing-user-stories)
 7. [Bugs](#bugs)
-8. [Deployment](#deployment)
-9. [Technologies Used](#technologies-used)
+8. [Future Updates](#future-updates)
+9. [Deployment](#deployment)
+10. [Technologies Used](#technologies-used)
     - [Languages](#languages)
     - [Frameworks & Tools](#frameworks-&-tools)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+11. [Credits](#credits)
+12. [Acknowledgements](#acknowledgements)
 
 ## Project Goals
 
@@ -265,3 +266,10 @@ After successful completion of the form on the Contact page, the user is redirec
 ![Error 404](assets/images/features/404.png)
 
 Should the user navigate to a page that doesn't exist, a HTTP 404 error will occur. Upon doing so, the 404 Page will be loaded, informing the user that this page does not exist. All the usual means of navigation are present in the navigation bar and the footer, but with the addition of a button to take them home. This is located under the error text. This page employs the same sort of approach as both the Home and Thank You pages, using a fullscreen hero image with text overlayed on top of it.
+
+![Favicon](assets/images/features/favicon.png)
+
+As with all websites, this one also has a favicon that is display beside the title of the page. A user is able to discern what pages they have opened or are currently on by simply glancing at the tabs and titles.
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
