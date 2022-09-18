@@ -864,7 +864,7 @@ h3 {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
-        url('../images/hero-image.png') no-repeat center center;
+        url('../images/hero-images/404.webp') no-repeat center center;
     background-size: cover;
     z-index: 0;
 }
@@ -921,7 +921,7 @@ h3 {
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(34, 34, 34, .5), rgba(34, 34, 34, .5)),
-        url('../images/hero-image.png') no-repeat center center;
+        url('../images/hero-images/thank-you.webp') no-repeat center center;
     background-size: cover;
     z-index: 0;
 }
