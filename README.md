@@ -29,23 +29,22 @@ This website is a multi-page website that has a consistent design throughout all
 3. [User Interface (UI)](#user-interface)
     - [Design Philosophy](#design-philosophy)
     - [Fonts](#fonts)
-    - [Structure](#structure)
     - [Wireframes](#wireframes)
-4. [Technologies Used](#technologies-used)
-    - [Languages](#languages)
-    - [Frameworks & Tools](#frameworks-&-tools)
-5. [Features](#features)
-6. [Validation](#validation)
+4. [Features](#features)
+5. [Validation](#validation)
     - [HTML Validation](#html-validation)
     - [CSS Validation](#css-validation)
-7. [Testing](#testing)
+6. [Testing](#testing)
     - [Accessibility](#accessibility)
     - [Performance](#performance)
     - [Device Testing](#performing-tests-on-various-devices)
     - [Browser Compatibility](#browser-compatability)
     - [Testing User Stories](#testing-user-stories)
-8. [Bugs](#bugs)
-9. [Deployment](#deployment)
+7. [Bugs](#bugs)
+8. [Deployment](#deployment)
+9. [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Frameworks & Tools](#frameworks-&-tools)
 10. [Credits](#credits)
 11. [Acknowledgements](#acknowledgements)
 
@@ -208,3 +207,5 @@ This is the prototype of the project that may change during its development.
 
 [Back to top &uarr;](#victory-fitness)
 <hr>
+
+## Features
