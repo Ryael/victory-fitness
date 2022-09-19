@@ -139,22 +139,22 @@ You can find the images used for all pages below:
 
 <details>
     <summary>Home</summary>
-    <img src="assets/images/hero-image.png" alt="Hero image used for the Home Page">
+    <img src="docs/features/hero-image.jpeg" alt="Hero image used for the Home Page">
 </details>
 
 <details>
     <summary>About, Coaching, Gallery, and Contact</summary>
-    <img src="assets/images/hero-image-small.png" alt="Hero image used for the About, Coaching, Gallery, and Contact pages">
+    <img src="docs/features/hero-small-image.png" alt="Hero image used for the About, Coaching, Gallery, and Contact pages">
 </details>
 
 <details>
     <summary>404</summary>
-    <img src="assets/images/image-404.png" alt="Hero image used for the Error 404 page">
+    <img src="docs/features/404.jpeg" alt="Hero image used for the Error 404 page">
 </details>
 
 <details>
     <summary>Thank You</summary>
-    <img src="assets/images/thank-you-image.png" alt="Hero image used for the Thank You page">
+    <img src="docs/features/thank-you.jpeg" alt="Hero image used for the Thank You page">
 </details>
 
 ### Colours 
