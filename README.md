@@ -367,33 +367,44 @@ Below are the results for every page, with no errors present (aside from the dis
 
 ### Performance
 
-Google Lighthouse was used to the performance of all webpages. The results can be seen below.
+Google Lighthouse was used to the performance of all webpages. All pages have a score of 100 Accessibility, 100 Best Practices, and 100 SEO across all devices. Howeever, Performance seems to fluctuate between 72-95 for all pages. Multiple browsers have been used in cognito in order to disable any extensions that could be potentially hindering performance. I looked into this to find that people that had scores of 100 Performance also seemed to produce different result when I tested their websites on my end. Regardless, all web pages have been optimised for load speed and performance, netting in 85-92 scores across the board without any cherry-picking.
+
+The results can be seen below.
 
 <details>
     <summary>Home</summary>
-    <img src="docs/testing/wave-home.png" alt="Accessibility of Home page">
+    <img src="docs/testing/lighthouse-home.png" alt="Performance of Home page">
 </details>
 <details>
     <summary>About</summary>
-    <img src="docs/testing/wave-about.png" alt="Accessibility of About page">
+    <img src="docs/testing/lighthouse-about.png" alt="Performance of About page">
 </details>
 <details>
     <summary>Coaching</summary>
-    <img src="docs/testing/wave-coaching.png" alt="Accessibility of Coaching page">
+    <img src="docs/testing/lighthouse-coaching.png" alt="Performance of Coaching page">
 </details>
 <details>
     <summary>Gallery</summary>
-    <img src="docs/testing/wave-gallery.png" alt="Accessibility of Gallery page">
+    <img src="docs/testing/lighthouse-gallery.png" alt="Performance of Gallery page">
 </details>
 <details>
     <summary>Contact</summary>
-    <img src="docs/testing/wave-contact.png" alt="Accessibility of Contact page">
+    <img src="docs/testing/lighthouse-contact.png" alt="Performance of Contact page">
 </details>
 <details>
     <summary>Thank You</summary>
-    <img src="docs/testing/wave-thank-you.png" alt="Accessibility of Thank You page">
+    <img src="docs/testing/lighthouse-thank-you.png" alt="Performance of Thank You page">
 </details>
 <details>
     <summary>404</summary>
-    <img src="docs/testing/wave-404.png" alt="Accessibility of 404 page">
+    <img src="docs/testing/lighthouse-404.png" alt="Performance of 404 page">
 </details>
+
+### Device Testing
+
+The website was tested on many different devices, such as:
+
+- Samsung Galaxy S10
+- Samsung Galaxy S21
+- iPhone 10
+- iPad Mini (Landscape and Portrait)
