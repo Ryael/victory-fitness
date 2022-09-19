@@ -510,3 +510,63 @@ Otherwise, all bugs were due to my own code and were usually fixed as soon as I 
 <hr>
 
 ## Future Updates
+
+1. Sticky Navigation Bar - This was part of my vision for the website but I was unable to find a solution to this without relying on JavaScript. My vision is as follows: I wanted the navigation bar to be transparent when it was resting above the Hero Images, but once it left those regions, it would become an opaque black color as it follows the user down the page.
+
+2. Fullscreen Hamburger Menu - This is very difficult to accomplish without JavaScript and I found myself struggling with the current hamburger menu as is. My vision for this was to have the entire screen to be covered in white with links in black structured in a column appearing the middle.
+
+3. Coaching Pricing Plan Comparisons - This was part of the plan for the website but I found myself not having the time necessary to bring this idea to light. Hence, I'd like to work on it in the future and put it at the top of Coaching page, so users are available to compare plans with just a single glance.
+
+4. Google Map - This was originally a part of the website but it caused major performance issues and hence was removed and instead replaced by an image.
+
+I'd like to revisit this project in the future after having learned more about JavaScript, especially if Ronan Kiely of Victory Fitness would be interested in using this website.
+
+## Deployment
+
+This project was deployed to GitHub Pages using the following steps:
+
+1. Log in to GitHub and locate the repository: [Victory Fitness](https://github.com/Ryael/victory-fitness).
+2. Locate the Settings button, and then click it.
+3. Scroll down to the Pages section, which is found under "Code and automation".
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will then automatically refresh.
+6. Scroll back to the top of the page to locate the now published website link.
+
+It can also be forked via the following steps:
+
+1. Log in to GitHub and locate the repository again, as described above.
+2. At the top right corner of the repository, you will see a "Fork" button. Click on it.
+3. You will then be asked where you want to save it, so choose a location.
+4. You now should have a copy of this repository in your own GitHub account.
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
+
+## Technologies Used
+
+### Languages
+
+- HTML 5
+- CSS 3
+
+### Frameworks & Tools
+
+- [GitPod](https://gitpod.io) - IDE used to code and build this project.
+- [GitHub](https://github.com/) - The repository was created here, is currently stored here, and was deployed via the GitHub Pages features.
+- [Balsamiq](https://balsamiq.com) - Used to create wireframes.
+- [Obsidian](https://obsidian.md/) - Used to take notes and creat to-do lists.
+- [Adope Photoshop](https://www.adobe.com/products/photoshop.html) - Used to crop, resize, and edit images.
+- [W3C HTML Validator](https://validator.w3.org/) - Used to validate HTML code.
+- [W3C JigSaw Validator](https://jigsaw.w3.org/css-validator/) - Used to Validate CSS code.
+- [WAVE WebAIM](https://wave.webaim.org/) - Used to check accessibility.
+- [Google Lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk) - Used to check performance, SEO, accessibility, and best practices.
+- [Mozilla Firefox Developer Tools](https://www.mozilla.org/en-US/firefox/new/) - Used to check and test the project.
+- [AmIResponsive](https://ui.dev/amiresponsive) - Used to create the Am I Responsive image mock-up.
+- [FreeConvert](https://www.freeconvert.com/jpg-to-webp) - Used to convert .PNG to .WEBP.
+- [TinyPNG](https://tinypng.com/) - Used to compress images.
+- [Google Fonts](https://fonts.google.com/) - Fonts were imported from here.
+- [Font Awesome](https://fontawesome.com/) - Icons are used from here.
+- [Favicon.io](https://favicon.io/) - Used to create a favicon out of a .PNG.
+- [ShareX](https://getsharex.com/) - Used to take screenshots.
+- [Color-Name](https://www.color-name.com/) - Used to find complementary shades of colours used.
+- [CoralNodes](https://www.coralnodes.com/best-google-font-combinations/) - Used to find Google Font combinations.
