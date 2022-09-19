@@ -369,3 +369,31 @@ Below are the results for every page, with no errors present (aside from the dis
 
 Google Lighthouse was used to the performance of all webpages. The results can be seen below.
 
+<details>
+    <summary>Home</summary>
+    <img src="docs/testing/wave-home.png" alt="Accessibility of Home page">
+</details>
+<details>
+    <summary>About</summary>
+    <img src="docs/testing/wave-about.png" alt="Accessibility of About page">
+</details>
+<details>
+    <summary>Coaching</summary>
+    <img src="docs/testing/wave-coaching.png" alt="Accessibility of Coaching page">
+</details>
+<details>
+    <summary>Gallery</summary>
+    <img src="docs/testing/wave-gallery.png" alt="Accessibility of Gallery page">
+</details>
+<details>
+    <summary>Contact</summary>
+    <img src="docs/testing/wave-contact.png" alt="Accessibility of Contact page">
+</details>
+<details>
+    <summary>Thank You</summary>
+    <img src="docs/testing/wave-thank-you.png" alt="Accessibility of Thank You page">
+</details>
+<details>
+    <summary>404</summary>
+    <img src="docs/testing/wave-404.png" alt="Accessibility of 404 page">
+</details>
