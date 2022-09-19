@@ -503,6 +503,7 @@ The website was tested on many different devices, such as:
 
 2. Font Awesome Icons Displayed Incorrectly on Mobile - Icons seem to have been nudged slightly to the right and downwards.  It's a very minor visual bug. This issue only exists on mobile, specifically the Samsung Galaxy S10. I have been unable to recreate it with other mobile phones. This could have something to do with the OS of the S10. This display issue is the same with FA icons on all websites.
     - Fix: None. I've looked through the internet extensively and nobody seem to have spoken this issue or any similar issues.
+    - [Here](docs/screenshots/icon-bug.jpg) is a link to a screenshot of the issue.
 
 Otherwise, all bugs were due to my own code and were usually fixed as soon as I saw them due to the fact that they originated from my own mistake. Nothing major, aside from the accessibility error described above.
 
