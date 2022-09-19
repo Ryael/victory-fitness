@@ -497,3 +497,16 @@ The website was tested on many different devices, such as:
 
 ## Bugs
 
+1. Accessibility Error - Empty Label detected as part of the hamburger navigation menu. 
+    - Fix: Add <span> with text inside the label, and attach a CSS class to this span that uses "display: none;".
+    - This satisifies the error as the label is no longer empty, even if the content is never displayed.
+
+2. Font Awesome Icons Displayed Incorrectly on Mobile - Icons seem to have been nudged slightly to the right and downwards.  It's a very minor visual bug. This issue only exists on mobile, specifically the Samsung Galaxy S10. I have been unable to recreate it with other mobile phones. This could have something to do with the OS of the S10. This display issue is the same with FA icons on all websites.
+    - Fix: None. I've looked through the internet extensively and nobody seem to have spoken this issue or any similar issues.
+
+Otherwise, all bugs were due to my own code and were usually fixed as soon as I saw them due to the fact that they originated from my own mistake. Nothing major, aside from the accessibility error described above.
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
+
+## Future Updates
