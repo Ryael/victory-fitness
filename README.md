@@ -325,4 +325,47 @@ As with all websites, this one also has a favicon that is display beside the tit
 
 ### Accessibility
 
-WEBAIM used to test, results in summaries below
+[WAVE WebAIM](https://wave.webaim.org/report#/https://ryael.github.io/victory-fitness) was used to validate CSS code. One error was found and this was relating to the hamburger menu having an empty label, this was fixed and is covered in the bugs section. Otherwise, there were some contrast errors that came up and they were simply fixed by increasing the colour of the fonts used. One such example was changing #777 to #575757, which now passes all accessibility checks.
+
+Additionally, the address below the text-logo as well as the button on the home page are flagged as contrast errors. This also concerns any text on an image-background on other pages. However, attempting to follow the suggestions provided by the tool seemed to impact actual accessibility negatively, despite satisifying the actual tool. Please find a screenshot example of the colour suggestion for said area. As such, these contrast errors will be disregarded as they aren't picked up by Lighthouse.
+
+<details>
+    <summary>Contrast Error Example</summary>
+    <img src="docs/testing/contrast-error.png" alt="Contrast error via the WAVE tool colour suggestion">
+</details>
+
+Below are the results for every page, with no errors present (aside from the disregarded contract ones):
+
+<details>
+    <summary>Home</summary>
+    <img src="docs/testing/wave-home.png" alt="Accessibility of Home page">
+</details>
+<details>
+    <summary>About</summary>
+    <img src="docs/testing/wave-about.png" alt="Accessibility of About page">
+</details>
+<details>
+    <summary>Coaching</summary>
+    <img src="docs/testing/wave-coaching.png" alt="Accessibility of Coaching page">
+</details>
+<details>
+    <summary>Gallery</summary>
+    <img src="docs/testing/wave-gallery.png" alt="Accessibility of Gallery page">
+</details>
+<details>
+    <summary>Contact</summary>
+    <img src="docs/testing/wave-contact.png" alt="Accessibility of Contact page">
+</details>
+<details>
+    <summary>Thank You</summary>
+    <img src="docs/testing/wave-thank-you.png" alt="Accessibility of Thank You page">
+</details>
+<details>
+    <summary>404</summary>
+    <img src="docs/testing/wave-404.png" alt="Accessibility of 404 page">
+</details>
+
+### Performance
+
+Google Lighthouse was used to the performance of all webpages. The results can be seen below.
+
