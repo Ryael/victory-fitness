@@ -108,18 +108,17 @@ The latter of which will allow Ronan Kiely to further extend his reach online in
 8. As a returning visitor, I want to quickly access all of the social media to find any changes in opening times.
 9. As a returning visitor, I want to check if the 7-day free trial offer is still available.
 10. As a returning visitor, I want to see if there are any new promotions available.
-11. As a returning visitor, I want to quickly find the phone number and email address.
-12. As a returning visitor, I want to easily find the location of the gym via the google map section.
-13. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
+11. As a returning visitor, I want to easily find the location of the gym via the google map section.
+12. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
 
 #### Site Owner
 
-14. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
-15. As the site owner, I want users to navigate the website smoothly and easily.
-16. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
-17. As the site owner, I want to provide contact details for users.
-18. As the site owner, I want to provide links to the gym's social media accounts.
-19. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
+13. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
+14. As the site owner, I want users to navigate the website smoothly and easily.
+15. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
+16. As the site owner, I want to provide contact details for users.
+17. As the site owner, I want to provide links to the gym's social media accounts.
+18. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
 
 [Back to Top &uarr;](#victory-fitness)
 <hr>
@@ -406,5 +405,95 @@ The website was tested on many different devices, such as:
 
 - Samsung Galaxy S10
 - Samsung Galaxy S21
+- MSI GE72 6QF Apache Pro
 - iPhone 10
+- iPhone 12
 - iPad Mini (Landscape and Portrait)
+- iPad (Landscape and Portrait)
+- Vivo S1 Pro
+
+### Browser Compatibility
+
+- Mozilla Firefox
+- Google Chrome
+- Opera
+- Safari
+- Microsoft Edge
+
+### Testing User Stories
+
+1. As a first time visitor, I want to easily understand the main purpose and ethos of the gym.
+    - Upon navigating to the website, the user is automatically greeted with a clean and easily readible navigation bar to go to their page of choice. The Hero Image and Call to Action button draws the user's attention and starts to establish the gym's brand and purpose.
+    - At this point, users can navigate to another page, in this case About, or scroll down, both of which will delve into the ethos of the gym.
+
+2. As a first time visitor, I want to easily navigate the page to find all the revent information.
+    - The website was designed to be easily navigatable and fluid. The top of each page has a navigation bar, with clearly described links so the user has an idea of where they'll end up upon interacting with them.
+    - There are Call to Action buttons present throughout the website that help with funnelling the user into any topic they might be interested in.
+    - Upon successful submitting of the form on the Contact page, the user is brough to a Thank You page. They then have the option to interact with the links on the navigation bar or the button below the thank you text.
+
+3. As a first time visitor, I want to learn about the gym and its history.
+    - Upon reading the "Strive for Greatness" section on the home page, or even after they finish reading the home page, they can then navigate to the About page via the navigation links. Here, they can find more information on the gym, its ethos, and its history.
+
+4. As a first time visitor, I want to learn where the gym is located.
+    - The user is instantly introduced to where the gym is located based on the title text present on under the Victory Fitness text logo on the home page.
+    - Furthermore, there's a detailed google map on the Contact page, allowing to establish a solid understanding of the location.
+
+5. As a first time visitor, I want to know when I can book my session.
+    - Due to the fluidic nature of the home page, the user will arrive at the Why Choose Us section which will provide details of when sessions can be booked.
+    - Additionally, between the About and Coaching pages, information is laid out in a way that makes the user understand that clients are put first and a time that suits them can be worked out.
+
+6. As a first time visitor, I want to know how to best contact the gym.
+    - Once the user has read any page, they'll find icons in the footer that link to the gym's social media accounts and email.
+    - Additionally, if the user has navigated to the Contact page via the navigation links or the Call to Action button on the Home page, they can find a form to fill out for a 7-day free trial.
+
+7. As a returning visitor, I want to quickly check the coaching services offered and the differences between them.
+    - Upon returning to the website, this information can be found via a Call to Action button on the home page, which directs the user to the Coaching page.
+    - Here, the user is told about all the coaching services provided in great detail.
+
+8. As a returning visitor, I want to quickly access all of the social media to find any changes in opening times.
+    - This is made very easy by the inclusion of the footer, which is present across all pages.
+    - Here, the user may find links to the gym's Instagram and Facebook, which are their main social media accounts.
+
+9. As a returning visitor, I want to check if the 7-day free trial offer is still available.
+    - Returning to the website, all the user has to do is interact with the "Join Now" Call to Action button on the Hero Image of the Home page, scroll down to see the Contact section which lists the current offer, or navigate to the Contact page which has the full details regarding the current on-going offer.
+
+10. As a returning visitor, I want to see if there are any new promotions available.
+    - The newest promotions are always linked to with the Call to Action button on the Hero Image of the Home page.
+    - Alternatively, users are incentivised to contact the gym via the form on the Contact page. As such, there is always an offer present there to encourage this.
+
+11. As a returning visitor, I want to easily find the location of the gym via the google map section.
+    - This can be accomplished by navigating to the Contact page via Call to Action button part of the Free Trial section on the Home page, or by interacting with the Contact navigation link.
+    - Here, the user can find a detailed Google Map detailing where the gym is located.
+
+12. As a returning visitor, I want to see if any professional photoshoots have been uploaded to the gallery since my last visit.
+    - All new professional competitions and photoshoots will be uploaded to the Gallery page, which the user can easily navigate to using the links on the navigation bar.
+
+13. As the site owner, I want to clearly showcase the different coaching services available and the differences between them.
+    - This is easily accomplished by the Coaching page, which can be quickly accessed via Call to Action button under the Coaching section, or simply navigated to using the navigation bar links.
+
+14. As the site owner, I want users to navigate the website smoothly and easily.
+    - The website has a very clear navigation bar, with easily seen links due to the contrast of the background and the colour of the links. This allows for a smooth navigation experience.
+    - Each section is built to be fluidic and flow in a coherent manner where the user learns relevant information as they go through each section on each page.
+
+15. As the site owner, I want to provide photographs of the inside of the gym and the facilities available.
+    - The Gallery page accomplishes this, allowing the site owner to display whichever photos they may like to their userbase.
+    - The Gallery page is also easily accessable due to the easy to use navigation links.
+
+16. As the site owner, I want to provide contact details for users.
+    - Users can find contact details in the form of the address on the Home page, the social media accounts in the form of the icons in the footer, as well as an online form on the Contact page.
+    - Additionally, a Google Map is also present there should the users want to make a trip there in person.
+
+17. As the site owner, I want to provide links to the gym's social media accounts.
+    - The links to the gym's social media accounts are easily found and easily accessible in the footer, which present throughout every page on the website. 
+    - No matter where the user is, they're always just a short scroll away from accessing the social media accounts.
+
+18. As the site owner, I want to provide users with a free, no commitment, 7-day trial upon filling out the online form.
+    - Often times it can be difficult to convince users to fill out forms as other communication can be easier and more readily available. However, a free trial is more than enough incentive for this.
+    - This free trial can be see via the Home page in one of two ways: it can be accessed via the Call to Action Join Now button on top of the Hero Image and/or it can be found in the Free Trial section, which also has its own Call to Action button.
+    - Lastly, the users can navigate to the Contact page via the navigation bar links, where they can find all the details regarding the free trial and the form.
+
+[Back to top &uarr;](#victory-fitness)
+<hr>
+
+## Bugs
+
