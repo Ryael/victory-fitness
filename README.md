@@ -520,7 +520,7 @@ Otherwise, all bugs were due to my own code and were usually fixed as soon as I 
 
 4. Google Map - This was originally a part of the website but it caused major performance issues and hence was removed and instead replaced by an image.
 
-5. 
+5. Testimonials - This was originally a part of the plan for this project but unfortunately, Google Reviews aren't too easy to embed without having to pay for the service. The alternatives are well over my head but it's definitely something I'd like to look into in the future.
 
 I'd like to revisit this project in the future after having learned more about JavaScript, especially if Ronan Kiely of Victory Fitness would be interested in using this website.
 
