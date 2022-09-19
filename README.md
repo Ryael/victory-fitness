@@ -503,7 +503,7 @@ The website was tested on many different devices, such as:
 
 2. Font Awesome Icons Displayed Incorrectly on Mobile - Icons seem to have been nudged slightly to the right and downwards.  It's a very minor visual bug. This issue only exists on mobile, specifically the Samsung Galaxy S10. I have been unable to recreate it with other mobile phones. This could have something to do with the OS of the S10. This display issue is the same with FA icons on all websites.
     - Fix: None. I've looked through the internet extensively and nobody seem to have spoken this issue or any similar issues.
-    - [Here](docs/screenshots/icon-bug.jpg) is a link to a screenshot of the issue.
+    - [Here](docs/screenshots/icon-bug.jpg) is a link to a screenshot of the issue. The icons are slightly off-center.
 
 Otherwise, all bugs were due to my own code and were usually fixed as soon as I saw them due to the fact that they originated from my own mistake. Nothing major, aside from the accessibility error described above.
 
@@ -519,6 +519,8 @@ Otherwise, all bugs were due to my own code and were usually fixed as soon as I 
 3. Coaching Pricing Plan Comparisons - This was part of the plan for the website but I found myself not having the time necessary to bring this idea to light. Hence, I'd like to work on it in the future and put it at the top of Coaching page, so users are available to compare plans with just a single glance.
 
 4. Google Map - This was originally a part of the website but it caused major performance issues and hence was removed and instead replaced by an image.
+
+5. 
 
 I'd like to revisit this project in the future after having learned more about JavaScript, especially if Ronan Kiely of Victory Fitness would be interested in using this website.
 
@@ -571,3 +573,19 @@ It can also be forked via the following steps:
 - [ShareX](https://getsharex.com/) - Used to take screenshots.
 - [Color-Name](https://www.color-name.com/) - Used to find complementary shades of colours used.
 - [CoralNodes](https://www.coralnodes.com/best-google-font-combinations/) - Used to find Google Font combinations.
+
+## Credits
+
+1. [Victory Fitness](https://victoryfitnesstraining.com/?ad=ie) - This project was only possible due to Ronan Kiely letting me base this website on his business. He helped provide me with information, text, photographs, logos, advice, and direxction. All of the content belongs to Victory Fitness.
+2. [Code Institute Template](https://github.com/Code-Institute-Org/gitpod-full-template) - This project was first based off the repository created by Code Institute. This template made it very easy to work with in GitPod.
+3. [Alvaro Trigo](https://codepen.io/alvarotrigo/pen/MWEJEWG) - This codepen is what my own hamburger menu was based on due to me running into so many issues with trying to do it alone. Their code helped me understand how animations function with smaller icons in CSS, as well as how to use media queries to manipulate the navigation bar. The code has partially modified but otherwise the idea is taken from this codepen.
+4. [Stack Overflow](https://stackoverflow.com/) & [W3Schools](https://www.w3schools.com/) - These two website were instrumental in me furthering my understanding of HTML and CSS.
+5. [Code Institute](https://codeinstitute.net/ie/) - Last but certainly not least, this project wouldn't have been possible without the course and material presented there.
+
+
+## Acknowledgements 
+
+- Akshat Garg - Akshat is an absolutely amazing mentor that's friendly, knowledgeable, and helpful. He's been super helpful in providing me with suggestions and advice.
+- My family and friends, who have been incredibly supportive and have been instrumental in keeping me motivated throughout this project. Thank you all so much! All of you who helped proofread, test, provide feedback on the UI, code, and etc... I couldn't have done it without you all!
+- The Code Institute community on Slack - Easy, straightforward, and always willing to help and advise.
+- Love Running - Ultimately, it wasn't until we went through this project that I realised that this was something I could do. A lot of the website is loosely based on it, too.
