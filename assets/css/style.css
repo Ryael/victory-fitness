@@ -94,8 +94,11 @@ h3 {
     background: transparent;
     height: 50px;
     padding: 16px;
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200;
 }
 
 #menu {
