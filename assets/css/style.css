@@ -174,7 +174,7 @@ h3 {
 
 .nav-links {
     text-decoration: none;
-    color: #dcdcdc;
+    color: rgba(255,255,255, .8);
     font-size: 80%;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -185,7 +185,14 @@ h3 {
 #nav-bar a:hover,
 #nav-bar a.active {
     color: #fff;
+    transition: 0.3s ease-in-out;
 }
+
+#nav-bar a:not(:hover),
+#nav-bar a:not(:active) {
+    transition: 0.3s ease-in-out;
+}
+
 
 #logo {
     margin-left: 30px;
