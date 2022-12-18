@@ -236,11 +236,15 @@ h3 {
 }
 
 #hero-logo > h1 {
-    margin: 20px 0px 50px 0px;
+    margin-top: 5px;
     color: #dcdcdc;
     font-size: 95%;
     letter-spacing: 1px;
     font-weight: 700;
+}
+
+#hero-logo > .button {
+    margin-top: 15px;
 }
 
 #location {
