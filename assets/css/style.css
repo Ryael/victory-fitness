@@ -98,11 +98,12 @@ h3 {
     left: 0;
     right: 0;
     z-index: 200;
-    transition: 500ms ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 #nav-bar.scroll {
   background: rgba(13,13,13,0.9);
+    backdrop-filter: blur(2px);
   transition: 500ms ease-in-out;
 }
 
@@ -405,6 +406,12 @@ h3 {
 .button:focus {
     color: #111;
     background: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.button:not(:hover),
+.button:not(:focus) {
+    transition: 0.5s ease-in-out;
 }
 
 .button-dark,
@@ -427,6 +434,12 @@ h3 {
 .button-dark:focus {
     color: #fff;
     background: #848484;
+    transition: 0.5s ease-in-out;
+}
+
+.button-dark:not(:hover),
+.button-dark:not(:focus) {
+    transition: 0.5s ease-in-out;
 }
 
 /* Contact Us Section */
@@ -960,6 +973,12 @@ h3 {
 #social-links i:hover {
     color: #111;
     border: 2px solid #111;
+    transition: 0.3s ease-in-out;
+}
+
+#social-links i:not(:hover),
+#social-links i:not(:focus) {
+    transition: 0.3s ease-in-out;
 }
 
 /* Media Queries */
