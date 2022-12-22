@@ -13,7 +13,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #575757;
+    color: #777;
 }
 
 .section {
@@ -454,7 +454,7 @@ h3 {
     margin-bottom: 50px;
     color: #595959;
     display: flex;
-    text-align: center;
+    text-align: left;
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 22px;
@@ -542,7 +542,6 @@ h3 {
 }
 
 #coaching-services > .column > .text-title {
-    margin-top: 50px;
     margin-bottom: 50px;
     color: #595959;
     display: flex;
@@ -880,6 +879,16 @@ h3 {
     color: rgba(255, 255, 255, 0.9);
 }
 
+/* Google Maps */
+
+#google-map>iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    z-index: 1;
+}
+
 /* Footer */
 
 #footer {
@@ -893,7 +902,7 @@ h3 {
 }
 
 #footer p {
-    color: #575757;
+    color: #999;
     margin-top: 30px;
     display: flex;
     align-items: center;
@@ -1127,9 +1136,15 @@ h3 {
         backdrop-filter: blur(0px);
 }   
     #logo {
-        margin-left: 0px;
+        margin-left: 30px;
         z-index: 5;
         display: none;
+    }
+
+    #red-logo {
+        visibility: hidden;
+        margin-left: 30px;
+        z-index: 5;
     }
 }
 

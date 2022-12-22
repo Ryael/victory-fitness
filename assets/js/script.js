@@ -35,8 +35,8 @@ mobileNav.addEventListener("keydown", e => {
         return;
     }
 
-    // Listen for tab press and move focus.
-    // If we're on either end of the navigation.
+    // Listen for tab press and move focus,
+    // if we're on either end of the navigation.
     if (e.keyCode === 9) {
         if (e.shiftKey) {
             if (document.activeElement === menuLinks[0]) {
