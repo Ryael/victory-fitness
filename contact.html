@@ -1,63 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Data -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
-        <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
-        <meta name="author" content="Ryael" />
-        <!-- End Meta Data -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
+    <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
+    <meta name="author" content="Ryael" />
+    <!-- End Meta Data -->
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <!-- Favicon -->
 
-        <!-- Title -->
-        <title>Victory Fitness - Contact</title>
-        <!-- Title -->
+    <!-- Title -->
+    <title>Victory Fitness - Home</title>
+    <!-- Title -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- End CSS -->
+  </head>
+  <body>
+    <header>
+      <div id="hero-image-small">
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+          <div id="logo">
+            <a href="index.html">
+              <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
+            </a>
+          </div>
+          <!-- End Navigation Bar -->
+          <nav id="mobile-nav">
+            <!-- Navigation Menu -->
+            <ul id="nav-menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="coaching.html" class="nav-link">Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="active nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- End CSS -->
-    </head>
-    <body>
-        <header>
-            <div id="hero-image-small">
-                <!-- Navigation Bar -->
-                <nav id="nav-bar">
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
-                        </a>
-                    </div>
-                    <input id="menu-toggle" type="checkbox" />
-                    <label id="menu-button-container" for="menu-toggle">
-                        <span class="hidden">Text</span>
-                        <span id="menu-button"></span>
-                    </label>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" class="nav-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="nav-links">About</a>
-                        </li>
-                        <li>
-                            <a href="coaching.html" class="nav-links">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="nav-links">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="active nav-links">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End Navigation Bar -->
-            </div>
-        </header>
+            <!-- Menu Toggle Button -->
+            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="menu">
+              <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <title>Toggle Menu</title>
+                <g>
+                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                  <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+                </g>
+              </svg>
+            </a>
+            <!-- End Menu Toggle Button -->
+
+            <!-- Background Splash -->
+            <div id="splash"></div>
+            <!-- End Background Splash -->
+          </nav>
+        </nav>
+    </header>
         <!-- Hero Section -->
         <section>
             <div id="location">

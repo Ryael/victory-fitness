@@ -1,184 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Data -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
-        <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
-        <meta name="author" content="Ryael" />
-        <!-- End Meta Data -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
+    <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
+    <meta name="author" content="Ryael" />
+    <!-- End Meta Data -->
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <!-- Favicon -->
 
-        <!-- Title -->
-        <title>Victory Fitness - Home</title>
-        <!-- Title -->
+    <!-- Title -->
+    <title>Victory Fitness - Home</title>
+    <!-- Title -->
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- End CSS -->
+  </head>
+  <body>
+    <header>
+      <div id="hero-image">
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+          <div id="logo">
+            <a href="index.html">
+              <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
+            </a>
+          </div>
+          <!-- End Navigation Bar -->
+          <nav id="mobile-nav">
+            <!-- Navigation Menu -->
+            <ul id="nav-menu" id="menu" tabindex="-1" aria-label="main navigation" hidden>
+              <li class="nav-item">
+                <a href="index.html" class="active nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="coaching.html" class="nav-link">Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- End CSS -->
-    </head>
-    <body>
-        <header>
-            <div id="hero-image">
-                <!-- Navigation Bar -->
-                <nav id="nav-bar">
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
-                        </a>
-                    </div>
-                    <input id="menu-toggle" type="checkbox" />
-                    <label id="menu-button-container" for="menu-toggle">
-                        <span class="hidden">Text</span>
-                        <span id="menu-button"></span>
-                    </label>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" class="active nav-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="nav-links">About</a>
-                        </li>
-                        <li>
-                            <a href="coaching.html" class="nav-links">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="nav-links">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="nav-links">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End Navigation Bar -->
-            </div>
-        </header>
-        <!-- Hero Section -->
-        <section>
-            <div id="hero-logo">
-                <img src="assets/images/logo/text-logo-white.png" alt="Victory Fitness text logo" />
-                <h1>Monavalley Industrial Estate, Tralee</h1>
-                <a class="button" href="contact.html">Join Now</a>
-            </div>
-        </section>
-        <!-- End Hero Section -->
+            <!-- Menu Toggle Button -->
+            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="menu">
+              <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <title>Toggle Menu</title>
+                <g>
+                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                  <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+                </g>
+              </svg>
+            </a>
+            <!-- End Menu Toggle Button -->
 
-        <!-- Gym Ethos -->
-        <section class="section">
-            <div id="gym-ethos">
-                <div class="container">
-                    <h2>Strive For Greatness</h2>
-                    <p>
-                        When people think about great victories, they often think of grandiose accomplishments. While this is technically correct, those accomplishments are built upon a foundation of goal adherence and many smaller
-                        milestones. Every small step taken is a victory. With enough steps taken, success will take shape and be realised in time.
-                    </p>
-                    <p id="end-page">
-                        We here at Victory Fitness take your fitness goals and break them down into smaller, more manageable steps. We approach your goals at a pace that suits you. No matter whether your aim is to lose weight, tone up, gain
-                        lean muscle, or simply to develop a healthy lifestyle, we will accomplish it together! Our team aren't just personal trainers; we aim to educate and improve your mindset as well.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- End Gym Ethos -->
+            <!-- Background Splash -->
+            <div id="splash"></div>
+            <!-- End Background Splash -->
+          </nav>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section>
+      <div id="hero-logo">
+        <img src="assets/images/logo/text-logo-white.png" alt="Victory Fitness text logo" />
+        <h1>Monavalley Industrial Estate, Tralee</h1>
+        <a class="button" href="contact.html">Join Now</a>
+      </div>
+    </section>
+    <!-- End Hero Section -->
 
-        <!-- Coaching -->
-        <section class="small-section">
-            <div id="coaching">
-                <div class="container">
-                    <h2>Coaching</h2>
-                    <p>
-                        Our personal trainers have aided hundreds of Kerry locals in strengthening their bodies through fitness and nutrition. While strength is the goal, gym members also realise a holistic benefit to overall longevity of
-                        spirit and mental wellness. Personal trainers at Victory Fitness utilise a varied, long-term routine to keep clients engaged in the programme and ensure they meet their fitness goals.
-                    </p>
-                    <a class="button" href="coaching.html">Our Services</a>
-                </div>
-            </div>
-        </section>
-        <!-- End Coaching -->
+    <!-- Gym Ethos -->
+    <section class="section">
+      <div id="gym-ethos">
+        <div class="container">
+          <h2>Strive For Greatness</h2>
+          <p> When people think about great victories, they often think of grandiose accomplishments. While this is technically correct, those accomplishments are built upon a foundation of goal adherence and many smaller milestones. Every small step taken is a victory. With enough steps taken, success will take shape and be realised in time. </p>
+          <p id="end-page"> We here at Victory Fitness take your fitness goals and break them down into smaller, more manageable steps. We approach your goals at a pace that suits you. No matter whether your aim is to lose weight, tone up, gain lean muscle, or simply to develop a healthy lifestyle, we will accomplish it together! Our team aren't just personal trainers; we aim to educate and improve your mindset as well. </p>
+        </div>
+      </div>
+    </section>
+    <!-- End Gym Ethos -->
 
-        <!-- Why Choose Us? -->
-        <section class="section">
-            <div id="why-choose-us">
-                <div class="column-container">
-                    <h2>Why Choose Us?</h2>
-                    <div id="column-left">
-                        <h3>Bespoke Plan <i class="fa-regular fa-clipboard"></i></h3>
-                        <p>
-                            People lead busy lives nowadays and we understand and respect that. Each program is built with you in mind, and we have sessions starting as early as 6:30 AM and as late as 6:00 PM. No matter your schedule,
-                            there's a time that'll suit you. In addition, workouts are personalised to your needs, requirements, and desires. We put you first.
-                        </p>
-                    </div>
-                    <div id="column-center">
-                        <h3>Track Record <i class="fa-regular fa-square-plus"></i></h3>
-                        <p>
-                            We've been in the business for 20 years and counting and have had countless successful, happy clients. We know the way to get results is to focus on strategies that yield a high return and cut out the nonsense.
-                        </p>
-                    </div>
-                    <div id="column-right">
-                        <h3>Ultimate Motivators <i class="fa-regular fa-heart"></i></h3>
-                        <p>
-                            These days, motivation is in short supply and sometimes it can be a challenge to get out of bed. We know that, but we also know that the euphoric feeling after finishing a workout is second to none. We work very
-                            closely with our clients to assist them in becoming the very best version of themselves, supporting and motivating them every step of the way.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Why Choose Us? -->
+    <!-- Coaching -->
+    <section class="small-section">
+      <div id="coaching">
+        <div class="container">
+          <h2>Coaching</h2>
+          <p> Our personal trainers have aided hundreds of Kerry locals in strengthening their bodies through fitness and nutrition. While strength is the goal, gym members also realise a holistic benefit to overall longevity of spirit and mental wellness. Personal trainers at Victory Fitness utilise a varied, long-term routine to keep clients engaged in the programme and ensure they meet their fitness goals. </p>
+          <a class="button" href="coaching.html">Our Services</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Coaching -->
 
-        <!-- Contact Us -->
-        <section class="small-section">
-            <div id="contact-us">
-                <div class="container">
-                    <h2>Claim Your Free 7-Day Session!</h2>
-                    <p>
-                        Stop saying you will start tomorrow and start today. In fact, start right now! What's stopping you? Take that leap of fate and contact us now!
-                    </p>
-                    <p>
-                        No cancellation fees or contracts. If it's not for you, it's not for you.
-                    </p>
-                    <a class="button" href="contact.html">Claim Offer</a>
-                </div>
-            </div>
-        </section>
-        <!-- Contact Us -->
+    <!-- Why Choose Us? -->
+    <section class="section">
+      <div id="why-choose-us">
+        <div class="column-container">
+          <h2>Why Choose Us?</h2>
+          <div id="column-left">
+            <h3>Bespoke Plan <i class="fa-regular fa-clipboard"></i>
+            </h3>
+            <p> People lead busy lives nowadays and we understand and respect that. Each program is built with you in mind, and we have sessions starting as early as 6:30 AM and as late as 6:00 PM. No matter your schedule, there's a time that'll suit you. In addition, workouts are personalised to your needs, requirements, and desires. We put you first. </p>
+          </div>
+          <div id="column-center">
+            <h3>Track Record <i class="fa-regular fa-square-plus"></i>
+            </h3>
+            <p> We've been in the business for 20 years and counting and have had countless successful, happy clients. We know the way to get results is to focus on strategies that yield a high return and cut out the nonsense. </p>
+          </div>
+          <div id="column-right">
+            <h3>Ultimate Motivators <i class="fa-regular fa-heart"></i>
+            </h3>
+            <p> These days, motivation is in short supply and sometimes it can be a challenge to get out of bed. We know that, but we also know that the euphoric feeling after finishing a workout is second to none. We work very closely with our clients to assist them in becoming the very best version of themselves, supporting and motivating them every step of the way. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Why Choose Us? -->
 
-        <!-- Footer -->
-        <footer class="small-section">
-            <div id="footer">
-                <!-- Social Links -->
-                <div id="social-links">
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/victoryfitness.ie" title="Facebook" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/victoryfitnesstraining/" title="Instagram" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@victoryfitnesstraining.com" title="E-mail" rel="noopener" aria-label="Send us an email (opens email application)" target="_blank"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- End Social Links -->
-                <p>
-                    © Victory Fitness 2022
-                </p>
-            </div>
-        </footer>
-        <!-- End Footer -->
+    <!-- Contact Us -->
+    <section class="small-section">
+      <div id="contact-us">
+        <div class="container">
+          <h2>Claim Your Free 7-Day Session!</h2>
+          <p> Stop saying you will start tomorrow and start today. In fact, start right now! What's stopping you? Take that leap of fate and contact us now! </p>
+          <p> No cancellation fees or contracts. If it's not for you, it's not for you. </p>
+          <a class="button" href="contact.html">Claim Offer</a>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Us -->
 
-        <!-- JavaScript -->
-        <script src="assets/js/script.js"></script>
-        <!-- End JavaScript -->
+    <!-- Footer -->
+    <footer class="small-section">
+      <div id="footer">
+        <!-- Social Links -->
+        <div id="social-links">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/victoryfitness.ie" title="Facebook" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/victoryfitnesstraining/" title="Instagram" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@victoryfitnesstraining.com" title="E-mail" rel="noopener" aria-label="Send us an email (opens email application)" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Social Links -->
+        <p> © Victory Fitness 2022 </p>
+      </div>
+    </footer>
+    <!-- End Footer -->
 
-        <!-- Font Awesome Script -->
-        <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
-        <!--End Font Awesome Script -->
-    </body>
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <!-- End JavaScript -->
+
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
+    <!--End Font Awesome Script -->
+  </body>
 </html>
