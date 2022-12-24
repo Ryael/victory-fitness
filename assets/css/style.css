@@ -122,6 +122,11 @@ h3 {
     z-index: inherit;
 }
 
+.nav-item {
+    opacity: 0;
+    transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.3s;
+}
+
 #nav-toggle {
     display: none;
 }
@@ -994,11 +999,6 @@ h3 {
         background-color: rgba(0, 0, 0, .5);
     }
 
-    .nav-item {
-        opacity: 0;
-        transition: all 0.3s cubic-bezier(0, 0.995, 0.99, 1) 0.3s;
-    }
-
     .nav-item:nth-child(1) {
         transform: translateY(-40px);
     }
@@ -1146,6 +1146,13 @@ h3 {
         margin-left: 30px;
         z-index: 5;
     }
+
+    #nav-menu > li {
+        overflow: hidden;
+        padding: 10px 0px 0px 0px;
+        margin-right: 0px;
+        z-index: inherit;
+     }
 }
 
 /* General Queries */
