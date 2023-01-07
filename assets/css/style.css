@@ -77,6 +77,7 @@ body {
 
 .transparent {
     opacity: 0;
+    transition:opacity 0.5s ease-in-out;
 }
 
 .push {
@@ -188,8 +189,8 @@ h3 {
 }
 
 .nav-link.black:hover:after { 
-  width: 100%; 
-  left: 0; 
+    width: 100%; 
+    left: 0; 
 }
 
 #logo {
