@@ -158,18 +158,38 @@ h3 {
 
 .nav-link.black {
     transition: 0.3s ease-in-out;
-    color: #222;
+    color: #696969;
 }
 
-.nav-link.black:hover,
 .nav-link.black.active {
-    color: #222;
+    color: #000;
+}
+
+.nav-link.black:hover {
+    transition: 0.3s ease-in-out;
+    color: #000;
+}
+
+.nav-link.black:not(:hover) { 
     transition: 0.3s ease-in-out;
 }
 
-.nav-link.black:not(:hover),
-.nav-link.black:not(:active) {
-    transition: 0.3s ease-in-out;
+.nav-link.black:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: -7px;
+    content: "";
+    display: block;
+    height: 1.75px;
+    left: 50%;
+    position: relative;
+    background: #c4262e;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav-link.black:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
 
 #logo {
