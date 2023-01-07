@@ -1,18 +1,31 @@
-/* Constants/Configs */
+/* Constants & Configs */
 
 const myNav = document.querySelector("#nav-bar");
 const mobileNav = document.querySelector("#mobile-nav");
 const navMenu = document.querySelector("#nav-menu");
 const menuToggle = document.querySelector("#nav-toggle");
 const menuLinks = navMenu.querySelectorAll(".nav-link");
+const whiteLogo = myNav.querySelector("#white-nav-logo")
+const redLogo = myNav.querySelector("#red-nav-logo")
 let isMenuOpen = false;
 
 /* Navigation Bar */
 
-
+// Sticky navigation bar.
+// These changes are toggled whenever the 50px threshold is scrolled past.
 window.onscroll = () => {
-    if (this.scrollY <= 50) myNav.className = "";
-    else myNav.className = "scroll";
+    if (this.scrollY <= 50) {
+      myNav.classList.remove("scroll");
+      whiteLogo.classList.remove("transparent");
+      redLogo.classList.add("transparent");
+      Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
+      }
+    else {
+      myNav.classList.add("scroll");
+      whiteLogo.classList.add("transparent");
+      redLogo.classList.remove("transparent");
+      Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
+    }
 };
 
 /* Mobile Menu */
