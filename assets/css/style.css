@@ -237,6 +237,7 @@ h3 {
 #red-nav-logo.mobile-nav {
     opacity: 1;
     pointer-events: auto;
+    transition:opacity 0.5s ease-in-out;
 }
 
 #logo.mobile-nav {
@@ -1240,6 +1241,7 @@ h3 {
     #red-nav-logo {
         opacity: 0;
         margin-left: 0px;
+        transition:opacity 0.5s ease-in-out;
     }
 
     #nav-bar.scroll {
