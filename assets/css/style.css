@@ -210,7 +210,7 @@ h3 {
 .mobile-nav-link {
     text-decoration: none;
     color: #696969;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -232,6 +232,15 @@ h3 {
 #white-nav-logo.transparent {
     opacity: 0;
     transition:opacity 0.5s ease-in-out;
+}
+
+#red-nav-logo.mobile-nav {
+    opacity: 1;
+    pointer-events: none;
+}
+
+#logo.mobile-nav {
+    pointer-events: none;
 }
 
 /* Hero Section */
@@ -1218,21 +1227,25 @@ h3 {
         transition: 0.3s ease-in-out;
 }
 
-    #nav-bar.scroll {
-        background: transparent;
-        backdrop-filter: blur(0px);
-}   
     #logo {
-        margin-left: 30px;
-        z-index: 5;
-        display: none;
+        margin-left: 0;
+        pointer-events: none;
     }
 
-    #red-logo {
-        visibility: hidden;
-        margin-left: 30px;
-        z-index: 5;
+    #white-nav-logo {
+        opacity: 0;
     }
+
+    #red-nav-logo {
+        opacity: 0;
+        margin-left: 0px;
+        pointer-events: none;
+    }
+
+    #nav-bar.scroll {
+        height: 50px;
+        background: transparent;
+}   
 
     #nav-menu > li {
         overflow: hidden;

@@ -5,8 +5,9 @@ const mobileNav = document.querySelector("#mobile-nav");
 const navMenu = document.querySelector("#nav-menu");
 const menuToggle = document.querySelector("#nav-toggle");
 const menuLinks = navMenu.querySelectorAll(".nav-link");
-const whiteLogo = myNav.querySelector("#white-nav-logo")
-const redLogo = myNav.querySelector("#red-nav-logo")
+const whiteLogo = myNav.querySelector("#white-nav-logo");
+const redLogo = myNav.querySelector("#red-nav-logo");
+const logoContainer = myNav.querySelector("#logo");
 let isMenuOpen = false;
 
 /* Navigation Bar */
@@ -39,6 +40,8 @@ menuToggle.addEventListener("click", e => {
     menuToggle.setAttribute("aria-expanded", String(isMenuOpen));
     navMenu.hidden = !isMenuOpen;
     mobileNav.classList.toggle("nav--open");
+    logoContainer.classList.toggle("mobile-nav");
+    redLogo.classList.toggle("mobile-nav");
 });
 
 // Trap tab inside when open.
