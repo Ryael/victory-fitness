@@ -8,6 +8,7 @@ const menuLinks = navMenu.querySelectorAll(".nav-link");
 const whiteLogo = myNav.querySelector("#white-nav-logo");
 const redLogo = myNav.querySelector("#red-nav-logo");
 const logoContainer = myNav.querySelector("#logo");
+const activeNavLink = myNav.querySelector(".active")
 let isMenuOpen = false;
 
 /* Navigation Bar */
@@ -20,12 +21,14 @@ window.onscroll = () => {
       whiteLogo.classList.remove("transparent");
       redLogo.classList.add("transparent");
       Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
-      }
+      activeNavLink.classList.remove("underlined");
+    }
     else {
       myNav.classList.add("scroll");
       whiteLogo.classList.add("transparent");
       redLogo.classList.remove("transparent");
       Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
+      activeNavLink.classList.add("underlined");
     }
 };
 

@@ -169,11 +169,11 @@ h3 {
     transition: 0.3s ease-in-out;
 }
 
-.mobile-nav-link.active:after,
-.nav-link.black.active:after {
-    transition: 0.3s ease-in-out;
-    width: 100%;
-    left: 0;
+.underlined {
+    border-bottom: 1px solid #c4262e;
+    color: #c4262e;
+    transition: opacity 0.3s ease-in-out;
+    padding-bottom: 3px;
 }
 
 .mobile-nav-link:hover,
@@ -185,6 +185,12 @@ h3 {
 .mobile-nav-link:not(:hover),
 .nav-link.black:not(:hover) { 
     transition: 0.3s ease-in-out;
+}
+
+.mobile-nav-link.active:after {
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    left: 0;
 }
 
 .mobile-nav-link:after,
@@ -204,7 +210,8 @@ h3 {
 .mobile-nav-link:hover:after,
 .nav-link.black:hover:after { 
     width: 100%; 
-    left: 0; 
+    left: 0;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
 
 .mobile-nav-link {
