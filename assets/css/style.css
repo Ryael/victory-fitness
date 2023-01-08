@@ -157,31 +157,37 @@ h3 {
     transition: 0.3s ease-in-out;
 }
 
+.mobile-nav-link,
 .nav-link.black {
     transition: 0.3s ease-in-out;
     color: #696969;
 }
 
+.mobile-nav-link.active,
 .nav-link.black.active {
     color: #000;
     transition: 0.3s ease-in-out;
 }
 
+.mobile-nav-link.active:after,
 .nav-link.black.active:after {
     transition: 0.3s ease-in-out;
     width: 100%;
     left: 0;
 }
 
+.mobile-nav-link:hover,
 .nav-link.black:hover {
     transition: 0.3s ease-in-out;
     color: #000;
 }
 
+.mobile-nav-link:not(:hover),
 .nav-link.black:not(:hover) { 
     transition: 0.3s ease-in-out;
 }
 
+.mobile-nav-link:after,
 .nav-link.black:after {
     background: none repeat scroll 0 0 transparent;
     bottom: -2px;
@@ -195,9 +201,21 @@ h3 {
     width: 0;
 }
 
+.mobile-nav-link:hover:after,
 .nav-link.black:hover:after { 
     width: 100%; 
     left: 0; 
+}
+
+.mobile-nav-link {
+    text-decoration: none;
+    color: #696969;
+    font-size: 1.5rem;
+    padding: 1rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1.3;
+    transition: 0.3s ease-in-out;
 }
 
 #logo {
