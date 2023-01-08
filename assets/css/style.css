@@ -236,11 +236,12 @@ h3 {
 
 #red-nav-logo.mobile-nav {
     opacity: 1;
-    pointer-events: none;
+    pointer-events: auto;
 }
 
 #logo.mobile-nav {
-    pointer-events: none;
+    pointer-events: auto;
+    z-index: 6;
 }
 
 /* Hero Section */
@@ -1239,7 +1240,6 @@ h3 {
     #red-nav-logo {
         opacity: 0;
         margin-left: 0px;
-        pointer-events: none;
     }
 
     #nav-bar.scroll {
