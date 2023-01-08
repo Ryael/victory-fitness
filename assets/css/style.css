@@ -164,6 +164,16 @@ h3 {
 
 .nav-link.black.active {
     color: #000;
+    transition: 0.3s ease-in-out;
+}
+
+.nav-link.black.active:after {
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    left: 0;
+    height: 1px;
+    display: block;
+    position: relative;
 }
 
 .nav-link.black:hover {
@@ -180,7 +190,7 @@ h3 {
     bottom: -7px;
     content: "";
     display: block;
-    height: 1.75px;
+    height: 1px;
     left: 50%;
     position: relative;
     background: #c4262e;
@@ -191,6 +201,12 @@ h3 {
 .nav-link.black:hover:after { 
     width: 100%; 
     left: 0; 
+}
+
+.nav-link.black:hover:before {
+    visibility: hidden;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 #logo {
