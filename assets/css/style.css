@@ -172,8 +172,8 @@ h3 {
 .underlined {
     border-bottom: 1px solid #c4262e;
     color: #c4262e;
-    transition: opacity 0.3s ease-in-out;
     padding-bottom: 3px;
+    transition: 0.3s ease-in-out;
 }
 
 .mobile-nav-link:hover,

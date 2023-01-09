@@ -16,7 +16,7 @@ let isMenuOpen = false;
 // Sticky navigation bar.
 // These changes are toggled whenever the 50px threshold is scrolled past.
 window.onscroll = () => {
-    if (this.scrollY <= 50) {
+    if (this.scrollY <= 10) {
       myNav.classList.remove("scroll");
       whiteLogo.classList.remove("transparent");
       redLogo.classList.add("transparent");
