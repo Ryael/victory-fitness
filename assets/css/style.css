@@ -784,6 +784,11 @@ h3 {
     letter-spacing: 5px;
 }
 
+#free-trial-button {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
 #form-contact {
     text-align: center;
 }
