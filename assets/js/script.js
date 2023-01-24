@@ -32,6 +32,24 @@ window.onscroll = () => {
     }
 };
 
+window.onload = () => {
+    if (this.scrollY <= 10) {
+      myNav.classList.remove("scroll");
+      whiteLogo.classList.remove("transparent");
+      redLogo.classList.add("transparent");
+      Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
+      activeNavLink.classList.remove("underlined");
+    }
+    else {
+      myNav.classList.add("scroll");
+      whiteLogo.classList.add("transparent");
+      redLogo.classList.remove("transparent");
+      Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
+      activeNavLink.classList.add("underlined");
+    }
+};
+
+
 /* Mobile Menu */
 
 // Toggle Menu Active State.
