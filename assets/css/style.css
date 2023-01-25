@@ -347,7 +347,7 @@ h3 {
     font-weight: 400;
 }
 
-/* Coaching */
+/* Coaching - Home */
 
 #coaching {
     padding: 100px 0;
@@ -804,12 +804,16 @@ h3 {
 }
 
 #contact > .column > p {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     display: flex;
     justify-content: left;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
+}
+
+#contact > .column > #end-trial {
+    margin-bottom: 50px;
 }
 
 .start-form {
