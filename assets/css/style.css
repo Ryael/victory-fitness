@@ -799,6 +799,82 @@ h3 {
     font-size: 12px;
 }
 
+#contact-options {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.contact-item-left {
+    float: left;
+    width: 33.33%;
+    padding-left: 44px;
+    box-sizing: border-box;
+    position: relative;
+    color: #444;
+}
+
+.contact-item-right {
+    float: right;
+    width: 33.33%;
+    padding-left: 44px;
+    box-sizing: border-box;
+    position: relative;
+    color: #444;
+}
+
+.contact-item-center {
+    display: inline-block;
+    width: 33.33%;
+    padding-left: 44px;
+    box-sizing: border-box;
+    position: relative;
+    color: #444;
+}
+
+.contact-icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    color: #fff;
+    text-align: center;
+    line-height: 23px;
+}
+
+.contact-icon i {
+    position: relative;
+    font-size: 15px;
+}
+
+.contact-icon::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #424242;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    box-sizing: border-box;
+    z-index: -5;
+}
+
+.contact-title {
+    margin-bottom: 1px;
+    color: #777;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+#contact-text {
+    font-size: 15px;
+}
+
 #form-contact i {
     margin-right: 5px;
 }
