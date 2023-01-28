@@ -763,7 +763,7 @@ h3 {
     text-align: left;
 }
 
-#contact > .column > h1 {
+#contact > .container > h1 {
     text-align: center;
     color: #777;
     margin-bottom: 100px;
@@ -772,7 +772,7 @@ h3 {
     font-weight: 400;
 }
 
-#contact > .column > h2 {
+#contact h2 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -785,7 +785,6 @@ h3 {
 }
 
 #free-trial-button {
-    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -799,9 +798,28 @@ h3 {
     font-size: 12px;
 }
 
+#contact-touch {
+        padding: 140px 0;
+    text-align: left;
+    background-color: #111;
+    background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../images/contact-us.webp") no-repeat center center;
+    background-size: cover;
+}
+
+#contact-touch h2 {
+        margin-bottom: 50px;
+    color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
 #contact-options {
     display: flex;
-    margin-bottom: 50px;
 }
 
 .contact-item-left {
@@ -810,7 +828,8 @@ h3 {
     padding-left: 44px;
     box-sizing: border-box;
     position: relative;
-    color: #444;
+    color: #dcdcdc;
+    font-size: 16px;
 }
 
 .contact-item-right {
@@ -819,7 +838,7 @@ h3 {
     padding-left: 44px;
     box-sizing: border-box;
     position: relative;
-    color: #444;
+    color: #dcdcdc;
 }
 
 .contact-item-center {
@@ -828,23 +847,24 @@ h3 {
     padding-left: 44px;
     box-sizing: border-box;
     position: relative;
-    color: #444;
+    color: #dcdcdc;
 }
 
 .contact-icon {
-    width: 25px;
-    height: 25px;
+    width: 27px;
+    height: 27px;
     position: absolute;
-    top: 10px;
+    top: 6px;
     left: 3px;
-    color: #fff;
+    color: #dcdcdc;
     text-align: center;
     line-height: 23px;
 }
 
 .contact-icon i {
     position: relative;
-    font-size: 15px;
+    font-size: 16px;
+    transform: translateY(11%);
 }
 
 .contact-icon::before {
@@ -855,31 +875,27 @@ h3 {
     position: absolute;
     top: 0;
     left: 0;
-    background: #424242;
+    background: #666;
     border-radius: 2px;
     transform: rotate(45deg);
     box-sizing: border-box;
-    z-index: -5;
+    z-index: 0;
 }
 
 .contact-title {
     margin-bottom: 1px;
-    color: #777;
-    font-size: 12px;
+    color: #dcdcdc;
+    font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 4px;
-}
-
-#contact-text {
-    font-size: 15px;
 }
 
 #form-contact i {
     margin-right: 5px;
 }
 
-#contact > .column > p {
+#contact > .container > p {
     margin-bottom: 25px;
     display: flex;
     justify-content: left;
@@ -888,7 +904,7 @@ h3 {
     font-weight: 400;
 }
 
-#contact > .column > #end-trial {
+#contact > .container > #end-trial {
     margin-bottom: 50px;
 }
 
@@ -910,6 +926,18 @@ h3 {
     display: block;
     text-align: left;
     margin: auto;
+}
+
+#form-contact h2 {
+            margin-bottom: 50px;
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
 }
 
 .form-shape {
