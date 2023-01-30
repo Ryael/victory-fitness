@@ -798,6 +798,11 @@ h3 {
     font-size: 12px;
 }
 
+#contact-column {
+    width: 70%;
+    margin: auto;
+}
+
 #contact-touch {
         padding: 140px 0;
     text-align: left;
@@ -820,9 +825,10 @@ h3 {
 
 #contact-options {
     display: flex;
+    flex-wrap: wrap;
 }
 
-.contact-item-left {
+#contact-item-left {
     float: left;
     width: 33.33%;
     padding-left: 44px;
@@ -832,7 +838,7 @@ h3 {
     font-size: 16px;
 }
 
-.contact-item-right {
+#contact-item-right {
     float: right;
     width: 33.33%;
     padding-left: 44px;
@@ -841,7 +847,7 @@ h3 {
     color: #dcdcdc;
 }
 
-.contact-item-center {
+#contact-item-center {
     display: inline-block;
     width: 33.33%;
     padding-left: 44px;
@@ -1433,13 +1439,24 @@ h3 {
 @media (max-width: 992px) {
     #column-left,
     #column-center,
-    #column-right {
+    #column-right
+     {
         width: 100%;
     }
 
     .form-shape,
     .block {
         width: 70%;
+    }
+
+    #contact-item-left,
+    #contact-item-center {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+
+    #contact-item-right {
+        width: 50%;
     }
 }
 
@@ -1473,5 +1490,39 @@ h3 {
 
     #hero-logo > h1 {
         font-size: 75%;
+    }
+}
+
+@media (max-width: 650px) {
+    #contact-item-left,
+    #contact-item-center {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    #contact-item-right {
+        width: 100%;
+    }
+
+    #contact-column {
+        width: 36%;
+    }
+}
+
+@media (max-width: 600px) {
+    #contact-column {
+        width: 40%;
+    }
+}
+
+@media (max-width: 550px) {
+    #contact-column {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    #contact-column {
+        width: 50%;
     }
 }
