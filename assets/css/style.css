@@ -1460,25 +1460,6 @@ h3 {
     }
 }
 
-@media (max-width: 480px) {
-    #hero-logo > h1 {
-        width: 65%;
-        text-align: center;
-    }
-
-    #coaching-services > .column > h1 {
-        font-size: 200%;
-    }
-
-    .container,
-    .column-container,
-    .column,
-    .form-shape,
-    .block {
-        width: 90%;
-    }
-}
-
 @media (max-width: 768px) {
     .gallery-container {
         width: 90%;
@@ -1517,12 +1498,31 @@ h3 {
 
 @media (max-width: 550px) {
     #contact-column {
-        width: 40%;
+        width: 43%;
     }
 }
 
 @media (max-width: 500px) {
     #contact-column {
         width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero-logo > h1 {
+        width: 65%;
+        text-align: center;
+    }
+
+    #coaching-services > .column > h1 {
+        font-size: 200%;
+    }
+
+    .container,
+    .column-container,
+    .column,
+    .form-shape,
+    .block {
+        width: 90%;
     }
 }
