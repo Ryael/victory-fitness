@@ -1400,7 +1400,8 @@ h3 {
 @media (min-width: 992px) {
     .container,
     .column-container,
-    .form-container {
+    .form-container,
+    #contact-column  {
         width: 970px;
     }
 }
@@ -1408,7 +1409,8 @@ h3 {
 @media (min-width: 1200px) {
     .container,
     .column-container,
-    .form-container {
+    .form-container,
+    #contact-column {
         width: 1170px;
     }
 }
@@ -1486,7 +1488,7 @@ h3 {
     }
 
     #contact-column {
-        width: 36%;
+        width: 37%;
     }
 }
 
@@ -1498,7 +1500,7 @@ h3 {
 
 @media (max-width: 550px) {
     #contact-column {
-        width: 43%;
+        width: 44%;
     }
 }
 
