@@ -1447,10 +1447,11 @@ h3 {
         width: 50%;
     }
 
-#contact-options {
-    margin-left: 19%;
-}
-
+        #contact-options {
+    margin-left: 12%;
+    margin-right: -12%;
+    overflow: visible;
+    }
 }
 
 @media (max-width: 992px) {
@@ -1466,17 +1467,8 @@ h3 {
         width: 70%;
     }
 
-    #contact-options {
-    margin-left: 15%;
-    }
 }
 
-@media (max-width: 850px) {
-    #contact-options {
-    margin-left: 13%;
-}
-
-}
 
 @media (max-width: 768px) {
     .gallery-container {
@@ -1504,38 +1496,10 @@ h3 {
         width: 55%;
     }
 
-    #contact-options {
-        margin-left: 27%;
-    }
-}
-
-@media (max-width: 750px) {
-    #contact-options {
-        margin-left: 25%;
-    }
-}
-
-@media (max-width: 700px) {
-    #contact-options {
-        margin-left: 23%;
-    }
-}
-
-@media (max-width: 650px) {
-    #contact-options {
-        margin-left: 21%;
-    }
-}
-
-@media (max-width: 600px) {
-    #contact-options {
-        margin-left: 19%;
-    }
-}
-
-@media (max-width: 550px) {
-    #contact-options {
-        margin-left: 17%;
+            #contact-options {
+    margin-left: 5%;
+    margin-right: -19%;
+    overflow: visible;
     }
 }
 
@@ -1555,9 +1519,5 @@ h3 {
     .form-shape,
     .block {
         width: 90%;
-    }
-
-        #contact-options {
-        margin-left: 10%;
     }
 }
