@@ -1497,11 +1497,20 @@ h3 {
     }
 
             #contact-options {
-    margin-left: 5%;
+    margin-left: 20%;
     margin-right: -19%;
     overflow: visible;
     }
 }
+
+@media (max-width: 590px) {
+            #contact-options {
+    margin-left: 14%;
+    margin-right: -19%;
+    overflow: visible;
+    }
+}
+
 
 @media (max-width: 480px) {
     #hero-logo > h1 {
@@ -1519,5 +1528,11 @@ h3 {
     .form-shape,
     .block {
         width: 90%;
+    }
+
+                #contact-options {
+    margin-left: 5%;
+    margin-right: -19%;
+    overflow: visible;
     }
 }
