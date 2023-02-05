@@ -1448,8 +1448,8 @@ h3 {
     }
 
         #contact-options {
-    margin-left: 12%;
-    margin-right: -12%;
+    margin-left: 10%;
+    margin-right: 0%;
     overflow: visible;
     }
 }
@@ -1497,7 +1497,7 @@ h3 {
     }
 
             #contact-options {
-    margin-left: 20%;
+    margin-left: 17%;
     margin-right: -19%;
     overflow: visible;
     }
@@ -1505,7 +1505,7 @@ h3 {
 
 @media (max-width: 590px) {
             #contact-options {
-    margin-left: 14%;
+    margin-left: 10%;
     margin-right: -19%;
     overflow: visible;
     }
