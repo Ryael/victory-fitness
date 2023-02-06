@@ -1421,7 +1421,7 @@ h3 {
 
     #contact-options {
     width: 90%;
-    margin-right: -12%;
+    margin-left: 12%;
 }
 
 }
@@ -1448,6 +1448,10 @@ h3 {
         width: 100%;
         padding-bottom: 20px;
     }
+
+            #contact-options {
+    margin-left: 3%;
+}
 }
 
 @media (max-width: 992px) {
