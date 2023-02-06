@@ -801,6 +801,9 @@ h3 {
 #contact-column {
     width: 70%;
     margin: auto;
+    display: grid;
+    align-items: center;
+    justify-items: center;
 }
 
 #get-in-touch {
@@ -821,12 +824,6 @@ h3 {
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 5px;
-}
-
-#contact-options {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 11%;
 }
 
 #contact-item-left {
@@ -1404,6 +1401,10 @@ h3 {
     .form-container {
         width: 970px;
     }
+
+        .column {
+        width: 83.34%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1413,18 +1414,16 @@ h3 {
     #contact-column {
         width: 1170px;
     }
-}
 
-@media (min-width: 992px) {
-    .column {
-        width: 83.34%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .column {
+        .column {
         width: 50%;
     }
+
+    #contact-options {
+    width: 90%;
+    margin-right: -12%;
+}
+
 }
 
 @media (max-width: 1200px) {
@@ -1437,31 +1436,21 @@ h3 {
         width: 50%;
     }
 
-    #contact-item-left,
-    #contact-item-center {
-        width: 50%;
+        #contact-item-left,
+        #contact-item-right 
+    {   
+        float: none;
+        width: 100%;
         padding-bottom: 20px;
     }
 
-    #contact-item-right {
-        width: 50%;
-    }
-
-        #contact-options {
-    margin-left: 10%;
-    margin-right: 0%;
-    overflow: visible;
+     #contact-item-center {
+        width: 100%;
+        padding-bottom: 20px;
     }
 }
 
 @media (max-width: 992px) {
-    #column-left,
-    #column-center,
-    #column-right
-     {
-        width: 100%;
-    }
-
     .form-shape,
     .block {
         width: 70%;
@@ -1482,35 +1471,7 @@ h3 {
     #hero-logo > h1 {
         font-size: 75%;
     }
-        #contact-item-left,
-    #contact-item-center {
-        width: 100%;
-        padding-bottom: 20px;
-    }
-
-    #contact-item-right {
-        width: 100%;
-    }
-
-    #contact-column {
-        width: 55%;
-    }
-
-            #contact-options {
-    margin-left: 17%;
-    margin-right: -19%;
-    overflow: visible;
-    }
 }
-
-@media (max-width: 590px) {
-            #contact-options {
-    margin-left: 10%;
-    margin-right: -19%;
-    overflow: visible;
-    }
-}
-
 
 @media (max-width: 480px) {
     #hero-logo > h1 {
@@ -1528,11 +1489,5 @@ h3 {
     .form-shape,
     .block {
         width: 90%;
-    }
-
-                #contact-options {
-    margin-left: 5%;
-    margin-right: -19%;
-    overflow: visible;
     }
 }
