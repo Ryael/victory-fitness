@@ -11,44 +11,45 @@ const logoContainer = myNav.querySelector("#logo");
 const activeNavLink = myNav.querySelector(".active")
 let isMenuOpen = false;
 
+// Uses Lightbox scripts 
+var SimpleLightbox = window.SimpleLightbox;
+
 /* Navigation Bar */
 
 // Sticky navigation bar.
-// These changes are toggled whenever the 50px threshold is scrolled past.
-window.onscroll = () => {
-    if (this.scrollY <= 10) {
-      myNav.classList.remove("scroll");
-      whiteLogo.classList.remove("transparent");
-      redLogo.classList.add("transparent");
-      Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
-      activeNavLink.classList.remove("underlined");
-    }
-    else {
-      myNav.classList.add("scroll");
-      whiteLogo.classList.add("transparent");
-      redLogo.classList.remove("transparent");
-      Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
-      activeNavLink.classList.add("underlined");
-    }
-};
-
+// These changes are toggled whenever the 10px threshold is scrolled past.
 window.onload = () => {
-    if (this.scrollY <= 10) {
-      myNav.classList.remove("scroll");
-      whiteLogo.classList.remove("transparent");
-      redLogo.classList.add("transparent");
-      Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
-      activeNavLink.classList.remove("underlined");
-    }
-    else {
-      myNav.classList.add("scroll");
-      whiteLogo.classList.add("transparent");
-      redLogo.classList.remove("transparent");
-      Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
-      activeNavLink.classList.add("underlined");
-    }
+  setNavbarTransparency();
 };
 
+window.onscroll = () => {
+  setNavbarTransparency();
+}
+
+function setNavbarTransparency() {
+  if (this.scrollY <= 10) {
+    setSolidNavbar();
+  }
+  else {
+    setTransparentNavbar();
+  }
+}
+
+function setSolidNavbar() {
+  myNav.classList.remove("scroll");
+  whiteLogo.classList.remove("transparent");
+  redLogo.classList.add("transparent");
+  Array.from(menuLinks).forEach(menuLink => menuLink.classList.remove("black"));
+  activeNavLink.classList.remove("underlined");
+}
+
+function setTransparentNavbar() {
+  myNav.classList.add("scroll");
+  whiteLogo.classList.add("transparent");
+  redLogo.classList.remove("transparent");
+  Array.from(menuLinks).forEach(menuLink => menuLink.classList.add("black"));
+  activeNavLink.classList.add("underlined");
+}
 
 /* Mobile Menu */
 
@@ -85,4 +86,24 @@ mobileNav.addEventListener("keydown", e => {
             e.preventDefault();
         }
     }
+});
+
+new SimpleLightbox({elements: '.gallery a'});
+
+$(document).ready(function() {
+  $('.popup-link').magnificPopup({type:'image'});
+});
+
+$('..popup-link').magnificPopup({
+  delegate: 'a', // child items selector, by clicking on it popup will open
+  type: 'image'
+  // other options
+});
+
+// This will create a single gallery from all elements that have class "gallery-item"
+$('.popup-link').magnificPopup({
+  type: 'image',
+  gallery:{
+    enabled:true
+  }
 });

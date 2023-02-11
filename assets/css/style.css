@@ -47,7 +47,9 @@ body {
 }
 
 .gallery-container {
-    width: 50%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
     margin: auto;
 }
 
@@ -315,6 +317,8 @@ h3 {
 
 #gym-ethos {
     text-align: center;
+    display: flex;
+    padding: 0 50px;
 }
 
 #gym-ethos > .container > h2 {
@@ -352,7 +356,8 @@ h3 {
 /* Coaching - Home */
 
 #coaching {
-    padding: 100px 0;
+    display: flex;
+    padding: 100px 50px;
     text-align: center;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, 0.5), rgba(34, 34, 34, 0.5)), url("../images/coaching.webp") no-repeat center center;
@@ -385,6 +390,8 @@ h3 {
 /* Why Choose Us? */
 
 #why-choose-us {
+    display: flex;
+    padding: 0 50px;
     text-align: center;
     box-sizing: border-box;
 }
@@ -404,14 +411,14 @@ h3 {
 #column-left {
     float: left;
     width: 33.33%;
-    padding: 0 12px 0 12px;
+    padding-right: 12px;
     box-sizing: border-box;
 }
 
 #column-right {
     float: right;
     width: 33.33%;
-    padding: 0 12px 0 12px;
+    padding-left: 12px;
     box-sizing: border-box;
 }
 
@@ -503,7 +510,8 @@ h3 {
 /* Contact Us Section */
 
 #contact-us {
-    padding: 100px 0;
+    display: flex;
+    padding: 100px 50px;
     text-align: center;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../images/contact-us.webp") no-repeat center center;
@@ -733,26 +741,16 @@ h3 {
 
 #gallery {
     display: flex;
-    flex-direction: column;
+    padding: 0px 50px;
+}
+
+#popup-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
 
-.gallery-container > h1 {
-    text-align: center;
-    color: #777;
-    margin-bottom: 100px;
-    font-size: 280%;
-    letter-spacing: 10px;
-    font-weight: 400;
-}
-
-#gallery > .gallery-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.image > img {
+#popup-gallery img {
     width: 100%;
     border-radius: 5px;
     height: 100%;
@@ -762,7 +760,9 @@ h3 {
 /* Contact */
 
 #free-trial {
-    text-align: left;
+    display: flex;
+    padding: 0 50px;
+    text-align: center;
 }
 
 #free-trial > .container > h1 {
@@ -1391,16 +1391,13 @@ h3 {
     .column-container {
         width: 750px;
     }
-
-    #gallery {
-        flex-direction: row;
-    }
 }
 
 @media (min-width: 992px) {
     .container,
     .column-container,
-    .form-container {
+    .form-container,
+    .gallery-container {
         width: 970px;
     }
 
@@ -1413,7 +1410,8 @@ h3 {
     .container,
     .column-container,
     .form-container,
-    #contact-column {
+    #contact-column,
+    .gallery-container {
         width: 1170px;
     }
 
@@ -1425,14 +1423,9 @@ h3 {
     width: 90%;
     margin-left: 12%;
 }
-
 }
 
 @media (max-width: 1200px) {
-    .gallery-container {
-        width: 90%;
-    }
-
     .form-shape,
     .block {
         width: 50%;
@@ -1452,6 +1445,7 @@ h3 {
     }
 
             #contact-options {
+                width: auto;
     margin-left: 3%;
 }
 }
@@ -1462,14 +1456,17 @@ h3 {
         width: 70%;
     }
 
+    #column-left,
+    #column-center,
+    #column-right {
+        width: 100%;
+        padding: 0px;
+    }
+
 }
 
 
 @media (max-width: 768px) {
-    .gallery-container {
-        width: 90%;
-    }
-
     #hero-logo > img {
         max-width: 85%;
     }
@@ -1477,6 +1474,24 @@ h3 {
     #hero-logo > h1 {
         font-size: 75%;
     }
+
+    #gallery {
+        padding: 0 10px;
+    }
+
+    #popup-gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+        #gym-ethos,
+    #why-choose-us,
+    #free-trial {
+        padding: 0px;
+    }
+
+        #coaching,
+        #contact-us {
+            padding: 100px 0px;
+        }
 }
 
 @media (max-width: 480px) {
