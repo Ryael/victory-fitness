@@ -88,22 +88,13 @@ mobileNav.addEventListener("keydown", e => {
     }
 });
 
-new SimpleLightbox({elements: '.gallery a'});
-
 $(document).ready(function() {
-  $('.popup-link').magnificPopup({type:'image'});
-});
-
-$('..popup-link').magnificPopup({
-  delegate: 'a', // child items selector, by clicking on it popup will open
-  type: 'image'
-  // other options
-});
-
-// This will create a single gallery from all elements that have class "gallery-item"
-$('.popup-link').magnificPopup({
-  type: 'image',
-  gallery:{
+  $('#popup-gallery').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    gallery:{
     enabled:true
-  }
+    },
+    preload: [0,2]
+  });
 });
