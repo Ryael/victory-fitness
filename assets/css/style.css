@@ -267,7 +267,7 @@ h3 {
 #hero-image-small {
     height: 40vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../images/hero-images/hero-image-small.jpg") no-repeat center center;
+    background: linear-gradient(rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.4)), url("../images/hero-images/hero-image-small.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: scroll;
     background-position: 50% 21%;
