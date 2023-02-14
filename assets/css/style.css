@@ -267,8 +267,10 @@ h3 {
 #hero-image-small {
     height: 40vh;
     width: 100%;
-    background: linear-gradient(rgba(34, 34, 34, 0.4), rgba(34, 34, 34, 0.4)), url("../images/hero-images/hero-image-small.webp") no-repeat center center;
+    background: linear-gradient(rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)), url("../images/hero-images/hero-image-small.jpg") no-repeat center center;
     background-size: cover;
+    background-attachment: scroll;
+    background-position: 50% 21%;
     z-index: 0;
 }
 
@@ -549,8 +551,8 @@ h3 {
 
 #location > h1 {
     color: #dcdcdc;
-    font-size: 280%;
-    letter-spacing: 10px;
+    font-size: 350%;
+    letter-spacing: 25px;
     font-weight: 400;
     z-index: 0;
 }
@@ -1492,6 +1494,16 @@ h3 {
         #contact-us {
             padding: 100px 0px;
         }
+
+        #hero-image-small,
+        #location {
+            height: 30vh;
+        }
+
+        #location > h1 {
+            font-size: 180%;
+            letter-spacing: 15px;
+        }
 }
 
 @media (max-width: 480px) {
@@ -1511,4 +1523,9 @@ h3 {
     .block {
         width: 90%;
     }
+
+            #hero-image-small,
+            #location {
+            height: 20vh;
+}
 }
