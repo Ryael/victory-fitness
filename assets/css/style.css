@@ -1487,12 +1487,12 @@ h3 {
         #gym-ethos,
     #why-choose-us,
     #free-trial {
-        padding: 0px;
+        padding: 0px 10px;
     }
 
         #coaching,
         #contact-us {
-            padding: 100px 0px;
+            padding: 100px 10px;
         }
 
         #hero-image-small,
@@ -1504,6 +1504,14 @@ h3 {
             font-size: 180%;
             letter-spacing: 15px;
         }
+
+    .container,
+    .column-container,
+    .column,
+    .form-shape,
+    .block {
+        width: 90%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1514,14 +1522,6 @@ h3 {
 
     #coaching-services > .column > h1 {
         font-size: 200%;
-    }
-
-    .container,
-    .column-container,
-    .column,
-    .form-shape,
-    .block {
-        width: 90%;
     }
 
             #hero-image-small,
