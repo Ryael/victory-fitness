@@ -1527,5 +1527,10 @@ h3 {
             #hero-image-small,
             #location {
             height: 20vh;
-}
+}   
+
+        #location > h1 {
+            font-size: 130%;
+            letter-spacing: 15px;
+        }
 }
