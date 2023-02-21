@@ -1,5 +1,6 @@
 /* Fonts */
 
+@import "et-line.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
 
 /* Common */
@@ -507,6 +508,47 @@ h3 {
 .button-dark:not(:hover),
 .button-dark:not(:focus) {
     transition: 0.5s ease-in-out;
+}
+
+/* Et-Line Icons */
+
+.et-examples{
+    color: #555;
+    margin-left: 1px;
+    vertical-align: middle;
+}
+.et-examples .box1{
+    display: block;
+    width: 33%;
+    float: left;
+    padding: 0;
+    border: 1px solid #e5e5e5;
+    margin: -1px 0 0 -1px;
+    font-size: 13px;
+}
+@media only screen and (max-width: 1024px) {
+    .et-examples .box1{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .et-examples .box1{
+        width: 100%;
+    }
+}
+.et-examples .box1:hover{
+    background: #f8f8f8;
+    color: #111;
+}
+.et-examples .box1 > span{
+    display: inline-block;
+    margin-right: 5px;
+    min-width: 70px;
+    min-height: 70px;
+    border-right: 1px solid #f1f1f1;
+    line-height:70px;
+    text-align: center;
+    font-size: 32px;
 }
 
 /* Contact Us Section */
