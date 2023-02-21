@@ -400,7 +400,7 @@ h3 {
 }
 
 #why-choose-us > .column-container > h2 {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #111;
     display: flex;
     align-items: center;
@@ -414,21 +414,21 @@ h3 {
 #column-left {
     float: left;
     width: 33.33%;
-    padding-right: 12px;
+    padding-right: 24px;
     box-sizing: border-box;
 }
 
 #column-right {
     float: right;
     width: 33.33%;
-    padding-left: 12px;
+    padding-left: 24px;
     box-sizing: border-box;
 }
 
 #column-center {
     display: inline-block;
     width: 33.33%;
-    padding: 0 12px 0 12px;
+    padding: 0 24px 0 24px;
     box-sizing: border-box;
 }
 
@@ -512,43 +512,10 @@ h3 {
 
 /* Et-Line Icons */
 
-.et-examples{
-    color: #555;
-    margin-left: 1px;
-    vertical-align: middle;
-}
-.et-examples .box1{
-    display: block;
-    width: 33%;
-    float: left;
-    padding: 0;
-    border: 1px solid #e5e5e5;
-    margin: -1px 0 0 -1px;
-    font-size: 13px;
-}
-@media only screen and (max-width: 1024px) {
-    .et-examples .box1{
-        width: 50%;
-    }
-}
-@media only screen and (max-width: 480px) {
-    .et-examples .box1{
-        width: 100%;
-    }
-}
-.et-examples .box1:hover{
-    background: #f8f8f8;
+.features-icon {
+    font-size: 48px;
+    line-height: 1.3;
     color: #111;
-}
-.et-examples .box1 > span{
-    display: inline-block;
-    margin-right: 5px;
-    min-width: 70px;
-    min-height: 70px;
-    border-right: 1px solid #f1f1f1;
-    line-height:70px;
-    text-align: center;
-    font-size: 32px;
 }
 
 /* Contact Us Section */
@@ -1474,6 +1441,22 @@ h3 {
     .block {
         width: 50%;
     }
+        #column-left,
+    #column-center {
+        width: 100%;
+        padding: 0px 0px 50px 0;
+    }
+
+#column-left > p,
+#column-center > p,
+#column-right > p {
+    text-align: center;
+}
+
+    #column-right {
+        width: 100%;
+        padding: 0px;
+    }
 
         #contact-item-left,
         #contact-item-right 
@@ -1499,14 +1482,6 @@ h3 {
     .block {
         width: 70%;
     }
-
-    #column-left,
-    #column-center,
-    #column-right {
-        width: 100%;
-        padding: 0px;
-    }
-
 }
 
 
@@ -1554,6 +1529,11 @@ h3 {
     .block {
         width: 90%;
     }
+
+            #column-left > p,
+#column-center > p,
+#column-right > p {
+    text-align: left;
 }
 
 @media (max-width: 480px) {
@@ -1575,4 +1555,5 @@ h3 {
             font-size: 130%;
             letter-spacing: 15px;
         }
+
 }
