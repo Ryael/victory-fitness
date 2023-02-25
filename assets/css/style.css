@@ -411,30 +411,30 @@ h3 {
     letter-spacing: 5px;
 }
 
-#column-left {
+.column-left {
     float: left;
     width: 33.33%;
     padding-right: 24px;
     box-sizing: border-box;
 }
 
-#column-right {
+.column-right {
     float: right;
     width: 33.33%;
     padding-left: 24px;
     box-sizing: border-box;
 }
 
-#column-center {
+.column-center {
     display: inline-block;
     width: 33.33%;
     padding: 0 24px 0 24px;
     box-sizing: border-box;
 }
 
-#column-left > h3,
-#column-center > h3,
-#column-right > h3 {
+.column-left > h3,
+.column-center > h3,
+.column-right > h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 16px;
@@ -443,9 +443,9 @@ h3 {
     letter-spacing: 3px;
 }
 
-#column-left > p,
-#column-center > p,
-#column-right > p {
+.column-left > p,
+.column-center > p,
+.column-right > p {
     font-size: 14px;
     line-height: 1.6;
     font-weight: 400;
@@ -650,7 +650,7 @@ h3 {
     text-align: center;
 }
 
-#coaching-services > .column > h1 {
+#coaching-services > .column-container > h1 {
     color: #777;
     margin-bottom: 100px;
     font-size: 280%;
@@ -658,11 +658,10 @@ h3 {
     font-weight: 400;
 }
 
-#coaching-services > .column > .text-title {
-    margin-bottom: 50px;
+#coaching-services > .column-container > .text-title {
+    margin: 0 50px 50px 50px;
     color: #595959;
     display: flex;
-    text-align: left;
     text-transform: none;
     font-family: Lato, sans-serif;
     font-size: 22px;
@@ -671,13 +670,90 @@ h3 {
     letter-spacing: 0;
 }
 
-#coaching-services > .column > img {
+.coaching-type {
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.coaching-type-inner {
+    border: 1px solid #eaeaea;
+}
+
+.coaching-wrap {
+    position: relative;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    overflow: hidden;
+}
+
+.coaching-icon {
+    padding: 10px 0 10px 0;
+    position: relative;
+    font-size: 32px;
+    z-index: 1;
+    color: #3C3C3C;
+}
+
+.coaching-title {
+    position: relative;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    z-index: 1;
+    color: #111;
+    font-family: Raleway;
+}
+
+.coaching-features {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.coaching-list {
+    margin: 0 -20px 30px;
+    padding: 0;
+    color: #8F8F8F;
+    font-size: 12.5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Raleway;
+    line-height: 20px;
+}
+
+.coaching-list li:first-child {
+    border-top: 1px solid #f1f1f1;
+}
+
+.coaching-list li {
+    padding: 12px 20px;
+    list-style: none;
+    border-bottom: 1px solid #f1f1f1;
+    letter-spacing: 2px;
+}
+
+.coaching-button {
+    margin: 30px -20px 0;
+}
+
+.coaching-button .button-dark {
+    font-size: 11px;
+    padding: 7.5px 21px;
+}
+
+#premium-coaching {
+    margin: 50px 0 50px 0;
+}
+
+#coaching-services > .column-container > img {
     max-width: 100%;
     margin: auto;
     box-sizing: border-box;
 }
 
-#coaching-services > .column > h2 {
+#coaching-services > .column-container > h2 {
     margin-top: 0px;
     margin-bottom: 50px;
     color: #111;
@@ -690,7 +766,7 @@ h3 {
     letter-spacing: 5px;
 }
 
-#coaching-services > .column > h3 {
+#coaching-services > .column-container > h3 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -702,7 +778,7 @@ h3 {
     letter-spacing: 5px;
 }
 
-#coaching-services > .column > #end-page {
+#coaching-services > .column-container > #end-page {
     margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
@@ -712,7 +788,7 @@ h3 {
     font-weight: 400;
 }
 
-#coaching-services > .column > p {
+#coaching-services > .column-container > p {
     margin-top: 50px;
     margin-bottom: 50px;
     display: flex;
@@ -722,7 +798,7 @@ h3 {
     font-weight: 400;
 }
 
-#coaching-services > .column > ul {
+#coaching-services > .column-container > ul {
     margin-bottom: 50px;
     list-style-position: inside;
     display: flex;
@@ -735,7 +811,7 @@ h3 {
     gap: 25px;
 }
 
-#coaching-services > .column > ol {
+#coaching-services > .column-container > ol {
     margin-bottom: 50px;
     list-style-position: inside;
     display: flex;
@@ -1441,19 +1517,19 @@ h3 {
     .block {
         width: 50%;
     }
-        #column-left,
-    #column-center {
+        .column-left,
+    .column-center {
         width: 100%;
         padding: 0px 0px 50px 0;
     }
 
-#column-left > p,
-#column-center > p,
-#column-right > p {
+.column-left > p,
+.column-center > p,
+.column-right > p {
     text-align: center;
 }
 
-    #column-right {
+    .column-right {
         width: 100%;
         padding: 0px;
     }
@@ -1530,9 +1606,9 @@ h3 {
         width: 90%;
     }
 
-            #column-left > p,
-#column-center > p,
-#column-right > p {
+            .column-left > p,
+.column-center > p,
+.column-right > p {
     text-align: left;
 }
 
