@@ -60,7 +60,6 @@ body {
 }
 
 .column-container {
-    width: 70%;
     margin: auto;
     overflow: auto;
 }
@@ -411,30 +410,30 @@ h3 {
     letter-spacing: 5px;
 }
 
-.column-left {
+#column-left {
     float: left;
     width: 33.33%;
     padding-right: 24px;
     box-sizing: border-box;
 }
 
-.column-right {
+#column-right {
     float: right;
     width: 33.33%;
     padding-left: 24px;
     box-sizing: border-box;
 }
 
-.column-center {
+#column-center {
     display: inline-block;
     width: 33.33%;
     padding: 0 24px 0 24px;
     box-sizing: border-box;
 }
 
-.column-left > h3,
-.column-center > h3,
-.column-right > h3 {
+#column-left > h3,
+#column-center > h3,
+#column-right > h3 {
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 16px;
@@ -443,9 +442,9 @@ h3 {
     letter-spacing: 3px;
 }
 
-.column-left > p,
-.column-center > p,
-.column-right > p {
+#column-left > p,
+#column-center > p,
+#column-right > p {
     font-size: 14px;
     line-height: 1.6;
     font-weight: 400;
@@ -659,7 +658,7 @@ h3 {
 }
 
 #coaching-services > .column-container > .text-title {
-    margin: 0 50px 50px 50px;
+    margin: 0 200px 50px 200px;
     color: #595959;
     display: flex;
     text-transform: none;
@@ -670,13 +669,44 @@ h3 {
     letter-spacing: 0;
 }
 
+#coaching-comparisons {
+    padding: 0 24px;
+}
+
+#coaching-left {
+    float: left;
+    width: 33.33%;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+#coaching-right {
+    float: right;
+    width: 33.33%;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+#coaching-center {
+    display: inline-block;
+    width: 33.33%;
+    padding: 0 12px 0 12px;
+    box-sizing: border-box;
+}
+
 .coaching-type {
     margin: 0 0 30px;
     position: relative;
 }
 
 .coaching-type-inner {
-    border: 1px solid #eaeaea;
+    border: 1px solid #E1E1E1;
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.coaching-type-inner:hover {
+    border-color: #AAA;
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
 .coaching-wrap {
@@ -712,7 +742,7 @@ h3 {
 }
 
 .coaching-list {
-    margin: 0 -20px 30px;
+    margin: 0 -20px 19px;
     padding: 0;
     color: #8F8F8F;
     font-size: 12.5px;
@@ -736,6 +766,8 @@ h3 {
 
 .coaching-button {
     margin: 30px -20px 0;
+    padding-top: 30px;
+    border-top: 1px solid #f1f1f1;
 }
 
 .coaching-button .button-dark {
@@ -743,85 +775,75 @@ h3 {
     padding: 7.5px 21px;
 }
 
+.coaching-days {
+    font-size: 40px;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #3C3C3C;
+}
+
+.coaching-per-week {
+    font-weight: 300;
+    line-height: 1;
+    text-transform: lowercase;
+    color: #8F8F8F;
+    font-size: 14px;
+}
+
 #premium-coaching {
-    margin: 50px 0 50px 0;
+    padding: 100px 0;
+    text-align: left;
 }
 
-#coaching-services > .column-container > img {
-    max-width: 100%;
-    margin: auto;
-    box-sizing: border-box;
-}
-
-#coaching-services > .column-container > h2 {
-    margin-top: 0px;
+#premium-coaching h2 {
     margin-bottom: 50px;
-    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.divider {
+    height: 1px;
+    background-color: #000;
+    opacity: .08;
+}
+
+.premium-description p {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.premium-description ol {
+    list-style-position: inside;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    gap: 25px;
+}
+
+.premium-description h3 {
+    margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 22px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 5px;
-}
-
-#coaching-services > .column-container > h3 {
-    margin-bottom: 50px;
-    color: #111;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 5px;
-}
-
-#coaching-services > .column-container > #end-page {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    display: flex;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-}
-
-#coaching-services > .column-container > p {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-}
-
-#coaching-services > .column-container > ul {
-    margin-bottom: 50px;
-    list-style-position: inside;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    justify-content: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    gap: 25px;
-}
-
-#coaching-services > .column-container > ol {
-    margin-bottom: 50px;
-    list-style-position: inside;
-    display: flex;
-    text-align: left;
-    flex-direction: column;
-    justify-content: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
-    gap: 25px;
+    line-height: 1.6;
+    font-weight: 300;
+    text-transform: none;
+    color: #595959;
 }
 
 /* Gallery */
@@ -1474,15 +1496,13 @@ h3 {
 /* General Queries */
 
 @media (min-width: 768px) {
-    .container,
-    .column-container {
+    .container {
         width: 750px;
     }
 }
 
 @media (min-width: 992px) {
     .container,
-    .column-container,
     .form-container,
     .gallery-container {
         width: 970px;
@@ -1517,19 +1537,19 @@ h3 {
     .block {
         width: 50%;
     }
-        .column-left,
-    .column-center {
+        #column-left,
+    #column-center {
         width: 100%;
         padding: 0px 0px 50px 0;
     }
 
-.column-left > p,
-.column-center > p,
-.column-right > p {
+#column-left > p,
+#column-center > p,
+#column-right > p {
     text-align: center;
 }
 
-    .column-right {
+    #column-right {
         width: 100%;
         padding: 0px;
     }
@@ -1557,6 +1577,24 @@ h3 {
     .form-shape,
     .block {
         width: 70%;
+    }
+
+        #coaching-left,
+    #coaching-center {
+        padding: 0px 0px 50px 0;
+        width: 100%;
+    }
+
+    #coaching-right { 
+     width: 100%;
+     padding: 0 }
+
+     #coaching-services > .column-container > .text-title {
+        margin: 0 50px 50px 50px;
+     }
+
+    .column-container {
+        width: 80%;
     }
 }
 
@@ -1599,17 +1637,31 @@ h3 {
         }
 
     .container,
-    .column-container,
     .column,
     .form-shape,
     .block {
         width: 90%;
     }
 
-            .column-left > p,
-.column-center > p,
-.column-right > p {
+            #column-left > p,
+#column-center > p,
+#column-right > p {
     text-align: left;
+}
+
+    #coaching-left,
+    #coaching-center {
+        padding: 0px 0px 50px 0;
+        width: 100%;
+    }
+
+    #coaching-right { 
+     width: 100%;
+     padding: 0 }
+
+     #coaching-services > .column-container > .text-title {
+        margin: 0 24px 50px 24px;
+     }
 }
 
 @media (max-width: 480px) {
@@ -1631,5 +1683,9 @@ h3 {
             font-size: 130%;
             letter-spacing: 15px;
         }
+
+    .column-container {
+        width: 90%;
+    }
 
 }
