@@ -98,22 +98,3 @@ $(document).ready(function() {
     preload: [0,2]
   });
 });
-
-function bullshit() {
-$(".tab-content > .tab-pane").click(function() {
-
-  if ($(this).hasClass("active-tab")) {
-    $(this).parent().next().slideUp("easeOutExpo");
-    $(this).removeClass("active-tab");
-    $(this).attr("aria-expanded", "false");
-  }
-  else {
-    var current = $(this).parent().next("dd");
-    $(this).addClass("active-tab");
-    $(this).attr("aria-expanded", "true");
-    $(this).parent().next().slideDown("easeOutExpo");
-  }
-
-  return false;
-});
-}
