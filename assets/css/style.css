@@ -185,7 +185,7 @@ h3 {
 }
 
 .mobile-nav-link:not(:hover),
-.nav-link.black:not(:hover) { 
+.nav-link.black:not(:hover) {
     transition: 0.3s ease-in-out;
 }
 
@@ -210,8 +210,8 @@ h3 {
 }
 
 .mobile-nav-link:hover:after,
-.nav-link.black:hover:after { 
-    width: 100%; 
+.nav-link.black:hover:after {
+    width: 100%;
     left: 0;
     transition: width 0.3s ease 0s, left 0.3s ease 0s;
 }
@@ -793,8 +793,9 @@ h3 {
 #premium,
 #semi-private,
 #online {
-    padding: 100px 0;
+    padding: 50px 24px;
     text-align: left;
+    overflow: auto;
 }
 
 #premium h2,
@@ -804,7 +805,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 18px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 5px;
@@ -816,17 +817,19 @@ h3 {
     opacity: .08;
 }
 
+.tab-content {
+  overflow: auto;
+}
+
 .coaching-description p {
     margin-bottom: 25px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
 }
 
-.coaching-description ol {
+.coaching-description ul {
     list-style-position: inside;
     display: flex;
     text-align: left;
@@ -841,8 +844,6 @@ h3 {
 .coaching-description h3 {
     margin-bottom: 25px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 22px;
     line-height: 1.6;
     font-weight: 300;
@@ -873,7 +874,7 @@ h3 {
 }
 
 .nav-tabs > li > a {
-    padding: 6px 20px 5px;
+    padding: .5rem 1rem;
     text-decoration: none;
     border-radius: 20px;
     color: #000;
@@ -886,14 +887,14 @@ h3 {
 
 .nav-tabs > li > a:hover {
     background: none;
-    border-color: #e9e9e9;
+    border-color: #d9d9d9;
     color: #777;
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
 .tab-item {
     display: inline-block;
-    padding: 0 30px;
+    padding: 10px 30px;
 }
 
 .tab-pane {
@@ -1556,7 +1557,7 @@ h3 {
     #nav-bar.scroll {
         height: 50px;
         background: transparent;
-}   
+}
 
     #nav-menu > li {
         overflow: hidden;
@@ -1628,8 +1629,8 @@ h3 {
     }
 
         #contact-item-left,
-        #contact-item-right 
-    {   
+        #contact-item-right
+    {
         float: none;
         width: 100%;
         padding-bottom: 20px;
@@ -1658,7 +1659,7 @@ h3 {
         width: 100%;
     }
 
-    .coaching-right { 
+    .coaching-right {
      width: 100%;
      padding: 0 }
 
@@ -1728,13 +1729,28 @@ h3 {
         width: 100%;
     }
 
-    .coaching-right { 
+    .coaching-right {
      width: 100%;
      padding: 0 }
+
+     .coaching-description > .coaching-left,
+     .coaching-description > .coaching-center {
+      padding: 0;
+     }
 
      #coaching-services > .column-container > .text-title {
         margin: 0 24px 50px 24px;
      }
+
+     .tab-item {
+    padding: 10px 5px;
+    }
+
+    #premium,
+    #semi-private,
+    #online {
+      padding: 50px 10px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1750,7 +1766,7 @@ h3 {
             #hero-image-small,
             #location {
             height: 20vh;
-}   
+}
 
         #location > h1 {
             font-size: 130%;
