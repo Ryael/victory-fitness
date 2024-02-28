@@ -851,6 +851,10 @@ h3 {
     color: #595959;
 }
 
+#coaching-tabs {
+  padding-top: 0px;
+}
+
 .tabs {
     text-align: center;
 }
