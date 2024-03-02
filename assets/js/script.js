@@ -90,11 +90,17 @@ mobileNav.addEventListener("keydown", e => {
 
 $(document).ready(function() {
   $('#popup-gallery').magnificPopup({
-    delegate: 'a', // child items selector, by clicking on it popup will open
+    delegate: 'a', // child items selector, by clicking on it popup will open.
     type: 'image',
     gallery:{
     enabled:true
     },
     preload: [0,2]
   });
+});
+
+$("#premium-scroll").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".tab-content").offset().top},
+        'slow');
 });
