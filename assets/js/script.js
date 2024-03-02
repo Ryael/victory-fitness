@@ -99,7 +99,7 @@ $(document).ready(function() {
   });
 });
 
-$("#premium-scroll").click(function() {
+$(".coaching-scroll").click(function() {
     $('html, body').animate({
         scrollTop: $(".tab-content").offset().top},
         'slow');
