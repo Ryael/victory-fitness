@@ -457,6 +457,10 @@ h3 {
 
 /* Buttons */
 
+button {
+  cursor: pointer;
+}
+
 .button,
 .button > a {
     display: inline-block;
