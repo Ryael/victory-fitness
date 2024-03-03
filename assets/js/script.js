@@ -104,7 +104,7 @@ $(document).ready(function() {
 /* Scoll to coaching comparisons. */
 $(".coaching-scroll").click(function() {
     $('html, body').animate({
-        scrollTop: $(".tab-content").offset().top},
+        scrollTop: $("#coaching-tabs").offset().top - 100},
         'slow');
 });
 
