@@ -99,8 +99,38 @@ $(document).ready(function() {
   });
 });
 
+/* Coaching Navigation */
+
+/* Scoll to coaching comparisons. */
 $(".coaching-scroll").click(function() {
     $('html, body').animate({
         scrollTop: $(".tab-content").offset().top},
         'slow');
+});
+
+/* Remove active classes from the tab and tab-pane. */
+function removeActiveClass() {
+  $(".active-tab").removeClass("active-tab");
+  $(".active-item").removeClass("active-item");
+}
+
+/* Display Premium tab. */
+$("#premium-tab").click(function() {
+  removeActiveClass();
+  $( 'a[href*="#premium"]' ).addClass("active-item");
+  $("#premium").addClass("active-tab");
+});
+
+/* Display Semi-Private tab. */
+$("#semi-private-tab").click(function() {
+  removeActiveClass();
+  $( 'a[href*="#semi-private"]' ).addClass("active-item");
+  $("#semi-private").addClass("active-tab");
+});
+
+/* Display Online tab. */
+$("#online-tab").click(function() {
+  removeActiveClass();
+  $( 'a[href*="#online"]' ).addClass("active-item");
+  $("#online").addClass("active-tab");
 });
