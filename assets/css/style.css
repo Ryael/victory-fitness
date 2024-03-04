@@ -816,6 +816,7 @@ button {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
+    color: #ccc;
 }
 
 .coaching-description p:last-child {
@@ -841,15 +842,29 @@ button {
     line-height: 1.6;
     font-weight: 300;
     text-transform: none;
-    color: #595959;
+    color: #ccc;
 }
 
-#coaching-tabs {
-  padding-top: 0px;
+#coaching-comparison-tabs {
+  text-align: center;
+  background-color: #111;
+  background: linear-gradient(rgba(34, 34, 34, 0.97), rgba(34, 34, 34, 0.97)), url("../images/contact-us.webp") no-repeat center center;
+  background-size: cover;
 }
 
 .tabs {
     text-align: center;
+}
+
+.tabs h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5em;
+  line-height: 1.4;
+  margin-bottom: 50px;
+  color: #ccc;
 }
 
 .nav-tabs {
@@ -864,17 +879,17 @@ button {
     padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    color: #777;
+    color: #fff;
     box-sizing: border-box;
     margin-bottom: -1px;
-    border: 1px solid #111 transparent;
+    border: 1px solid #fff transparent;
 }
 
 .nav-tabs > li > a {
     padding: .5rem 1rem;
     text-decoration: none;
     border-radius: 20px;
-    color: #000;
+    color: #fff;
     background: none;
     border: 1px solid transparent;
     border-radius: 20px;
@@ -884,8 +899,8 @@ button {
 
 .nav-tabs > li > a:hover {
     background: none;
-    border-color: #d9d9d9;
-    color: #777;
+    border-color: #ccc;
+    color: #fff;
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
@@ -903,16 +918,16 @@ button {
 }
 
 .nav-tabs > .tab-item > .active-item {
-    border: 1px solid #222;
+    border: 1px solid #fff;
     background: none;
-    color: #353C43;
+    color: #fff;
     cursor: default;
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
 .nav-tabs > .tab-item > .active-item:hover  {
-    color: #000;
-    border: 1px solid #222;
+    color: #ccc;
+    border: 1px solid #ccc;
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
 }
 
