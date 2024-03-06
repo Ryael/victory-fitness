@@ -1669,28 +1669,35 @@ button {
 }
 
 @media (max-width: 992px) {
-    .form-shape,
-    .block {
-        width: 70%;
-    }
+  .form-shape,
+  .block {
+    width: 70%;
+  }
 
-        .coaching-left,
-    .coaching-center {
-        padding: 0px 0px 50px 0;
-        width: 100%;
-    }
+  .coaching-left,
+  .coaching-center {
+    padding: 0px 0px 50px 0;
+    width: 100%;
+  }
 
-    .coaching-right {
-     width: 100%;
-     padding: 0 }
+  .coaching-right {
+    width: 100%;
+    padding: 0
+  }
 
-     #coaching-services > .column-container > .text-title {
-        margin: 0 50px 50px 50px;
-     }
+  #coaching-services > .column-container > .text-title {
+    margin: 0 50px 50px 50px;
+   }
 
-    .column-container {
-        width: 80%;
-    }
+  .column-container {
+    width: 80%;
+  }
+
+  #gym-ethos,
+  #coaching p,
+  #free-trial {
+    text-align: left;
+  }
 }
 
 
