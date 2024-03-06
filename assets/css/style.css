@@ -1611,22 +1611,26 @@ button {
 }
 
 @media (min-width: 1200px) {
-    .container,
-    .column-container,
-    .form-container,
-    #contact-column,
-    .gallery-container {
-        width: 1170px;
-    }
+  .container,
+  .column-container,
+  .form-container,
+  #contact-column,
+  .gallery-container {
+    width: 1170px;
+  }
 
-        .column {
-        width: 50%;
-    }
+  .column {
+    width: 50%;
+  }
 
-    #contact-options {
+  #contact-options {
     width: 90%;
     margin-left: 12%;
-}
+  }
+
+  .coaching-center li:first-child {
+    margin-right: 5px;
+  }
 }
 
 @media (max-width: 1200px) {
