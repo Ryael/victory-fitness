@@ -1785,6 +1785,10 @@ button {
     #online {
       padding: 35px 10px;
     }
+
+    .coaching-description li:last-child {
+      margin-bottom: 25px;
+    }
 }
 
 @media (max-width: 480px) {
