@@ -805,7 +805,7 @@ button {
 #premium,
 #semi-private,
 #online {
-    padding: 50px 24px 0px 24px;
+    padding: 35px 24px 0px 24px;
     text-align: left;
     overflow: auto;
 }
@@ -837,6 +837,7 @@ button {
     line-height: 1.2;
     font-weight: 400;
     gap: 25px;
+    color: #ccc;
 }
 
 .coaching-description h3 {
@@ -911,6 +912,7 @@ button {
 .tab-item {
     display: inline-block;
     padding: 10px 30px;
+    margin-bottom: 15px;
 }
 
 .tab-pane {
@@ -1676,7 +1678,7 @@ button {
 
   .coaching-left,
   .coaching-center {
-    padding: 0px 0px 50px 0;
+    padding: 0px 0px 25px 0;
     width: 100%;
   }
 
@@ -1699,7 +1701,6 @@ button {
     text-align: left;
   }
 }
-
 
 @media (max-width: 768px) {
     #hero-logo > img {
@@ -1753,7 +1754,7 @@ button {
 
     .coaching-left,
     .coaching-center {
-        padding: 0px 0px 50px 0;
+        padding: 0px 0px 25px 0;
         width: 100%;
     }
 
@@ -1778,7 +1779,7 @@ button {
     #premium,
     #semi-private,
     #online {
-      padding: 50px 10px;
+      padding: 35px 10px;
     }
 }
 
@@ -1809,7 +1810,7 @@ button {
 }
 
 @media (max-width: 444px) {
-  .tab-item:not(:last-child) {
-    margin-bottom: 15px;
+  .tab-item:last-child {
+    margin-bottom: 0px;
   }
 }
