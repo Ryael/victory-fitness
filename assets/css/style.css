@@ -350,7 +350,7 @@ h3 {
 }
 
 #gym-ethos > .container > p {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -549,7 +549,7 @@ button {
 }
 
 #contact-us > .container > p {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     color: #dcdcdc;
     display: flex;
     align-items: center;
@@ -557,6 +557,10 @@ button {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 400;
+}
+
+#contact-us > .container > #end-trial {
+  margin-bottom: 50px;
 }
 
 /* About Us */
