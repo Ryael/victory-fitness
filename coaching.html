@@ -1,226 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Data -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
-        <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
-        <meta name="author" content="Ryael" />
-        <!-- End Meta Data -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland">
+    <meta name="keywords" content="victory Coaching, personal trainer, gym, kerry, ireland">
+    <meta name="author" content="Ryael">
+    <!-- End Meta Data -->
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <!-- Favicon -->
 
-        <!-- Title -->
-        <title>Victory Fitness - Coaching</title>
-        <!-- Title -->
+    <!-- Title -->
+    <title>Coaching — Victory Coaching</title>
+    <!-- Title -->
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- End CSS -->
-    </head>
-    <body>
-        <header>
-            <div id="hero-image-small">
-                <!-- Navigation Bar -->
-                <nav id="nav-bar">
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
-                        </a>
-                    </div>
-                    <input id="menu-toggle" type="checkbox" />
-                    <label id="menu-button-container" for="menu-toggle">
-                        <span class="hidden">Text</span>
-                        <span id="menu-button"></span>
-                    </label>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" class="nav-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="nav-links">About</a>
-                        </li>
-                        <li>
-                            <a href="coaching.html" class="active nav-links">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="nav-links">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="nav-links">Contact</a>
-                        </li>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- End CSS -->
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <header>
+      <div id="hero-image-small"></div>
+      <!-- Navigation Bar -->
+      <nav id="nav-bar">
+        <div id="logo">
+          <a href="index.html">
+            <img id="white-nav-logo" src="assets/images/logo/logo.svg" alt="Victory Coaching logo in white, on click navigates user to home page" height="50">
+            <img id="red-nav-logo" class="transparent" src="assets/images/logo/red-logo.svg" alt="Victory Coaching logo in red, on click navigates user to home page" height="50">
+          </a>
+        </div>
+        <!-- End Navigation Bar -->
+        <nav id="mobile-nav">
+          <!-- Navigation Menu -->
+          <ul id="nav-menu" class="menu" tabindex="-1" aria-label="main navigation" hidden>
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="coaching.html" class="active nav-link">Coaching</a>
+            </li>
+            <li>
+              <a href="gallery.html" class="nav-link">Gallery</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <!-- End Navigation Menu -->
+
+          <!-- Mobile Navigation Menu -->
+          <ul id="mobile-nav-menu" class="menu" tabindex="-1" aria-label="mobile navigation" hidden>
+            <li class="nav-item">
+              <a href="index.html" class="mobile-nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="mobile-nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="coaching.html" class="active mobile-nav-link">Coaching</a>
+            </li>
+            <li class="nav-item">
+              <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="mobile-nav-link">Contact</a>
+            </li>
+          </ul>
+          <!-- End Navigation Menu -->
+
+          <!-- Menu Toggle Button -->
+          <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="nav-toggle">
+            <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+              <title>Toggle Menu</title>
+              <g>
+                <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+              </g>
+            </svg>
+          </a>
+          <!-- End Menu Toggle Button -->
+
+          <!-- Background Splash -->
+          <div id="splash"></div>
+          <!-- End Background Splash -->
+        </nav>
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <section>
+      <div id="location">
+        <h1>Coaching</h1>
+      </div>
+    </section>
+    <!-- End Hero Section -->
+
+    <!-- Coaching Services -->
+    <section class="section">
+      <div id="coaching-services">
+        <!-- Coaching Comparison Plans -->
+        <div class="column-container">
+          <h2 class="text-title"> We offer various types of coaching to suit our clients' needs: Premium Coaching, Semi-Private Coaching, and Online Coaching. </h2>
+          <div id="coaching-comparisons">
+            <div class="coaching-left">
+              <div class="coaching-type-inner">
+                <div class="coaching-wrap">
+                  <div class="coaching-icon">
+                    <i class="fa fa-dumbbell" aria-hidden="true"></i>
+                  </div>
+                  <div class="coaching-title"> Premium </div>
+                  <div class="coaching-features">
+                    <ul class="coaching-list">
+                      <li>Private Coaching</li>
+                      <li>Bespoke Programme</li>
+                      <li>Nutritional Plan</li>
+                      <li>Progress Reviews</li>
                     </ul>
-                </nav>
-                <!-- End Navigation Bar -->
+                  </div>
+                  <div class="coaching-sessions">
+                    <p class="coaching-days">1 on 1</p>
+                    <p class="coaching-per-week">coaching sessions</p>
+                  </div>
+                  <div class="coaching-button">
+                    <button class="button-dark coaching-scroll" id="premium-tab" aria-label="Learn more by having the browser scroll down to the relevant section.">Learn More</button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </header>
-        <!-- Hero Section -->
-        <section>
-            <div id="location">
-                <h1>Coaching</h1>
+            <div class="coaching-center">
+              <div class="coaching-type-inner">
+                <div class="coaching-wrap">
+                  <div class="coaching-icon">
+                    <i class="fa fa-user-friends" aria-hidden="true"></i>
+                  </div>
+                  <div class="coaching-title"> Semi-Private </div>
+                  <div class="coaching-features">
+                    <ul class="coaching-list">
+                      <li>Group Coaching</li>
+                      <li>Bespoke Programme</li>
+                      <li>Camaraderie & Community</li>
+                      <li>Accelerated Results</li>
+                    </ul>
+                  </div>
+                  <div class="coaching-sessions">
+                    <p class="coaching-days">7 Day</p>
+                    <p class="coaching-per-week">free trial</p>
+                  </div>
+                  <div class="coaching-button">
+                    <button class="button-dark coaching-scroll" id="semi-private-tab" aria-label="Learn more by having the browser scroll down to the relevant section.">Learn More</button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        <!-- End Hero Section -->
-
-        <!-- Coaching Services -->
-        <section class="section">
-            <div id="coaching-services">
-                <!-- Premium Coaching -->
-                <div class="column">
-                    <h2 class="text-title">
-                        At Victory Fitness, we offer various types of coaching to suit our clients' needs: Premium Coaching, Semi-Private Coaching, and Online Coaching.
-                    </h2>
-                    <h2>Premium Coaching</h2>
-                    <img src="assets/images/premium_coaching.webp" alt="Ronan Kiely working directly with a client" />
-                    <p class="text-title">
-                        Premium Coaching is a private personal training experience that gives you 100% dedicated time with your personal trainer.
-                    </p>
-                    <p>
-                        You receive the privacy of a fully-equipped training studio. This appeals to two types of clients:
-                    </p>
-                    <ol>
-                        <li>
-                            Clients who lack confidence and may feel anxious in a commercial gym environment without supervision from a personal trainer
-                        </li>
-                        <li>
-                            Sports-specific clients who require our full attention to work on a set goal.
-                        </li>
-                    </ol>
-                    <p>
-                        You will receive consistent support to your training, your nutrition and mindset. If you feel that you have been going around in circles and you feel you have got nowhere then a structured coaching plan is
-                        recommended for you.
-                    </p>
-                    <p>
-                        You will receive consistent support in your training, your nutrition and mindset. If you feel that you have been going around in circles without direction, then a structured coaching plan is recommended for you.
-                    </p>
-                    <p>
-                        In a private studio session with your coach, you will go through strategic planning, creating a roadmap, addressing any issues, and overcoming any battles you may come up against during your fitness journey.
-                    </p>
-                    <p>
-                        Here is a list of what you will gain in your premium plan:
-                    </p>
-                    <ul>
-                        <li>
-                            Nutritional examination and structured plan, developed from a lifestyle examination
-                        </li>
-                        <li>
-                            One-to-one coaching in the studio (structured times throughout the week)
-                        </li>
-                        <li>
-                            Progress reviews
-                        </li>
-                        <li>
-                            Support and guidance every step of the way
-                        </li>
-                        <li>
-                            Access to your workouts through a guided app
-                        </li>
+            <div class="coaching-right">
+              <div class="coaching-type-inner">
+                <div class="coaching-wrap">
+                  <div class="coaching-icon">
+                    <i class="fa fa-desktop" aria-hidden="true"></i>
+                  </div>
+                  <div class="coaching-title"> Online </div>
+                  <div class="coaching-features">
+                    <ul class="coaching-list">
+                      <li>Online Coaching</li>
+                      <li>Transformation Roadmap</li>
+                      <li>Home Workouts</li>
+                      <li>Weekly Check-in</li>
                     </ul>
+                  </div>
+                  <div class="coaching-sessions">
+                    <p class="coaching-days">Free</p>
+                    <p class="coaching-per-week">Consultation Call</p>
+                  </div>
+                  <div class="coaching-button">
+                    <button class="button-dark coaching-scroll" id="online-tab" aria-label="Learn more by having the browser scroll down to the relevant section.">Learn More</button>
+                  </div>
                 </div>
-                <!-- End Premium Coaching -->
-
-                <!-- Semiprivate Coaching -->
-                <div class="column">
-                    <h2>
-                        Semi-Private Coaching
-                    </h2>
-                    <img src="assets/images/semiprivate-coaching.webp" alt="Clients working out together, with Ronan watching over them" />
-                    <p class="text-title">
-                        Semi-Private is an exciting new way to train as the training involves a small group of people. The group environment will inspire you to keep going when it gets tough and reduces the per-person cost which makes it
-                        more cost effective.
-                    </p>
-                    <p>
-                        You are coached through your program in a small group of like-minded people with everyone having a programme tailored specifically to them. It is a beautiful mix of personal coaching & community that develops both
-                        autonomy and a sense of togetherness.
-                    </p>
-                    <p>
-                        You will gain a bespoke programme based on your goals and fitness level. Through camaraderie with like-minded people, you will gain accountability and consistency and will stay on track with your fitness goals. As
-                        the groups are designed to be small, dedicated time with your coach will still be provided.
-                    </p>
-                    <p>
-                        Through the group environment, you have access to several training sessions a week as opposed to one or two. This is a great way to improve techniques or expedite your goals.
-                    </p>
-                </div>
-                <!-- End Semiprivate Coaching -->
-
-                <!-- Online Coaching -->
-                <div class="column">
-                    <h2>
-                        Online Coaching
-                    </h2>
-                    <img src="assets/images/online_coaching.webp" alt="Client working out alone, with Ronan Kiely providing support from home"/>
-                    <p class="text-title">
-                        Our online personal coaching is ideal for individuals that want the greatest return from their training efforts but out of the comfort of their home.
-                    </p>
-                    <p>
-                        Our guidance and knowledge will guarantee that you have an expert coach with you every step of the way, giving you consistent, guided results.
-                    </p>
-                    <p>
-                        What you will receive:
-                    </p>
-                    <ul>
-                        <li>
-                            A transformation roadmap — A Zoom call with your trainer to discuss your full fitness history and your future goals. Together, you will build a roadmap to visualise your path to success
-                        </li>
-                        <li>
-                            A bespoke coaching program — A plan that ensures your goals will be hit, taking your lifestyle into account
-                        </li>
-                        <li>
-                            Access to your own App — An app with personalized login, through which all workouts will be delivered
-                        </li>
-                        <li>
-                            Consistent supervision — Weekly check-ins with your trainer to iron out any issues and make any adjustments to your plan
-                        </li>
-                    </ul>
-                    <p>
-                        The results you can expect:
-                    </p>
-                    <p>
-                        No matter what equipment you have available, your coach will accelerate your results with guidance and support. You will receive the tools to achieve the targets you have set for yourself.
-                    </p>
-                    <p>
-                        Your investment:
-                    </p>
-                    <p id="end-page">
-                        We offer a 4-week Online Coaching Package with your custom programming, weekly check-ins, nutrition planning, trainer guidance and access to our membership site for just €100
-                    </p>
-                </div>
-                <!-- End Online Coaching -->
+              </div>
             </div>
-        </section>
-        <!-- End Coaching Services -->
+          </div>
+        </div>
+        <!-- End Coaching Comparison Plans -->
+      </div>
+    </section>
+    <!-- End Coaching Services -->
 
-        <!-- Footer -->
-        <footer>
-            <div id="footer">
-                <!-- Social Links -->
-                <div id="social-links">
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com/victoryfitness.ie" title="Facebook" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" target="_blank"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/victoryfitnesstraining/" title="Instagram" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)" target="_blank"><i class="fa fa-instagram"></i></a>
-                        </li>
-                        <li>
-                            <a href="mailto:info@victoryfitnesstraining.com" title="E-mail" rel="noopener" aria-label="Send us an email (opens email application)" target="_blank"><i class="fa fa-envelope"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- End Social Links -->
+    <!-- Coaching Comparison -->
+    <section class="section" id="coaching-comparison-tabs">
+      <!-- Coaching Tabs -->
+      <div class="container">
+	      <div class="tabs">
+          <h2>Personal Training</h2>
+	        <ul class="nav-tabs" role="tablist">
+	          <li class="tab-item" role="presentation">
+	            <a href="#premium" aria-controls="premium" class="active-item" data-toggle="tab" role="tab" aria-selected="true">Premium</a>
+	          </li>
+	          <li class="tab-item" role="presentation">
+	            <a href="#semi-private" aria-controls="semi-private" class="" data-toggle="tab" role="tab" aria-selected="false">Semi-Private</a>
+	          </li>
+	          <li class="tab-item" role="presentation">
+	            <a href="#online" aria-controls="online" class="" data-toggle="tab" role="tab" aria-selected="false">Online</a>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+      <!-- End Coaching Tabs -->
+      <div class="container">
+        <div class="tab-content">
+          <!-- Premium Coaching -->
+          <div id="premium" class="tab-pane animate__animated animate__fadeIn active-tab" role="tabpanel">
+            <div class="coaching-description">
+              <div class="coaching-left">
+                <h3> Premium Coaching is a private personal training experience that gives you 100% dedicated time with your personal trainer. </h3>
+              </div>
+              <div class="coaching-center">
+                <p> You receive the privacy of a fully-equipped training studio. This appeals to two types of clients: </p>
+                <ul>
+                  <li> Clients who lack confidence and may feel anxious in a commercial gym environment without supervision from a personal trainer. </li>
+                  <li> Sports-specific clientele who require our full attention to work on a set goal. </li>
+                </ul>
+              </div>
+              <div class="coaching-right">
+                <p> You will receive consistent support in your training, your nutrition and mindset. If you feel that you have been going around in circles without direction, then a structured coaching plan is recommended for you. </p>
+                <p> In a private studio session with your coach, you will go through strategic planning, creating a roadmap, addressing any issues, and overcoming any battles you may come up against during your fitness journey. </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Premium Coaching -->
+
+          <!-- Semi-Private Coaching -->
+          <div id="semi-private" class="tab-pane animate__animated animate__fadeIn" role="tabpanel">
+            <div class="coaching-description">
+              <div class="coaching-left">
+                <h3> Semi-Private is an exciting new way to train as the training involves a small group of people. </h3>
+              </div>
+              <div class="coaching-center">
+                <p> You are coached through your program in a small group of like-minded people with everyone having a programme tailored specifically to them. </p>
+                <p> Through the group environment, you have access to several training sessions a week as opposed to one or two. This is a great way to improve techniques or expedite your goals. </p>
+              </div>
+              <div class="coaching-right">
+                <p> You will gain a bespoke programme based on your goals and fitness level. Through camaraderie with like-minded people, you will gain accountability and consistency and will stay on track with your fitness goals. </p>
+                <p> It is a beautiful mix of personal coaching & community that develops both autonomy and a sense of togetherness. </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Semi-Private Coaching -->
+
+          <!-- Online Coaching -->
+          <div id="online" class="tab-pane animate__animated animate__fadeIn" role="tabpanel">
+            <div class="coaching-description">
+              <div class="coaching-left">
+                <h3> Our Online Coaching is ideal for individuals that want the greatest return from their training efforts but out of the comfort of their home. </h3>
+              </div>
+              <div class="coaching-center">
+              	<p> You will receive the tools to achieve the targets you have set for yourself; to a transformation roadmap, a bespoke coaching program, access to your own App, and consistent supervision. </p>
+              	<p>  It begins with a Zoom call with your trainer to discuss your full fitness history and your future goals. Together, you will build a roadmap with your lifestyle in account, to visualise your path to success! </p>
+              </div>
+              <div class="coaching-right">
+              	<p> All of your workouts will be delivered through an App with a personalised login, and the weekly check-ins with your trainer will help you iron out any issues and make any necessary adjustments to your plan. </p>
+                <p> No matter what equipment you have available, your coach will accelerate your results with guidance and support. You will receive the tools to achieve the targets you have set for yourself. </p>
+              </div>
+            </div>
+          </div>
+          <!-- End Online Coaching -->
+        </div>
+      </div>
+    </section>
+    <!-- End Coaching Comparison -->
+
+    <!-- Consultation Call -->
+    <section class="section">
+        <div id="free-trial">
+            <div class="container">
+                <h2>Book your free Consultation Call now!</h2>
                 <p>
-                    © Victory Fitness 2022
+                    Struggling to figure out which of these suits you best? That's completely fine, let us help you figure out what's best for you by booking a completely free fifteen-minute consultation call.
                 </p>
+                <p id="end-call">
+                  Prices are decided on a per person basis and we are confident we can find something that works for you.
+                </p>
+                <div id="free-trial-button">
+                    <a class="button-dark" href="https://victoryfitnesstraining.as.me/freetrial" title="Acquity Scheduling - Free Trial" rel="noopener" aria-label="Schedule a consultation (opens in a new tab)" target="_blank">Book Now</a>
+                </div>
             </div>
-        </footer>
-        <!-- End Footer -->
+        </div>
+    </section>
+    <!-- End Consultation Call -->
 
-        <!-- Font Awesome Script -->
-        <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
-        <!--End Font Awesome Script -->
-    </body>
+    <!-- Footer -->
+    <footer>
+      <div id="footer">
+        <!-- Social Links -->
+        <div id="social-links">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/victoryfitness.ie" title="Facebook" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/victoryfitnesstraining/" title="Instagram" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:info@victoryfitnesstraining.com" title="E-mail" rel="noopener" aria-label="Send us an email (opens email application)" target="_blank">
+                <i class="fa fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- End Social Links -->
+        <p>© Victory Coaching 2024</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <!-- End jQuery -->
+    <!-- JavaScript -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/tab-content.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- End JavaScript -->
+    <!-- Font Awesome Script -->
+    <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
+    <!--End Font Awesome Script -->
+  </body>
 </html>

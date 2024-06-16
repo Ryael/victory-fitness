@@ -1,63 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Data -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
-        <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
-        <meta name="author" content="Ryael" />
-        <!-- End Meta Data -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland" />
+    <meta name="keywords" content="victory Coaching, personal trainer, gym, kerry, ireland" />
+    <meta name="author" content="Ryael" />
+    <!-- End Meta Data -->
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <!-- Favicon -->
 
-        <!-- Title -->
-        <title>Victory Fitness - Contact</title>
-        <!-- Title -->
+    <!-- Title -->
+    <title>Contact — Victory Coaching</title>
+    <!-- Title -->
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- End CSS -->
-    </head>
-    <body>
-        <header>
-            <div id="hero-image-small">
-                <!-- Navigation Bar -->
-                <nav id="nav-bar">
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
-                        </a>
-                    </div>
-                    <input id="menu-toggle" type="checkbox" />
-                    <label id="menu-button-container" for="menu-toggle">
-                        <span class="hidden">Text</span>
-                        <span id="menu-button"></span>
-                    </label>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" class="nav-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="nav-links">About</a>
-                        </li>
-                        <li>
-                            <a href="coaching.html" class="nav-links">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="nav-links">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="active nav-links">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End Navigation Bar -->
-            </div>
-        </header>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- End CSS -->
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <header>
+      <div id="hero-image-small">
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+          <div id="logo">
+            <a href="index.html">
+              <img id="white-nav-logo" src="assets/images/logo/logo.svg" alt="Victory Coaching logo in white, on click navigates user to home page" height="50" />
+              <img id="red-nav-logo" class="transparent" src="assets/images/logo/red-logo.svg" alt="Victory Coaching logo in red, on click navigates user to home page" height="50" />
+            </a>
+          </div>
+          <!-- End Navigation Bar -->
+
+          <nav id="mobile-nav">
+            <!-- Navigation Menu -->
+            <ul id="nav-menu" class="menu" tabindex="-1" aria-label="main navigation" hidden>
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="coaching.html" class="nav-link">Coaching</a>
+              </li>
+              <li>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+              </li>
+              <li>
+                <a href="contact.html" class="active nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
+
+            <!-- Mobile Navigation Menu -->
+            <ul id="mobile-nav-menu" class="menu" tabindex="-1" aria-label="mobile navigation" hidden>
+              <li class="nav-item">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="mobile-nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="coaching.html" class="mobile-nav-link">Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="mobile-nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="active mobile-nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
+
+            <!-- Menu Toggle Button -->
+            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="menu">
+              <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <title>Toggle Menu</title>
+                <g>
+                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                  <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+                </g>
+              </svg>
+            </a>
+            <!-- End Menu Toggle Button -->
+
+            <!-- Background Splash -->
+            <div id="splash"></div>
+            <!-- End Background Splash -->
+          </nav>
+        </nav>
+    </header>
         <!-- Hero Section -->
         <section>
             <div id="location">
@@ -68,18 +108,69 @@
 
         <!-- Contact -->
         <section class="section">
-            <div id="contact">
-                <div class="column">
+            <div id="free-trial">
+                <div class="container">
                     <h2>Claim your 7 Day Free Trial Now!</h2>
                     <p>
                         Looking to try but afraid to commit? That's okay, we've all been there before. We're currently offering a 7-day trial to all new clients, with absolutely no strings attached!
                     </p>
-                    <p>
+                    <p id="end-trial">
                         Come try our brand-new gym, experience coaching first-hand, and just see if this is something that's for you. If it doesn’t work out, no worries! There's no stress and we can call it quits there. However, if this is
                         something you find yourself enjoying, then we'd be delighted to welcome you to our little Victorious family!
                     </p>
+                    <div id="free-trial-button">
+                        <a class="button-dark" href="https://victoryfitnesstraining.as.me/freetrial" title="Acquity Scheduling - Free Trial" rel="noopener" aria-label="Schedule a consultation (opens in a new tab)" target="_blank">Claim Free Trial</a>
+                    </div>
                 </div>
+            </div>
+        </section>
+                    <!-- Contacts -->
+                    <section class="small-section">
+                        <div id="get-in-touch">
+                                                    <h2>Get in Touch</h2>
+                        <div id="contact-column">
+                        <div id="contact-options">
+                            <div id="contact-item-left">
+                                <div class="contact-icon">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-title">
+                                    Phone
+                                </div>
+                                <div class="contact-text">
+                                    + 353 86 183 2338
+                                </div>
+                            </div>
+                            <div id="contact-item-center">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-title">
+                                    Address
+                                </div>
+                                <div class="contact-text">
+                                    Monavelly Ind Est, Tralee
+                                </div>
+                            </div>
+                            <div id="contact-item-right">
+                                <div class="contact-icon">
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="contact-title">
+                                    Email
+                                </div>
+                                <div class="contact-text">
+                                    victoryfitness.ie@gmail.com
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                    </section>
+                <!-- End Contacts -->
+                <section class="section">
                 <div id="form-contact">
+                                        <h2>Drop Us a Message</h2>
                     <div class="form-container">
                         <form class="signup-form" action="thank-you.html">
                             <div class="start-form">
@@ -99,15 +190,13 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <!-- End Contact -->
 
         <!-- Google Maps -->
-        <div class="small-section">
-            <div id="google-maps">
-                <div class="container"></div>
-            </div>
+        <div id="google-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.8542321060786!2d-9.706537899999999!3d52.282348299999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48453568c1d535e3%3A0x794333952b4f983e!2sVictory%20Fitness!5e0!3m2!1sen!2sie!4v1663206048066!5m2!1sen!2sie"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <!-- End Google Maps -->
 
@@ -129,12 +218,14 @@
                     </ul>
                 </div>
                 <!-- End Social Links -->
-                <p>
-                    © Victory Fitness 2022
-                </p>
+                <p>© Victory Coaching 2024</p>
             </div>
         </footer>
         <!-- End Footer -->
+
+        <!-- JavaScript -->
+        <script src="assets/js/script.js"></script>
+        <!-- End JavaScript -->
 
         <!-- Font Awesome Script -->
         <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>

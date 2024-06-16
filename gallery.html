@@ -1,63 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <!-- Meta Data -->
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Victory Fitness, a personal trainer and gym located in Kerry, Ireland" />
-        <meta name="keywords" content="victory fitness, personal trainer, gym, kerry, ireland" />
-        <meta name="author" content="Ryael" />
-        <!-- End Meta Data -->
+  <head>
+    <!-- Meta Data -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland" />
+    <meta name="keywords" content="victory Coaching, personal trainer, gym, kerry, ireland" />
+    <meta name="author" content="Ryael" />
+    <!-- End Meta Data -->
 
-        <!-- Favicon -->
-        <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
-        <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <!-- Favicon -->
 
-        <!-- Title -->
-        <title>Victory Fitness - Gallery</title>
-        <!-- Title -->
+    <!-- Title -->
+    <title>Gallery — Victory Coaching</title>
+    <!-- Title -->
 
-        <!-- CSS -->
-        <link rel="stylesheet" href="assets/css/style.css" />
-        <!-- End CSS -->
-    </head>
-    <body>
-        <header>
-            <div id="hero-image-small">
-                <!-- Navigation Bar -->
-                <nav id="nav-bar">
-                    <div id="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logo/logo.svg" alt="Victory Fitness logo, on click navigates user to home page" height="50" />
-                        </a>
-                    </div>
-                    <input id="menu-toggle" type="checkbox" />
-                    <label id="menu-button-container" for="menu-toggle">
-                        <span class="hidden">Text</span>
-                        <span id="menu-button"></span>
-                    </label>
-                    <ul id="menu">
-                        <li>
-                            <a href="index.html" class="nav-links">Home</a>
-                        </li>
-                        <li>
-                            <a href="about.html" class="nav-links">About</a>
-                        </li>
-                        <li>
-                            <a href="coaching.html" class="nav-links">Coaching</a>
-                        </li>
-                        <li>
-                            <a href="gallery.html" class="active nav-links">Gallery</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" class="nav-links">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!-- End Navigation Bar -->
-            </div>
-        </header>
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <!-- End Local CSS -->
+  </head>
+  <body class="animate__animated animate__fadeIn">
+    <header>
+      <div id="hero-image-small">
+        <!-- Navigation Bar -->
+        <nav id="nav-bar">
+          <div id="logo">
+            <a href="index.html">
+              <img id="white-nav-logo" src="assets/images/logo/logo.svg" alt="Victory Coaching logo in white, on click navigates user to home page" height="50" />
+              <img id="red-nav-logo" class="transparent" src="assets/images/logo/red-logo.svg" alt="Victory Coaching logo in red, on click navigates user to home page" height="50" />
+            </a>
+          </div>
+          <!-- End Navigation Bar -->
+
+          <nav id="mobile-nav">
+            <!-- Navigation Menu -->
+            <ul id="nav-menu" class="menu" tabindex="-1" aria-label="main navigation" hidden>
+              <li>
+                <a href="index.html" class="nav-link">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="nav-link">About</a>
+              </li>
+              <li>
+                <a href="coaching.html" class="nav-link">Coaching</a>
+              </li>
+              <li>
+                <a href="gallery.html" class="active nav-link">Gallery</a>
+              </li>
+              <li>
+                <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
+
+            <!-- Mobile Navigation Menu -->
+            <ul id="mobile-nav-menu" class="menu" tabindex="-1" aria-label="mobile navigation" hidden>
+              <li class="nav-item">
+                <a href="index.html" class="mobile-nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="about.html" class="mobile-nav-link">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="coaching.html" class="mobile-nav-link">Coaching</a>
+              </li>
+              <li class="nav-item">
+                <a href="gallery.html" class="active mobile-nav-link">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="mobile-nav-link">Contact</a>
+              </li>
+            </ul>
+            <!-- End Navigation Menu -->
+
+            <!-- Menu Toggle Button -->
+            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="menu">
+              <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+                <title>Toggle Menu</title>
+                <g>
+                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
+                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
+                  <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+                </g>
+              </svg>
+            </a>
+            <!-- End Menu Toggle Button -->
+
+            <!-- Background Splash -->
+            <div id="splash"></div>
+            <!-- End Background Splash -->
+          </nav>
+        </nav>
+    </header>
         <!-- Hero Section -->
         <section>
             <div id="location">
@@ -68,29 +109,21 @@
 
         <!-- Gallery -->
         <div class="section">
-            <div class="gallery-container">
-                <div id="gallery">
-                    <div class="gallery-column">
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-1.webp" alt="Ronan Kiely supporting a client during her workout" />
-                        </div>
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-2.webp" alt="Client working out alone in a gym, having been provided instructions online." />
-                        </div>
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-3.webp" alt="Two clients cheering each other on, as part of a semi-private workout" />
-                        </div>
-                    </div>
-                    <div class="gallery-column">
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-4.webp" alt="Semi-private coaching in session, with Ronan Kiely working directly with all clients" />
-                        </div>
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-5.webp" alt="Client working alone, with Ronan Kiely watching from behind the scenes" />
-                        </div>
-                        <div class="image">
-                            <img src="assets/images/gallery/gallery-6.webp" alt="Gym utlities, dumbbells, and kettlebells" />
-                        </div>
+            <div id="gallery">
+                <div class="gallery-container">
+                    <div id="popup-gallery">
+                        <a href="assets/images/gallery/gallery-1.webp" title="Caption for gallery item 1">
+                        <img src="assets/images/gallery/gallery-1.webp" alt="Ronan Kiely supporting a client during her workout" />
+                        <a href="assets/images/gallery/gallery-2.webp" title="Caption for gallery item 2">
+                        <img src="assets/images/gallery/gallery-2.webp" alt="Client working out alone in a gym, having been provided instructions online." />
+                        <a href="assets/images/gallery/gallery-3.webp" title="Caption for gallery item 3">
+                        <img src="assets/images/gallery/gallery-3.webp" alt="Two clients cheering each other on, as part of a semi-private workout" />
+                        <a href="assets/images/gallery/gallery-4.webp" title="Caption for gallery item 1">
+                        <img src="assets/images/gallery/gallery-4.webp" alt="Semi-private coaching in session, with Ronan Kiely working directly with all clients" />
+                        <a href="assets/images/gallery/gallery-5.webp" title="Caption for gallery item 6">
+                        <img src="assets/images/gallery/gallery-5.webp" alt="Client working alone, with Ronan Kiely watching from behind the scenes" />
+                        <a href="assets/images/gallery/gallery-6.webp" title="Caption for gallery item 7">
+                        <img src="assets/images/gallery/gallery-6.webp" alt="Gym utlities, dumbbells, and kettlebells" />
                     </div>
                 </div>
             </div>
@@ -115,15 +148,26 @@
                     </ul>
                 </div>
                 <!-- End Social Links -->
-                <p>
-                    © Victory Fitness 2022
-                </p>
+                <p>© Victory Coaching 2024</p>
             </div>
         </footer>
         <!-- End Footer -->
 
+        <!-- jQuery -->
+        <script
+          src="https://code.jquery.com/jquery-3.6.3.min.js"
+          integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+          crossorigin="anonymous">
+        </script>
+        <!-- End jQuery -->
+
+        <!-- Local JavaScript -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <!-- End Local JavaScript -->
+
         <!-- Font Awesome Script -->
         <script src="https://kit.fontawesome.com/d93feb1e77.js" crossorigin="anonymous"></script>
-        <!--End Font Awesome Script -->
+        <!-- End Font Awesome Script -->
     </body>
 </html>
