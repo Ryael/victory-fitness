@@ -168,29 +168,27 @@
                     </div>
                     </section>
                 <!-- End Contacts -->
-                <section class="section">
-                <div id="form-contact">
-                                        <h2>Drop Us a Message</h2>
+                <section class="section" id="form-contact">
+                  <h2>Drop Us a Message</h2>
                     <div class="form-container">
-                        <form class="signup-form" action="thank-you.html">
+                        <form class="signup-form" method="POST" action="https://formsubmit.co/rayrah@live.com">
                             <div class="start-form">
                                 <label for="name" class="block">Name</label>
-                                <input type="text" id="name" class="form-shape text-form" placeholder="Name" required aria-required="true" />
+                                <input type="text" id="name" name="name" class="form-shape text-form" placeholder="Name" required aria-required="true" />
                             </div>
                             <div class="start-form">
                                 <label for="email" class="block">Email</label>
-                                <input type="email" id="email" class="form-shape email-form" placeholder="abc@gmail.com" required aria-required="true" />
+                                <input type="email" id="email" name="email" class="form-shape email-form" placeholder="abc@gmail.com" required aria-required="true" />
                             </div>
                             <div class="end-form">
                                 <label for="message" class="block">Message</label>
-                                <textarea id="message" class="form-shape message-form" placeholder="Type your message here..." required aria-required="true"></textarea>
+                                <textarea id="message" name="message" class="form-shape message-form" placeholder="Type your message here..." required aria-required="true"></textarea>
                             </div>
                             <p class="required"><i class="fa fa-info-circle .fa-fw"></i> All fields are required.</p>
                             <button type="submit" class="button-dark" value="Let's gym!">Submit Message</button>
                         </form>
                     </div>
-                </div>
-            </section>
+                </section>
         <!-- End Contact -->
 
         <!-- Google Maps -->
