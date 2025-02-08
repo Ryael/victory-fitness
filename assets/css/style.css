@@ -1,7 +1,7 @@
 /* Fonts */
 
 @import "et-line.css";
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:wght@300;400;700&family=Dosis:wght@200..800&display=swap");
 
 /* Common */
 
@@ -565,52 +565,72 @@ button {
 
 /* About Us */
 
-#about-us {
-    text-align: center;
-}
-
 #location > h1 {
-    color: #dcdcdc;
-    font-size: 350%;
-    letter-spacing: 25px;
-    font-weight: 400;
-    z-index: 0;
+  font-family: Dosis;
+  color: #dcdcdc;
+  font-size: 350%;
+  letter-spacing: 25px;
+  font-weight: 400;
+  z-index: 0;
 }
 
-#about-us > .column > .text-title {
-    margin-top: 0px;
-    margin-bottom: 50px;
-    color: #595959;
-    display: flex;
-    text-align: left;
-    text-transform: none;
-    font-family: Lato, sans-serif;
-    font-size: 22px;
-    line-height: 1.4;
-    font-weight: 300;
-    letter-spacing: 0;
+#about-text-description {
+  margin: 0 200px 50px 200px;
+  color: #595959;
+  display: flex;
+  text-transform: none;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  font-size: 22px;
+  line-height: 1.4;
+  font-weight: 300;
+  letter-spacing: 0;
 }
 
-#about-us > .column > img {
+#about-us {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#about-right {
+  margin-left: 8.33333333%;
+}
+
+#about-us #about-right p {
+  padding-bottom: 24px;
+}
+
+#about-us h2 {
+  margin-top: 25px;
+  color: #111;
+  display: flex;
+  align-items: center;
+  padding: 0 12px 24px 12px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+#about-text-title {
+  margin-bottom: 75px;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+#about-us img {
     max-width: 100%;
     margin: auto;
     box-sizing: border-box;
 }
 
-#about-us > .column > h2 {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    color: #111;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 400;
-    letter-spacing: 5px;
-}
-
-#about-us > .column > h3 {
+#about-us h3 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -622,7 +642,7 @@ button {
     letter-spacing: 5px;
 }
 
-#about-us > .column > p#end-page {
+#about-us p#end-page {
     margin-top: 50px;
     margin-bottom: 0px;
     display: flex;
@@ -632,17 +652,15 @@ button {
     font-weight: 400;
 }
 
-#about-us > .column > p {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: flex;
-    text-align: left;
-    font-size: 16px;
-    line-height: 1.2;
-    font-weight: 400;
+#about-us p {
+  display: flex;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  padding: 0 12px 0 12px;
 }
 
-#about-us > .column > ul {
+#about-us ul {
     margin-bottom: 50px;
     list-style-position: inside;
     display: flex;
@@ -653,6 +671,84 @@ button {
     line-height: 1.2;
     font-weight: 400;
     gap: 25px;
+}
+
+#about-mission h2 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5em;
+  line-height: 1.4;
+  margin-bottom: 25px;
+  color: #ccc;
+}
+
+.mission-description {
+  display: flex;
+  text-align: left;
+}
+
+.mission-content {
+  padding: 35px 24px 0px 24px;
+  text-align: left;
+  overflow: auto;
+}
+
+.mission-left {
+    width: 33.33%;
+    padding-right: 12px;
+    box-sizing: border-box;
+}
+
+.mission-right {
+    width: 33.33%;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+
+.mission-center {
+    display: inline-block;
+    width: 33.33%;
+    padding: 0 12px 0 12px;
+    box-sizing: border-box;
+}
+
+#about-questions {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+#about-questions ul {
+  width: 63%;
+}
+
+#about-questions li {
+  margin-bottom: 25px;
+}
+
+#about-questions li::marker {
+  color: #c4262e;
+}
+
+#about-contact p {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+#about-contact ul {
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
 }
 
 /* Coaching Services */
@@ -814,7 +910,8 @@ button {
   overflow: auto;
 }
 
-.coaching-description p {
+.coaching-description p,
+.mission-description p {
     margin-bottom: 25px;
     display: flex;
     font-size: 16px;
@@ -823,7 +920,9 @@ button {
     color: #ccc;
 }
 
-.coaching-description p:last-child {
+.coaching-description p:last-child,
+.mission-description p:last-child,
+#about-contact li:last-child {
   margin-bottom: 0;
 }
 
@@ -840,7 +939,8 @@ button {
     color: #ccc;
 }
 
-.coaching-description h3 {
+.coaching-description h3,
+.mission-description h3 {
     margin-bottom: 25px;
     display: flex;
     font-size: 22px;
@@ -850,7 +950,8 @@ button {
     color: #ccc;
 }
 
-#coaching-comparison-tabs {
+#coaching-comparison-tabs,
+#about-mission {
   text-align: center;
   background-color: #111;
   background: linear-gradient(rgba(34, 34, 34, 0.97), rgba(34, 34, 34, 0.97)), url("../images/contact-us.webp") no-repeat center center;
@@ -960,13 +1061,20 @@ button {
 
 /* Contact */
 
-#free-trial {
+#free-trial,
+#about-contact {
     display: flex;
     padding: 0 50px;
     text-align: center;
 }
 
-#free-trial > .container > h1 {
+#free-trial p,
+#about-contact p {
+  justify-content: center;
+}
+
+#free-trial > .container > h1,
+#about-contact h1 {
     text-align: center;
     color: #777;
     margin-bottom: 100px;
@@ -975,7 +1083,8 @@ button {
     font-weight: 400;
 }
 
-#free-trial h2 {
+#free-trial h2,
+#about-contact h2 {
     margin-bottom: 50px;
     color: #111;
     display: flex;
@@ -987,7 +1096,8 @@ button {
     letter-spacing: 5px;
 }
 
-#free-trial-button {
+#free-trial-button,
+#about-contact-button {
     text-align: center;
 }
 
@@ -1010,7 +1120,7 @@ button {
 }
 
 #get-in-touch {
-        padding: 140px 0;
+    padding: 140px 0;
     text-align: left;
     background-color: #111;
     background: linear-gradient(rgba(34, 34, 34, 0.8), rgba(34, 34, 34, 0.8)), url("../images/contact-us.webp") no-repeat center center;
@@ -1018,7 +1128,7 @@ button {
 }
 
 #get-in-touch h2 {
-        margin-bottom: 50px;
+    margin-bottom: 50px;
     color: #dcdcdc;
     display: flex;
     align-items: center;
@@ -1115,7 +1225,8 @@ button {
     margin-bottom: 50px;
 }
 
-#free-trial > .container > #end-call {
+#free-trial > .container > #end-call,
+#about-contact #end-call {
   margin-bottom: 50px;
   justify-content: center;
 }
