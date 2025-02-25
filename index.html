@@ -1,25 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head itemscope itemtype="http://schema.org/ExerciseGym">
     <!-- Meta Data -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland" />
-    <meta name="keywords" content="victory Coaching, personal trainer, gym, kerry, ireland" />
-    <meta name="author" content="Ryael" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland.">
+    <meta name="keywords" content=" Victory Coaching, Personal Trainer Tralee, Coaching, Powerlifting, Training, Tralee, Kerry">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="image" content="assets/images/thumbnail.png">
+    <!-- Schema -->
+    <meta itemprop="name" content="Home">
+    <meta itemprop="description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland.">
+    <link itemprop="image" href="assets/images/thumbnail.png">
+    <!-- End Schema -->
+
+    <!-- Facebook -->
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Home">
+    <meta property="og:description" content="Victory Coaching, a personal trainer and gym located in Kerry, Ireland.">
+    <meta property="og:site_name" content="Victory Coaching">
+    <meta property="og:url" content="http://victorycoaching.ie/">
+    <meta property="og:image" content="assets/images/thumbnail.png">
+    <!-- End Facebook -->
+    <meta name="author" content="Ryael">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="Copyright" content="Victory Coaching">
     <!-- End Meta Data -->
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon/favicon.ico">
     <!-- Favicon -->
 
     <!-- Title -->
     <title>Home — Victory Coaching</title>
     <!-- Title -->
 
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://victorycoaching.ie/">
+    <!-- End Canonical Link -->
+
     <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animate.min.css">
     <!-- End CSS -->
   </head>
@@ -29,18 +53,17 @@
         <!-- Navigation Bar -->
         <nav id="nav-bar">
           <div id="logo">
-            <a href="index.html">
-              <img id="white-nav-logo" src="assets/images/logo/logo.svg" alt="Victory Coaching logo in white, on click navigates user to home page" height="50" />
-              <img id="red-nav-logo" class="transparent" src="assets/images/logo/red-logo.svg" alt="Victory Coaching logo in red, on click navigates user to home page" height="50" />
+            <a href="">
+              <img id="white-nav-logo" src="assets/images/logo/logo.svg" alt="Victory Coaching logo in white, on click navigates user to home page" height="50">
+              <img id="red-nav-logo" class="transparent" src="assets/images/logo/red-logo.svg" alt="Victory Coaching logo in red, on click navigates user to home page" height="50">
             </a>
           </div>
           <!-- End Navigation Bar -->
-
           <nav id="mobile-nav">
             <!-- Navigation Menu -->
             <ul id="nav-menu" class="menu" tabindex="-1" aria-label="main navigation" hidden>
               <li>
-                <a href="index.html" class="active nav-link">Home</a>
+                <a href="" class="active nav-link">Home</a>
               </li>
               <li>
                 <a href="about.html" class="nav-link">About</a>
@@ -60,7 +83,7 @@
             <!-- Mobile Navigation Menu -->
             <ul id="mobile-nav-menu" class="menu" tabindex="-1" aria-label="mobile navigation" hidden>
               <li class="nav-item">
-                <a href="index.html" class="active mobile-nav-link">Home</a>
+                <a href="" class="active mobile-nav-link">Home</a>
               </li>
               <li class="nav-item">
                 <a href="about.html" class="mobile-nav-link">About</a>
@@ -78,15 +101,15 @@
             <!-- End Navigation Menu -->
 
             <!-- Menu Toggle Button -->
-            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="menu">
+            <a href="#nav" id="nav-toggle" role="button" aria-expanded="false" aria-controls="mobile-nav">
               <svg class="menuicon" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
                 <title>Toggle Menu</title>
                 <g>
-                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5" />
-                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5" />
-                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5" />
-                  <circle class="menuicon-circle" r="23" cx="25" cy="25" />
+                  <line class="menuicon-bar" x1="13" y1="16.5" x2="37" y2="16.5"/>
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                  <line class="menuicon-bar" x1="13" y1="24.5" x2="37" y2="24.5"/>
+                  <line class="menuicon-bar" x1="13" y1="32.5" x2="37" y2="32.5"/>
+                  <circle class="menuicon-circle" r="23" cx="25" cy="25"/>
                 </g>
               </svg>
             </a>
@@ -97,22 +120,20 @@
             <!-- End Background Splash -->
           </nav>
         </nav>
+      </div>
     </header>
     <!-- Hero Section -->
-    <section>
-      <div id="hero-logo">
-        <img src="assets/images/logo/text-logo-white.png" alt="Victory Coaching text logo" />
-        <h1>Monavalley Industrial Estate, Tralee</h1>
-        <a class="button" href="contact.html">Join Now</a>
-      </div>
-    </section>
+    <div id="hero-logo">
+      <img src="assets/images/logo/text-logo-white.png" alt="Victory Coaching text logo">
+      <a class="button" href="contact.html">Join Now</a>
+    </div>
     <!-- End Hero Section -->
 
     <!-- Gym Ethos -->
     <section class="section">
-      <div id="gym-ethos">
+      <div class="home-white-text">
         <div class="container">
-          <h2>Strive For Greatness</h2>
+          <h1>Strive For Greatness</h1>
           <p> When people think about great victories, they often think of grandiose accomplishments. While this is technically correct, those accomplishments are built upon a foundation of goal adherence and many smaller milestones. Every small step taken is a victory. With enough steps taken, success will take shape and be realised in time. </p>
           <p id="end-page"> We here at Victory Coaching take your fitness goals and break them down into smaller, more manageable steps. We approach your goals at a pace that suits you. No matter whether your aim is to lose weight, tone up, gain lean muscle, or simply to develop a healthy lifestyle, we will accomplish it together! Our team aren't just personal trainers; we aim to educate and improve your mindset as well. </p>
         </div>
@@ -125,7 +146,7 @@
       <div id="coaching">
         <div class="container">
           <h2>Coaching</h2>
-          <p> Our personal trainers have aided hundreds of Kerry locals in strengthening their bodies through fitness and nutrition. While strength is the goal, gym members also realise a holistic benefit to overall longevity of spirit and mental wellness. Personal trainers at Victory Coaching utilise a varied, long-term routine to keep clients engaged in the programme and ensure they meet their fitness goals. </p>
+          <p> Our personal trainers have aided hundreds of Kerry locals in strengthening their bodies through fitness and nutrition. While strength is the goal, gym members also realise a holistic benefit to overall longevity of spirit and mental wellness. At Victory Coaching we utilise a varied, long-term routine to keep clients engaged in the programme and ensure they meet their fitness goals. </p>
           <a class="button" href="coaching.html">Our Services</a>
         </div>
       </div>
@@ -134,18 +155,18 @@
 
     <!-- Why Choose Us? -->
     <section class="section">
-      <div id="why-choose-us">
+      <div class="home-white-text">
         <div class="column-container">
           <h2>Why Choose Us?</h2>
           <div id="column-left">
             <span aria-hidden="true" class="icon-notebook features-icon"></span>
             <h3>Bespoke Plan</h3>
-            <p> People lead busy lives nowadays and we understand and respect that. Each program is built with you in mind, and we have sessions from 6:00 AM to 6:00 PM. No matter your schedule, there's a time that'll suit you.</p>
+            <p> People lead busy lives nowadays and we understand and respect that. Each program is built with you in mind and no matter your schedule, there's a time that'll suit you. Give us just 90 days to transform your relationship with your health. </p>
           </div>
           <div id="column-center">
             <span aria-hidden="true" class="icon-trophy features-icon"></span>
             <h3>Track Record</h3>
-            <p> We've been in the business for 20 years and counting and have had countless successful, happy clients. We know the way to get results is to focus on strategies that yield a high return and cut out the nonsense.</p>
+            <p> We've been in the business for 22 years and counting and have had countless successful, happy clients. We know the way to get results is to focus on strategies that yield a high return and cut out the nonsense.</p>
           </div>
           <div id="column-right">
             <span aria-hidden="true" class="icon-heart features-icon"></span>
@@ -159,9 +180,9 @@
 
     <!-- Contact Us -->
     <section class="small-section">
-      <div id="contact-us">
+      <div id="discovery-call">
         <div class="container">
-          <h2>Claim Your Free 7-Day Session!</h2>
+          <h2>Have a Discovery Call on Us</h2>
           <p> Stop saying you will start tomorrow and start today. In fact, start right now! What's stopping you? Take that leap of fate and contact us now! </p>
           <p id="end-trial"> No cancellation fees or contracts. If it's not for you, it's not for you. </p>
           <a class="button" href="contact.html">Contact Us</a>
@@ -194,7 +215,7 @@
           </ul>
         </div>
         <!-- End Social Links -->
-        <p>© Victory Coaching 2024</p>
+        <p>© Victory Coaching 2025</p>
       </div>
     </footer>
     <!-- End Footer -->
