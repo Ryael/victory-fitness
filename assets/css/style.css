@@ -1562,7 +1562,7 @@ text-align: center;
 
 /* 18.1 Mobile Menu Queries */
 
-@media (max-width: 788px) {
+@media (max-width: 879px) {
   #nav-menu {
 	display: none;
   }
