@@ -2186,6 +2186,10 @@ text-align: center;
     margin: 0 100px 25px 100px;
   }
 
+  .dual-column .right-column p {
+    margin-bottom: 0;
+  }
+
   .dual-column h2 {
     margin: 25px 0;
   }
