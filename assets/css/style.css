@@ -1191,7 +1191,6 @@ button {
 .coaching-right {
   float: right;
   width: 33.33%;
-  padding-left: 12px;
   box-sizing: border-box;
 }
 
@@ -2027,7 +2026,7 @@ text-align: center;
 
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 90%
   }
 }
 
@@ -2035,7 +2034,7 @@ text-align: center;
   .container,
   .form-container,
   .gallery-container {
-    width: 970px;
+    width: 82%
   }
 
   .column {
@@ -2105,6 +2104,11 @@ text-align: center;
     width: auto;
     margin-left: 3%;
   }
+
+  .dual-column {
+    grid-template-columns: 1fr;
+    align-content: center;
+  }
 }
 
 @media (max-width: 992px) {
@@ -2156,11 +2160,6 @@ text-align: center;
   #discovery-call-white #end-call,
   #discovery-call #end-trial  {
     justify-content: left;
-  }
-
-  .dual-column {
-    grid-template-columns: 1fr;
-    align-content: center;
   }
 
   .left-column {
